@@ -18,7 +18,7 @@ def main():
             if re.match(r"(https?:|mailto:)", ref):
                 continue
             checked += 1
-            if not (page.parent / unquote(ref)).resolve().exists():
+            if not (page.parent / unquote(ref.split("?")[0])).resolve().exists():
                 missing.append(f"{page.relative_to(ROOT)} -> {ref}")
     print(f"{len(pages)} pages, {checked} local links checked, {len(missing)} missing")
     for m in missing:

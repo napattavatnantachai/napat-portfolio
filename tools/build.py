@@ -255,6 +255,18 @@ def social_links():
         f'<a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["label"])}</a>' for s in SITE["social"])
 
 
+def asset_version():
+    """Short content hash for css/js so browsers fetch new files after each deploy."""
+    import hashlib
+    h = hashlib.sha1()
+    for f in ("css/style.css", "js/main.js"):
+        h.update((ROOT / f).read_bytes())
+    return h.hexdigest()[:8]
+
+
+ASSET_V = asset_version()
+
+
 def layout(title, body, root, active="", description="", noindex=False):
     meta_robots = '<meta name="robots" content="noindex">' if noindex else ""
     full_title = f"{title} | {SITE['name']}" if title else f"{SITE['name']} | {SITE['role']}"
@@ -272,7 +284,7 @@ def layout(title, body, root, active="", description="", noindex=False):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{root}css/style.css">
+<link rel="stylesheet" href="{root}css/style.css?v={ASSET_V}">
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">
 <script>
   // motion is opt-in: without JS or with reduced motion, everything stays visible
@@ -300,7 +312,7 @@ def layout(title, body, root, active="", description="", noindex=False):
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
-<script src="{root}js/main.js" defer></script>
+<script src="{root}js/main.js?v={ASSET_V}" defer></script>
 </body>
 </html>
 """
