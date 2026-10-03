@@ -280,3 +280,15 @@ h4, .card-info h2 { font-weight: 700; }
   .about-grid { grid-template-columns: 1fr; }
   .about-photo { position: static; max-width: 420px; }
 }
+
+/* one project per row */
+.cards { grid-template-columns: 1fr; gap: clamp(48px, 7vw, 96px); }
+.card-media { aspect-ratio: 16 / 9; }
+.card-info { display: grid; grid-template-columns: 1fr auto; gap: 4px 24px; align-items: start; padding-top: 18px; }
+.card-info h2 { font-size: clamp(26px, 3.2vw, 44px); }
+.card-info p { grid-column: 1; margin: 0; font-size: 16px; }
+.card-info .tags { grid-column: 2; grid-row: 1 / span 2; justify-content: flex-end; align-self: center; }
+@media (max-width: 760px) {
+  .card-info { grid-template-columns: 1fr; }
+  .card-info .tags { grid-column: 1; grid-row: auto; justify-content: flex-start; margin-top: 8px; }
+}

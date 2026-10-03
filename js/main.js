@@ -206,7 +206,7 @@ if (motion) {
     const inner = media.querySelector("img, video");
     const info = card.querySelector(".card-info");
     const tl = gsap.timeline({ scrollTrigger: { trigger: card, start: "top 88%" } });
-    tl.fromTo(media, { clipPath: "inset(100% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "expo.out", delay: (i % 2) * .12 })
+    tl.fromTo(media, { clipPath: "inset(100% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "expo.out" })
       .fromTo(inner, { scale: 1.4 }, { scale: 1.04, duration: 1.6, ease: "expo.out" }, "<")
       .from(info.children, { y: 24, opacity: 0, duration: .8, ease, stagger: .07 }, "<.3");
     gsap.fromTo(inner, { yPercent: -5 }, { yPercent: 5, ease: "none",
