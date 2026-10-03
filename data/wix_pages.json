@@ -1,0 +1,7110 @@
+{
+ "shepherdress": {
+  "uri": "shepherdress",
+  "title": "Shepherdress",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_3550bbdc8dfb43c8b253b2e46f126e4e",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mf55jz8a1",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mf55j98a"
+   },
+   {
+    "type": "button",
+    "label": "Up",
+    "link": {
+     "page": "life-of-the-buddha"
+    },
+    "dispW": 47,
+    "dispH": 47,
+    "_y": 8,
+    "_x": 0,
+    "comp": "comp-mf5bqsu3"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"color:#000000\"><span style=\"font-size:39px\">Shepherdess</span></span></span><br />\n<span style=\"color:#000000\"><span style=\"font-weight:bold\"><span style=\"font-size:15px\">Character Contributions</span></span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 75,
+    "_y": 456,
+    "_x": 190,
+    "comp": "comp-mfm8uqn3"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_8\" style=\"line-height: normal; font-size: 15px;\"><span style=\"font-size:15px;\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">● Cloth sim in Marvelous Designer<br />\n● Basic rig setup<br />\n● Physics clothes in Unreal Engine<br />\n● Texturing<br />\n● Hair grooming with XGen</span></span></span></span></h2>",
+    "dispW": 395,
+    "dispH": 112,
+    "_y": 548,
+    "_x": 355,
+    "comp": "comp-mf56gjj5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_796419f9ff0f472b893183c34c4675b9~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "ue-logo-1400x788-1400x788-8f185e1e3635.jpg",
+    "dispW": 84,
+    "dispH": 48,
+    "_y": 669,
+    "_x": 361,
+    "comp": "comp-mfm8w0s4"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6db99624fb8f459492a1dd786b5c6e9b~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile (1).jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 669,
+    "_x": 431,
+    "comp": "comp-mfm8w0s6"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7d385643b08343fab93468aa0f13799d~mv2.png",
+    "w": 512,
+    "h": 512,
+    "alt": "5968543.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 669,
+    "_x": 482,
+    "comp": "comp-mfm8w0s66"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9e372e20128a45f0b11f94bb626bedd0~mv2.png",
+    "w": 256,
+    "h": 256,
+    "alt": "autodesk-maya-lt-product-icon-1282x.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 670,
+    "_x": 534,
+    "comp": "comp-mfm8w0s74"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_aa3201ac69d44d9fbdbba4f91a0891aa~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_eb652f44d9d2498bbc41f55a87493e99~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_016323e167da461e907992c8e1358cee~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_9955b50c24994b3eb89ba277c4f44eae~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_f7933c882266496aa8c10b467cfbb910~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 346,
+    "_y": 748,
+    "_x": 0,
+    "comp": "comp-mf562tuy"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b10c175a5ca6471091c01c49b3887d25~mv2.png",
+    "w": 1909,
+    "h": 1039,
+    "alt": "MD4.png",
+    "dispW": 536,
+    "dispH": 293,
+    "_y": 1121,
+    "_x": 0,
+    "comp": "comp-mf565wxy"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0dd45eaa07d043f0bc11e6772f7e76a9~mv2.png",
+    "w": 240,
+    "h": 600,
+    "alt": "ref.png",
+    "dispW": 114,
+    "dispH": 286,
+    "_y": 1121,
+    "_x": 0,
+    "comp": "comp-mf56kqyu"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_5fd5081971cf4483b06abe9be482edf8~mv2.png",
+    "w": 1080,
+    "h": 1920,
+    "alt": "MD2.png",
+    "dispW": 114,
+    "dispH": 294,
+    "_y": 1121,
+    "_x": 536,
+    "comp": "comp-mf565wxv"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_641d5df5c648448cb75a2bae01dd570c~mv2.png",
+    "w": 1080,
+    "h": 1920,
+    "alt": "MD1.png",
+    "dispW": 164,
+    "dispH": 294,
+    "_y": 1121,
+    "_x": 650,
+    "comp": "comp-mf566lkg"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_819b8ef8b1ee486db7fa41e2a97370dd~mv2.png",
+    "w": 1080,
+    "h": 1920,
+    "alt": "MD3.png",
+    "dispW": 164,
+    "dispH": 294,
+    "_y": 1121,
+    "_x": 814,
+    "comp": "comp-mf566lke"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_033f5a4b05fd401293bf1c15702e2c96~mv2.png",
+    "w": 1908,
+    "h": 1038,
+    "alt": "Substance_tex.png",
+    "dispW": 326,
+    "dispH": 218,
+    "_y": 1407,
+    "_x": 0,
+    "comp": "comp-mf5683of"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_165d0936b5ce4e42afa4c54636076973~mv2.jpg",
+    "w": 3000,
+    "h": 3000,
+    "alt": "Shepherdress1.jpg",
+    "dispW": 218,
+    "dispH": 219,
+    "_y": 1407,
+    "_x": 326,
+    "comp": "comp-mf5683od"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7553eec73ad94e18bb135e01f44771ac~mv2.jpg",
+    "w": 3000,
+    "h": 3000,
+    "alt": "Shepherdress2.jpg",
+    "dispW": 218,
+    "dispH": 219,
+    "_y": 1407,
+    "_x": 544,
+    "comp": "comp-mf5683oc"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_faca991f3b6b4061b83dc31b1fc6b2f9~mv2.jpg",
+    "w": 3000,
+    "h": 3000,
+    "alt": "Shepherdress3.jpg",
+    "dispW": 218,
+    "dispH": 219,
+    "_y": 1407,
+    "_x": 760,
+    "comp": "comp-mf5683oa"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_0a08bf6a027e40e190277e237d01d55d",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mf56a8p11",
+    "dispW": 383,
+    "dispH": 213,
+    "_y": 1626,
+    "_x": 0,
+    "comp": "comp-mf569v6v"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c5e749418f25485abb712a9771188ff6~mv2.png",
+    "w": 765,
+    "h": 654,
+    "alt": "image1.png",
+    "dispW": 222,
+    "dispH": 213,
+    "_y": 1626,
+    "_x": 384,
+    "comp": "comp-mf56b6rj"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_22d8d169bc5c4a049581f216582abd79~mv2.png",
+    "w": 586,
+    "h": 722,
+    "alt": "image2.png",
+    "dispW": 174,
+    "dispH": 213,
+    "_y": 1626,
+    "_x": 606,
+    "comp": "comp-mf56b6ri"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2b2050f9a20e42ecb3526667aab59699~mv2.png",
+    "w": 710,
+    "h": 669,
+    "alt": "image3.png",
+    "dispW": 228,
+    "dispH": 213,
+    "_y": 1626,
+    "_x": 751,
+    "comp": "comp-mf56b6rg"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f86b12ff6af549b7a80ca8af168b66db~mv2.png",
+    "w": 956,
+    "h": 821,
+    "alt": "Xgenimageref.png",
+    "dispW": 372,
+    "dispH": 317,
+    "_y": 1839,
+    "_x": 0,
+    "comp": "comp-mf56dyed"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_044a6b2ee7e4483790f6657531d9c25f~mv2.png",
+    "w": 1214,
+    "h": 642,
+    "alt": "Xgenimage.png",
+    "dispW": 607,
+    "dispH": 317,
+    "_y": 1839,
+    "_x": 372,
+    "comp": "comp-mf56ecf8"
+   }
+  ]
+ },
+ "wasp-inspired-mecha": {
+  "uri": "wasp-inspired-mecha",
+  "title": "WASP Inspired Mecha",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_973dfec161b64609888f4e1ca9460b0e",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-mfci76pw1",
+    "dispW": 980,
+    "dispH": 550,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mfci6sj8"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_55af26657e2f4fb9b28d30cba63f1748~mv2.png",
+    "w": 600,
+    "h": 216,
+    "alt": "Screenshot_1.png",
+    "dispW": 980,
+    "dispH": 350,
+    "_y": 550,
+    "_x": 0,
+    "comp": "comp-mfck4ywu"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_42c74f9eb50f4a7094be9607449545ea~mv2.png",
+    "w": 600,
+    "h": 423,
+    "alt": "image.png",
+    "dispW": 404,
+    "dispH": 285,
+    "_y": 900,
+    "_x": 0,
+    "comp": "comp-mfck4ywx"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">Link : https://www.therookies.co/entries/27474</span></span></span></p>",
+    "dispW": 325,
+    "dispH": 19,
+    "_y": 1007,
+    "_x": 500,
+    "comp": "comp-mfck4yx0"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">&nbsp; My project earned Rank A at the Rookie Awards 2024, an international competition celebrating emerging creative talent.</span></span></span></p>",
+    "dispW": 561,
+    "dispH": 37,
+    "_y": 1060,
+    "_x": 410,
+    "comp": "comp-mfck4yx2"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:25px; line-height:normal\"><span style=\"font-size:25px\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">Hard Surface Character Model -WASP Inspired Mecha</span></span></span></span></p>",
+    "dispW": 641,
+    "dispH": 31,
+    "_y": 1221,
+    "_x": 169,
+    "comp": "comp-mfck7hve"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF;\">Here is my mecha project. I did this model 90% in Maya and 10% in Zbrush for sculpting the wrinkles detail. It was one of the most challenging projects for me.</span></p>\n\n<p class=\"font_8\"><span style=\"color:#FFFFFF;\">Credit: I would like to thank Marco Plouffe (Keos Masons) for allowing me to use his design as my reference.</span></p>",
+    "dispW": 926,
+    "dispH": 63,
+    "_y": 1276,
+    "_x": 46,
+    "comp": "comp-mfck7hvh"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b8833fc171d843d6960eb9728c5e30c3~mv2.jpg",
+    "w": 4096,
+    "h": 4096,
+    "alt": "001.jpg",
+    "dispW": 980,
+    "dispH": 980,
+    "_y": 1399,
+    "_x": 0,
+    "comp": "comp-mfci7vro"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b03d4d3d36bc4841831b159c6b8cd5ec~mv2.jpg",
+    "w": 5000,
+    "h": 3500,
+    "alt": "002.jpg",
+    "dispW": 980,
+    "dispH": 684,
+    "_y": 2379,
+    "_x": 0,
+    "comp": "comp-mfcjek2g"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_24f9c73800b84eda92a744ad6a6b78be~mv2.jpg",
+    "w": 4096,
+    "h": 4096,
+    "alt": "004def.jpg",
+    "dispW": 980,
+    "dispH": 980,
+    "_y": 3063,
+    "_x": 0,
+    "comp": "comp-mfcjek2i"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_429ba5a10b5d46ba99f26a83266c820e~mv2.jpg",
+    "w": 5000,
+    "h": 3500,
+    "alt": "",
+    "dispW": 888,
+    "dispH": 622,
+    "_y": 4043,
+    "_x": -325,
+    "comp": "comp-mfcjfts6"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_45865291a07d4f8b8724eba6409e2dfe~mv2.jpg",
+    "w": 2500,
+    "h": 1750,
+    "alt": "",
+    "dispW": 888,
+    "dispH": 622,
+    "_y": 4043,
+    "_x": 448,
+    "comp": "comp-mfcjfts4"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_d2fe5042c9d94efabf285cddb67dd43f~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_c16bb9452d98473ebcd9a010b9ed52b2~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_093cc3a4e5c94e769db85b753ec8b6c0~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_dca780c90e224bd0ba23ccdd5e4a99de~mv2.jpg",
+      "w": 2500,
+      "h": 1750,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 391,
+    "_y": 4692,
+    "_x": 0,
+    "comp": "comp-mfcjhtz0"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_34225d927354421f9e8ae765ecd34448",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mfcjlm971",
+    "dispW": 772,
+    "dispH": 416,
+    "_y": 5104,
+    "_x": 104,
+    "comp": "comp-mfcjl3gz"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_5429e02eb4cf4730a2e35839cf6654ea~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 980,
+    "dispH": 550,
+    "_y": 5547,
+    "_x": 0,
+    "comp": "comp-mfcjjya4"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c76fdfa9beb447bc98a83483a4b03b34~mv2.png",
+    "w": 600,
+    "h": 301,
+    "alt": "image.png",
+    "dispW": 702,
+    "dispH": 353,
+    "_y": 6131,
+    "_x": 139,
+    "comp": "comp-mfcjnavm"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f0c99be821584b488e23d13480830915~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "image.png",
+    "dispW": 246,
+    "dispH": 244,
+    "_y": 6530,
+    "_x": 0,
+    "comp": "comp-mfcjnrh4"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6156887749bc4ed08e3084fd836246a9~mv2.webp",
+    "w": 600,
+    "h": 600,
+    "alt": "5-Napat.webp",
+    "dispW": 246,
+    "dispH": 244,
+    "_y": 6530,
+    "_x": 246,
+    "comp": "comp-mfcjp1cm"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_af9cd6c10c44400d8768b323030c084f~mv2.webp",
+    "w": 600,
+    "h": 600,
+    "alt": "11-Napat.webp",
+    "dispW": 247,
+    "dispH": 244,
+    "_y": 6530,
+    "_x": 486,
+    "comp": "comp-mfcjp1cf"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_bf7a07a8d8ab404a99a5d53e5db2a16f~mv2.webp",
+    "w": 600,
+    "h": 600,
+    "alt": "7-Napat.webp",
+    "dispW": 247,
+    "dispH": 244,
+    "_y": 6530,
+    "_x": 733,
+    "comp": "comp-mfcjp1ci"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size: 18px; line-height: normal;\"><span style=\"font-size:18px;\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">My Tip for Making Hard surfaces:</span></span></span></span></p>",
+    "dispW": 385,
+    "dispH": 21,
+    "_y": 6788,
+    "_x": 11,
+    "comp": "comp-mfcjsmd4"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF;\">- It is really important to visualize shape and form, and plan everthing ahead before execution.</span></p>\n\n<p class=\"font_8\"><span style=\"color:#FFFFFF;\">- Always start from blocking. I make the correct proportions first without considering topology.</span></p>\n\n<p class=\"font_8\"><span style=\"color:#FFFFFF;\">- After I got the blocking with good proportions, I start to figure out the topology and add details.</span></p>",
+    "dispW": 703,
+    "dispH": 63,
+    "_y": 6830,
+    "_x": 11,
+    "comp": "comp-mfcjsmd6"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7bdea2f2fdab4d8298a5f54a55568ae6~mv2.png",
+    "w": 600,
+    "h": 253,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 210,
+    "_y": 6928,
+    "_x": 0,
+    "comp": "comp-mfcjuqnu"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_e93b95f666db4a64817a8a265110bf45~mv2.png",
+    "w": 600,
+    "h": 253,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 210,
+    "_y": 6928,
+    "_x": 490,
+    "comp": "comp-mfcjuyxc"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:18px; line-height:normal\"><span style=\"font-size:18px\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">Texturing&nbsp;</span></span></span></span></p>",
+    "dispW": 385,
+    "dispH": 21,
+    "_y": 7189,
+    "_x": 11,
+    "comp": "comp-mfcjvclz"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF\">I created all the textures by using Substance Painter and I used 2K texture for 140 uv tiles to get the best results.</span></p>",
+    "dispW": 703,
+    "dispH": 42,
+    "_y": 7231,
+    "_x": 11,
+    "comp": "comp-mfcjvcm1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_071b27d983564a3781e6535ad2962036~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 276,
+    "_y": 7301,
+    "_x": 0,
+    "comp": "comp-mfcjvzqp"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b1d7197d45e2457d8de9d66bcdc56da0~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 276,
+    "_y": 7301,
+    "_x": 490,
+    "comp": "comp-mfcjw74h"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_3a8f9843ee8e47d4a245ecff26245bed~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 276,
+    "_y": 7577,
+    "_x": 0,
+    "comp": "comp-mfcjwcyh"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_fbda4eccd15b4dbcb4feb19418a2e562~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 276,
+    "_y": 7577,
+    "_x": 490,
+    "comp": "comp-mfcjwing"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ecfc448f515c46f4bbc0c50e28e49ba6~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 276,
+    "_y": 7853,
+    "_x": 0,
+    "comp": "comp-mfcjwuty"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_97d774ebdfd540738e6103f717711c2e~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 490,
+    "dispH": 276,
+    "_y": 7854,
+    "_x": 490,
+    "comp": "comp-mfcjx49u"
+   }
+  ]
+ },
+ "backstreet-boys": {
+  "uri": "backstreet-boys",
+  "title": "BackStreet Boys",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_8af23d9e2b7045fe9dbf614d1585df0f",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewudtll2",
+    "dispW": 487,
+    "dispH": 819,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mewudtl8"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_408d012e39434343afc34ad58dc60655",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewue2rt1",
+    "dispW": 487,
+    "dispH": 819,
+    "_y": 0,
+    "_x": 487,
+    "comp": "comp-mewud58n"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_d7d2b04f62a14856ad3323ad77f1c601~mv2.jpg",
+    "w": 600,
+    "h": 399,
+    "alt": "Sphere-exosphere-on-Jan-26-2024.jpg",
+    "dispW": 513,
+    "dispH": 342,
+    "_y": 819,
+    "_x": 0,
+    "comp": "comp-mewuhiim"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"font-size:29px; line-height:1.2em; text-align:center\"><span style=\"font-size:29px\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:0.15em\">Backstreet Boys concert at Sphere Las Vegas</span></span></span></h1>",
+    "dispW": 466,
+    "dispH": 70,
+    "_y": 845,
+    "_x": 513,
+    "comp": "comp-mewulk19"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF;\"><span style=\"font-weight:bold\">Concert</span>: Backstreet Boys are holding a residency titled &ldquo;Into the Millennium&rdquo; at Sphere Las Vegas, starting from July 2025 and<br />\nextended through February 2026.</span><br />\n&nbsp;</p>\n\n<p class=\"font_8\"><span style=\"color:#FFFFFF;\"><span style=\"font-weight:bold\">Venue</span>: Sphere is an immersive concert venue featuring cutting-edge technology, with a 16K wraparound LED screen that surrounds the audience inside its massive dome. Standing<br />\n366 feet tall, it seats approximately 17,600 people and can accommodate up to 20,000 with standing room.</span></p>",
+    "dispW": 453,
+    "dispH": 189,
+    "_y": 937,
+    "_x": 526,
+    "comp": "comp-mewulk1b"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_56931265e3b841a18fb656ff39cf1ccf",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-meww171p1",
+    "dispW": 671,
+    "dispH": 350,
+    "_y": 1772,
+    "_x": 154,
+    "comp": "comp-mewv3tde"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c29b1eaf98374d8d9928f5f5d44b5e08~mv2.png",
+    "w": 600,
+    "h": 210,
+    "alt": "2image.png",
+    "dispW": 979,
+    "dispH": 343,
+    "_y": 2173,
+    "_x": 0,
+    "comp": "comp-mewuw3sq"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_4e7a05c6545e43ef97a10e60b47e8e66",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-meww2hom1",
+    "dispW": 489,
+    "dispH": 278,
+    "_y": 2508,
+    "_x": 0,
+    "comp": "comp-meww225q"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_35548f57f4a14f1eaf769f614b7dfc68",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-meww36rx1",
+    "dispW": 489,
+    "dispH": 278,
+    "_y": 2517,
+    "_x": 489,
+    "comp": "comp-meww2uhn"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_052d0238d22f44ed8ac8c937a6e5195c",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-meww1k6s1",
+    "dispW": 489,
+    "dispH": 278,
+    "_y": 2806,
+    "_x": 0,
+    "comp": "comp-mewv5i2x"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_3a242ebe130446ed88df197aeb8c295f",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-meww4rzq2",
+    "dispW": 489,
+    "dispH": 278,
+    "_y": 2806,
+    "_x": 490,
+    "comp": "comp-meww4rzf"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c2284d7897f34aaaabc32fff9fa82afb~mv2.png",
+    "w": 600,
+    "h": 325,
+    "alt": "Emtexture01.png",
+    "dispW": 469,
+    "dispH": 254,
+    "_y": 3085,
+    "_x": 0,
+    "comp": "comp-mewv2vxn"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF\">Contributed to creating shaders in Unreal Engine for animated sign lighting and props in the project.</span></p>",
+    "dispW": 481,
+    "dispH": 42,
+    "_y": 3163,
+    "_x": 489,
+    "comp": "comp-mewwc4yx"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_690e2bf99af24dcfa1be52b803f18d3b",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-meww5b8l1",
+    "dispW": 489,
+    "dispH": 278,
+    "_y": 3334,
+    "_x": 0,
+    "comp": "comp-mewuwuep"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_3e5918a20ced488f80087ebcc0026674",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-meww5n951",
+    "dispW": 489,
+    "dispH": 278,
+    "_y": 3334,
+    "_x": 489,
+    "comp": "comp-meww5eml"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0ceab805c5614c8da186b10165587158~mv2.png",
+    "w": 600,
+    "h": 325,
+    "alt": "HighresScreenshot00025.png",
+    "dispW": 326,
+    "dispH": 177,
+    "_y": 3644,
+    "_x": 0,
+    "comp": "comp-meww6o60"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_80790fcfa9034957836fd5ce36e50f95~mv2.png",
+    "w": 600,
+    "h": 325,
+    "alt": "HighresScreenshot00050.png",
+    "dispW": 326,
+    "dispH": 177,
+    "_y": 3644,
+    "_x": 326,
+    "comp": "comp-meww6o67"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_042e7cba144b4920bc15a93611738973~mv2.png",
+    "w": 600,
+    "h": 325,
+    "alt": "HighresScreenshot00056.png",
+    "dispW": 326,
+    "dispH": 177,
+    "_y": 3646,
+    "_x": 653,
+    "comp": "comp-meww6o62"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_6a7cbac18b394ae6823edd16f25925dc~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_ddb82cc1c10b45faa74a8f9ff98d251a~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_571173426d5d4ea1a96f86b645f1a2e0~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_d4126f55533c4594b47629c6d0bb8f48~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_202c87ca93f1450b9b65a656f587d667~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 979,
+    "dispH": 345,
+    "_y": 3821,
+    "_x": 0,
+    "comp": "comp-meww9qb7"
+   }
+  ]
+ },
+ "youngprince": {
+  "uri": "youngprince",
+  "title": "YoungPrince",
+  "blocks": [
+   {
+    "type": "image",
+    "uri": "1c9294_ff06e252597d4e9ca98e9c090d830ac3~mv2.png",
+    "w": 2522,
+    "h": 623,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 620,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mesesmet"
+   },
+   {
+    "type": "image",
+    "uri": "https://static.parastorage.com/services/santa-resources/dist/editor/imageUploadToStage/loader_600x600.gif",
+    "w": 200,
+    "h": 200,
+    "alt": "loader,gif",
+    "dispW": 539,
+    "dispH": 600,
+    "_y": 0,
+    "_x": 220,
+    "comp": "comp-mesgfs1r"
+   },
+   {
+    "type": "button",
+    "label": "Up",
+    "link": {
+     "page": "life-of-the-buddha"
+    },
+    "dispW": 47,
+    "dispH": 47,
+    "_y": 14,
+    "_x": 7,
+    "comp": "comp-mesvdpvt"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"color:#000000\"><span style=\"font-size:39px\">Young Prince&nbsp;</span></span></span><br />\n<span style=\"color:#000000\"><span style=\"font-weight:bold\"><span style=\"font-size:15px\">Character Contributions</span></span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 76,
+    "_y": 645,
+    "_x": 210,
+    "comp": "comp-mesu54lu"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"font-family:helvetica-w01-light,sans-serif; font-weight:normal\">\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Sculpted the face in ZBrush</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Created textures with Texture XYZ &amp; Substance 3D Painter</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Groomed hair using XGen</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Transferred rig with MetaPipes (Maya)</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Simulated cloth in Marvelous Designer</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Developed final look in Unreal Engine</span></span></p>\n\t</li>\n</ul>",
+    "dispW": 420,
+    "dispH": 126,
+    "_y": 739,
+    "_x": 237,
+    "comp": "comp-mesu54lx"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9c3b1cdb70d34f1ab743c9610dc16fbf~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile.jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 901,
+    "_x": 367,
+    "comp": "comp-mesipli7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_796419f9ff0f472b893183c34c4675b9~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "ue-logo-1400x788-1400x788-8f185e1e3635.jpg",
+    "dispW": 84,
+    "dispH": 48,
+    "_y": 901,
+    "_x": 403,
+    "comp": "comp-mesujsgq"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6db99624fb8f459492a1dd786b5c6e9b~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile (1).jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 901,
+    "_x": 473,
+    "comp": "comp-mesup1sv"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7d385643b08343fab93468aa0f13799d~mv2.png",
+    "w": 512,
+    "h": 512,
+    "alt": "5968543.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 901,
+    "_x": 524,
+    "comp": "comp-mesubh50"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9e372e20128a45f0b11f94bb626bedd0~mv2.png",
+    "w": 256,
+    "h": 256,
+    "alt": "autodesk-maya-lt-product-icon-1282x.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 902,
+    "_x": 576,
+    "comp": "comp-mesuw6cs"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_0016670b74344ba294d11ba73348d518~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_c08d07cea1cc4809ae49dce85007a127~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_1a167c6878ff4dd2bf614dea387af966~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_72cc0ba57c2c46e3aa06eee58b64570c~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_3f60e0d30a9b470095da421c550f1707~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_fb74bd4284094d8a8e23b2acffb611fd~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_7ce1d35469214d4ab814b0ea79f0e1e0~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 979,
+    "dispH": 370,
+    "_y": 965,
+    "_x": 0,
+    "comp": "comp-mesj6um1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a83d3a1584fa4ab1b3231550831cd88f~mv2.png",
+    "w": 508,
+    "h": 600,
+    "alt": "Zbrush02.png",
+    "dispW": 308,
+    "dispH": 363,
+    "_y": 1380,
+    "_x": 327,
+    "comp": "comp-mesggpw7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_8d8f28e237d84bdb9a5b183d8092a6cc~mv2.png",
+    "w": 544,
+    "h": 600,
+    "alt": "Zbrush03.png",
+    "dispW": 343,
+    "dispH": 363,
+    "_y": 1381,
+    "_x": 636,
+    "comp": "comp-mesggpwl"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_aa92629ad14d4d34ab23e2ccf00740c5~mv2.png",
+    "w": 539,
+    "h": 600,
+    "alt": "Zbrush01.png",
+    "dispW": 327,
+    "dispH": 363,
+    "_y": 1382,
+    "_x": 0,
+    "comp": "comp-mesggpwa"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f6b3a63fe7294a0bb153e7adb1df4741~mv2.png",
+    "w": 600,
+    "h": 323,
+    "alt": "PrinceProcess006.png",
+    "dispW": 521,
+    "dispH": 266,
+    "_y": 1758,
+    "_x": 0,
+    "comp": "comp-mesit74n"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0cbe133c7be44f62af3c71df653f41e5~mv2.png",
+    "w": 600,
+    "h": 314,
+    "alt": "PrinceProcess005.png",
+    "dispW": 504,
+    "dispH": 266,
+    "_y": 1758,
+    "_x": 475,
+    "comp": "comp-mesit55p"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_fe9fb66228b241fe826a2d5238328aad~mv2.png",
+    "w": 600,
+    "h": 364,
+    "alt": "image.png",
+    "dispW": 403,
+    "dispH": 228,
+    "_y": 2024,
+    "_x": 0,
+    "comp": "comp-mesiupu8"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_57446ad7a3af4271bfbb56578da37b75~mv2.png",
+    "w": 600,
+    "h": 245,
+    "alt": "PrinceProcess033.png",
+    "dispW": 576,
+    "dispH": 228,
+    "_y": 2024,
+    "_x": 403,
+    "comp": "comp-mesivumi"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_4a49acc45ab545adb5584f2ef3ab518e~mv2.png",
+    "w": 600,
+    "h": 353,
+    "alt": "PrinceProcess001.png",
+    "dispW": 335,
+    "dispH": 185,
+    "_y": 2247,
+    "_x": 0,
+    "comp": "comp-mesiua0p"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_fac73f3192b44c5b84fa181cca606804",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mesiybfy1",
+    "dispW": 293,
+    "dispH": 185,
+    "_y": 2247,
+    "_x": 335,
+    "comp": "comp-mesixb4u"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_656e5758a9c642e18128d3d8fdcc443d",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mesizywj1",
+    "dispW": 364,
+    "dispH": 185,
+    "_y": 2247,
+    "_x": 616,
+    "comp": "comp-mesiz3au"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_728676093e0c4bedb37b31d5ec1fcd63",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-meskbcuc2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 329,
+    "_y": 2432,
+    "_x": 0,
+    "comp": "comp-mesk9x0t1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f27a60aae4a544498e91255aa00b156e~mv2.jpg",
+    "w": 4480,
+    "h": 3360,
+    "alt": "",
+    "dispW": 451,
+    "dispH": 363,
+    "_y": 2772,
+    "_x": 0,
+    "comp": "comp-meskyf9h"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_d2d48f93e6dd454a83d831764fda73ed~mv2.png",
+    "w": 600,
+    "h": 448,
+    "alt": "44.png",
+    "dispW": 536,
+    "dispH": 363,
+    "_y": 2772,
+    "_x": 443,
+    "comp": "comp-mess0n5l"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2e1b6f1901d14847ab1e34f353c02f04~mv2.png",
+    "w": 600,
+    "h": 370,
+    "alt": "PrinceProcess004.png",
+    "dispW": 389,
+    "dispH": 231,
+    "_y": 3135,
+    "_x": 0,
+    "comp": "comp-mess365n"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_cc621079067b49378cce1a3bdcbd364f~mv2.png",
+    "w": 2200,
+    "h": 891,
+    "alt": "",
+    "dispW": 590,
+    "dispH": 231,
+    "_y": 3135,
+    "_x": 389,
+    "comp": "comp-meskypwl"
+   }
+  ]
+ },
+ "baby-buddha-queen-servants": {
+  "uri": "baby-buddha-queen-servants",
+  "title": "Baby Buddha,Queen,Servants",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_4824a9dd6bf946a58864f748d7839ed2",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-metz5wlb2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-metz4q3c"
+   },
+   {
+    "type": "button",
+    "label": "Up",
+    "link": {
+     "page": "life-of-the-buddha"
+    },
+    "dispW": 47,
+    "dispH": 47,
+    "_y": 12,
+    "_x": 6,
+    "comp": "comp-mews352n"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_0\" style=\"font-size:24px; line-height:1.5em; text-align:center\"><span style=\"letter-spacing:0.15em\"><span style=\"color:#000000\"><span style=\"font-weight:normal\"><span style=\"font-size:24px\">Baby Buddha,Queen,Servants</span></span><br />\n<span style=\"font-weight:bold\"><span style=\"font-size:15px\">Character Contributions</span></span></span></span></h2>",
+    "dispW": 752,
+    "dispH": 75,
+    "_y": 426,
+    "_x": 114,
+    "comp": "comp-metz4q3i"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_7\" style=\"font-size:16px; line-height:1.8em; text-align:center\"><span style=\"font-weight:bold;\"><span style=\"color:#000000\"><span style=\"letter-spacing:normal\"><span style=\"font-size:16px\">Baby Buddha</span></span></span></span></h2>",
+    "dispW": 310,
+    "dispH": 29,
+    "_y": 496,
+    "_x": 124,
+    "comp": "comp-metz4q3p1"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_7\" style=\"font-size:16px; line-height:1.8em; text-align:center\"><span style=\"font-weight:bold\"><span style=\"color:#000000\"><span style=\"letter-spacing:normal\"><span style=\"font-size:16px\">Queen &amp; Servants</span></span></span></span></h2>",
+    "dispW": 310,
+    "dispH": 29,
+    "_y": 496,
+    "_x": 549,
+    "comp": "comp-metztfum"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"color:rgb(0, 0, 0); font-weight:normal; letter-spacing:normal\">\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">​Sculpted the face in ZBrush</span></span></span></h2>\n\t</li>\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Created textures in Zbruah and Substance 3D Painter</span></span></span></h2>\n\t</li>\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Groomed hair using XGen</span></span></span></h2>\n\t</li>\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Transferred rig with MetaPipes (Maya)</span></span></span></h2>\n\t</li>\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Simulated cloth in Marvelous Designer</span></span></span></h2>\n\t</li>\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Developed final look in Unreal Engine</span></span></span></h2>\n\t</li>\n</ul>",
+    "dispW": 333,
+    "dispH": 147,
+    "_y": 547,
+    "_x": 124,
+    "comp": "comp-metza3od"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_8\" style=\"line-height:normal;line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">● Cloth sim in Marvelous Designer<br />\n● Basic rig setup<br />\n● Physics clothes in Unreal Engine<br />\n● Texturing<br />\n● Hair grooming with XGen</span></span></span></h2>",
+    "dispW": 397,
+    "dispH": 112,
+    "_y": 547,
+    "_x": 521,
+    "comp": "comp-metztfuo"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2adfc83a9b7f4ce2becdc34cf578f1a6~mv2.jpg",
+    "w": 4820,
+    "h": 1080,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 384,
+    "_y": 705,
+    "_x": 0,
+    "comp": "comp-mewniezl"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9c3b1cdb70d34f1ab743c9610dc16fbf~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile.jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 712,
+    "_x": 719,
+    "comp": "comp-mfm8s6kx2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_796419f9ff0f472b893183c34c4675b9~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "ue-logo-1400x788-1400x788-8f185e1e3635.jpg",
+    "dispW": 84,
+    "dispH": 48,
+    "_y": 712,
+    "_x": 755,
+    "comp": "comp-mfm8s6kw1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6db99624fb8f459492a1dd786b5c6e9b~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile (1).jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 712,
+    "_x": 825,
+    "comp": "comp-mfm8s6ky"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7d385643b08343fab93468aa0f13799d~mv2.png",
+    "w": 512,
+    "h": 512,
+    "alt": "5968543.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 712,
+    "_x": 876,
+    "comp": "comp-mfm8s6ky5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9e372e20128a45f0b11f94bb626bedd0~mv2.png",
+    "w": 256,
+    "h": 256,
+    "alt": "autodesk-maya-lt-product-icon-1282x.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 713,
+    "_x": 928,
+    "comp": "comp-mfm8s6kz1"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_0\" style=\"font-size:24px; line-height:1.5em; text-align:center\"><span class=\"color_36\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"font-size:24px\">Baby Buddha</span></span></span></span></h2>",
+    "dispW": 252,
+    "dispH": 52,
+    "_y": 719,
+    "_x": 5,
+    "comp": "comp-mewsjk8a"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_03d1562bad994ace99b7d3bc40d3f923~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_ca577ea7811b4cdfb9a245a3dabb83bb~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_f1bef1c8651a49f0ac4b65a6e2f0aef0~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_9a11d0933fbd416799b1483f59508bc6~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_c2902dc406a042118a6fa6b025dda405~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_442c96b02df04be0a5cc95679e0ed4b2~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 352,
+    "_y": 1111,
+    "_x": 0,
+    "comp": "comp-mewmwsmu"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_b8d70406173f4684be3b1cb730594cd0~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_595658859d1f4021b5765b165bdae798~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_6a459449d050400c9bf4bf92efd0718b~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 352,
+    "_y": 1483,
+    "_x": 0,
+    "comp": "comp-mewmyipr"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_91d15e08ca88444d853a4066c21b5f7e~mv2.jpg",
+    "w": 3840,
+    "h": 2160,
+    "alt": "ZBrush_Document2.jpg",
+    "dispW": 437,
+    "dispH": 221,
+    "_y": 1858,
+    "_x": 0,
+    "comp": "comp-mewn610h"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_46b77f5e44964bfe9fa431a1d2f18683~mv2.jpg",
+    "w": 5000,
+    "h": 1800,
+    "alt": "04.jpg",
+    "dispW": 543,
+    "dispH": 221,
+    "_y": 1858,
+    "_x": 436,
+    "comp": "comp-mewn610f"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0d0155c140934d23a1b83f5e4e510100~mv2.png",
+    "w": 1873,
+    "h": 801,
+    "alt": "babyProcess007.png",
+    "dispW": 514,
+    "dispH": 231,
+    "_y": 2080,
+    "_x": 0,
+    "comp": "comp-mewn8psa"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2ee4d82f324c4b74aa683ad8bd2bf4e3~mv2.png",
+    "w": 1288,
+    "h": 705,
+    "alt": "babyProcess005.png",
+    "dispW": 465,
+    "dispH": 231,
+    "_y": 2080,
+    "_x": 514,
+    "comp": "comp-mewnbxd2"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_7b784f71c2154c658f367129c3894e33",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewnd30a1",
+    "dispW": 607,
+    "dispH": 343,
+    "_y": 2311,
+    "_x": 0,
+    "comp": "comp-mewnbcrg"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0c70a5d4aa17444a8648eb3d16612701~mv2.png",
+    "w": 686,
+    "h": 643,
+    "alt": "babyProcess001.png.png",
+    "dispW": 373,
+    "dispH": 343,
+    "_y": 2311,
+    "_x": 607,
+    "comp": "comp-mewn8psc"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_67faa12d61e04e88b127a3f866e7a184~mv2.png",
+    "w": 1604,
+    "h": 894,
+    "alt": "BabyMD01.png",
+    "dispW": 493,
+    "dispH": 276,
+    "_y": 2655,
+    "_x": 0,
+    "comp": "comp-mewnhfaf"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_8448ffe86e85458fa51e207517e2cee1",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewngtxu1",
+    "dispW": 486,
+    "dispH": 276,
+    "_y": 2655,
+    "_x": 493,
+    "comp": "comp-mewng3ha"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_a277dc0acd6348f2945ef103e04098c2",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mews84ka1",
+    "dispW": 431,
+    "dispH": 245,
+    "_y": 2955,
+    "_x": 0,
+    "comp": "comp-mews6pd9"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_aa795af19fbb46a9af14ea8887689251~mv2.png",
+    "w": 1832,
+    "h": 705,
+    "alt": "babyProcess006.png",
+    "dispW": 552,
+    "dispH": 245,
+    "_y": 2955,
+    "_x": 426,
+    "comp": "comp-mews9jjl"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_cd7d7b79aa6b4d52b2a55635ab6f3e08~mv2.png",
+    "w": 1919,
+    "h": 315,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 3248,
+    "_x": 0,
+    "comp": "comp-meworxs3"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_0\" style=\"font-size:24px; line-height:1.5em; text-align:center\"><span style=\"color:#FFFFFF;\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"font-size:24px\">Queen,Servants</span></span></span></span></h2>",
+    "dispW": 318,
+    "dispH": 52,
+    "_y": 3269,
+    "_x": -17,
+    "comp": "comp-mewsl7ko"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_754642b32db646688d6c4e786d7b0307~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_6438471e34244e8aa233bdd496274fbf~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_62bf7a66161f461bb864916ed385f02a~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 352,
+    "_y": 3661,
+    "_x": 0,
+    "comp": "comp-mewptr33"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_42286a41788c43b3b9456521616f6de5~mv2.png",
+    "w": 1369,
+    "h": 740,
+    "alt": "image.png",
+    "dispW": 479,
+    "dispH": 278,
+    "_y": 4015,
+    "_x": 0,
+    "comp": "comp-mewpnfqp"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0617423d3a8f460c8e59a09afcbde035~mv2.png",
+    "w": 1857,
+    "h": 695,
+    "alt": "XgenScreenshot_1.png",
+    "dispW": 594,
+    "dispH": 278,
+    "_y": 4015,
+    "_x": 385,
+    "comp": "comp-mewpnfqq"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ae8c1cda3db7488da28634a46f5a446b~mv2.png",
+    "w": 600,
+    "h": 455,
+    "alt": "image2.png",
+    "dispW": 283,
+    "dispH": 275,
+    "_y": 4017,
+    "_x": 697,
+    "comp": "comp-mewqltd9"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_e427cbda79954a31a9ff1d1ac65ae6ca~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00017.png",
+    "dispW": 488,
+    "dispH": 275,
+    "_y": 4294,
+    "_x": 0,
+    "comp": "comp-mewqeemk"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_ce09e443b009412ba0c3a3b0cab63eec",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewqk9ip1",
+    "dispW": 480,
+    "dispH": 270,
+    "_y": 4300,
+    "_x": 495,
+    "comp": "comp-mewqhuc8"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0fad80d8667246939aa5a8be0ad3ed6c~mv2.png",
+    "w": 600,
+    "h": 364,
+    "alt": "image6.png",
+    "dispW": 148,
+    "dispH": 85,
+    "_y": 4301,
+    "_x": 826,
+    "comp": "comp-mewqneu1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ef4a2d39d3c747afbabf69fd98d562c8~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00021.png",
+    "dispW": 488,
+    "dispH": 275,
+    "_y": 4570,
+    "_x": 2,
+    "comp": "comp-mewqeeqq"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_d07db47e33304ef2be3e6c984eb0ca2d~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00014.png",
+    "dispW": 488,
+    "dispH": 275,
+    "_y": 4570,
+    "_x": 491,
+    "comp": "comp-mewqeeq4"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_03d48d97f0ab4d8091b31501285107c7~mv2.png",
+    "w": 600,
+    "h": 325,
+    "alt": "HighresScreenshot00059.png",
+    "dispW": 488,
+    "dispH": 267,
+    "_y": 4845,
+    "_x": 0,
+    "comp": "comp-mewqgbwk"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2b933b91880c4a42afb03651e0a250db~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00062.png",
+    "dispW": 487,
+    "dispH": 275,
+    "_y": 4846,
+    "_x": 495,
+    "comp": "comp-mewqkwrd"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f674fc90f48e411b8001af39c46dec6c~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00064.png",
+    "dispW": 487,
+    "dispH": 275,
+    "_y": 5113,
+    "_x": 0,
+    "comp": "comp-mewqkwnq"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a8e5889e9b1045d2bcb0a9727b38546f~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "HighresScreenshot00061.png",
+    "dispW": 487,
+    "dispH": 275,
+    "_y": 5113,
+    "_x": 487,
+    "comp": "comp-mewqkwl7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_5b3d23a7fddf496bb62addb8c8c12d82~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "ZBrush_Document.jpg",
+    "dispW": 394,
+    "dispH": 223,
+    "_y": 5403,
+    "_x": 0,
+    "comp": "comp-mewqnety"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0c021dee296b436e95876ddc26cc0eb5~mv2.png",
+    "w": 600,
+    "h": 477,
+    "alt": "image5.png",
+    "dispW": 259,
+    "dispH": 223,
+    "_y": 5403,
+    "_x": 395,
+    "comp": "comp-mewqnewm"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_fc70a814ed3145dba8eb144090c4411f~mv2.png",
+    "w": 600,
+    "h": 455,
+    "alt": "image10.png",
+    "dispW": 320,
+    "dispH": 223,
+    "_y": 5403,
+    "_x": 654,
+    "comp": "comp-mewqwtxd"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f5e8bee0d0494ca8a9731cbcb59824e0~mv2.png",
+    "w": 463,
+    "h": 528,
+    "alt": "image9.png",
+    "dispW": 149,
+    "dispH": 231,
+    "_y": 5641,
+    "_x": 260,
+    "comp": "comp-mewqolfn"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_99c21cf62d60407c9fc2bfb66caac62b~mv2.png",
+    "w": 386,
+    "h": 509,
+    "alt": "image7.png",
+    "dispW": 175,
+    "dispH": 231,
+    "_y": 5641,
+    "_x": 377,
+    "comp": "comp-mewqnqhq"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_916e0b60412746868ad8f15c07bed321~mv2.png",
+    "w": 443,
+    "h": 524,
+    "alt": "image8.png",
+    "dispW": 195,
+    "dispH": 231,
+    "_y": 5641,
+    "_x": 513,
+    "comp": "comp-mewqnqhs"
+   }
+  ]
+ },
+ "copy-of-espn-stanleycup": {
+  "uri": "copy-of-espn-stanleycup",
+  "title": "PJL",
+  "blocks": [
+   {
+    "type": "image",
+    "uri": "1c9294_4702e4a4584d475a9ba3d1b8c5a41145~mv2.png",
+    "w": 600,
+    "h": 151,
+    "alt": "Girraphic-Logo-2020.png",
+    "dispW": 330,
+    "dispH": 83,
+    "_y": 5,
+    "_x": 16,
+    "comp": "comp-mr0xhasn"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:37px; line-height:normal\"><span class=\"color_43\"><span style=\"font-size:37px\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\"><span style=\"text-decoration:underline\"><a dataquery=\"#link-mr0xhatj1\">PJL</a></span></span></span></span></span></p>",
+    "dispW": 589,
+    "dispH": 46,
+    "_y": 24,
+    "_x": 430,
+    "comp": "comp-mr0xhasq2"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">PJL reimagines showjumping as a bold, fan-first global sport where elegance meets adrenaline.<br />\nA premium competition showcasing elite horses and riders through cinematic storytelling and unforgettable moments.</span></span></span></p>",
+    "dispW": 561,
+    "dispH": 93,
+    "_y": 119,
+    "_x": 227,
+    "comp": "comp-mr0xhast"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_524f66338a3e4db8988286813a97f5b2",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-mr0xoczk4",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 550,
+    "_y": 219,
+    "_x": 0,
+    "comp": "comp-mr0xocyp"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_35979ed89fc6473dab0e46a335101ddd",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-mr0xoczp4",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 550,
+    "_y": 770,
+    "_x": 0,
+    "comp": "comp-mr0xocyr"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_173ba18f7f6a483c8a1352e694723408~mv2.png",
+    "w": 952,
+    "h": 803,
+    "alt": "image (31).png",
+    "dispW": 291,
+    "dispH": 405,
+    "_y": 1320,
+    "_x": 0,
+    "comp": "comp-mr0xy97v1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2077c09b094548db91c0cc0607122693~mv2.png",
+    "w": 1384,
+    "h": 809,
+    "alt": "image (30).png",
+    "dispW": 687,
+    "dispH": 405,
+    "_y": 1321,
+    "_x": 292,
+    "comp": "comp-mr0xy97v"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_64ae2e2894eb493bbfeedebecc0b82ff~mv2.png",
+    "w": 1304,
+    "h": 670,
+    "alt": "image (32).png",
+    "dispW": 600,
+    "dispH": 308,
+    "_y": 1726,
+    "_x": 189,
+    "comp": "comp-mr0xy97t"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_de59fbca6910425bab8fe5371acbc7a3~mv2.png",
+      "w": 1920,
+      "h": 932,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_1b844a5d5fd74623b05454f9ddf0f2cc~mv2.png",
+      "w": 1920,
+      "h": 932,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_9379b35a8bfa4ea1b757b2fa20a55b4a~mv2.png",
+      "w": 1920,
+      "h": 932,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_7d8d3ac1a73c47e3bd22591c503628a3~mv2.png",
+      "w": 1920,
+      "h": 932,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 616,
+    "_y": 2045,
+    "_x": 0,
+    "comp": "comp-mr0y2ssz"
+   }
+  ]
+ },
+ "popup-ivrnk": {
+  "uri": "popup-ivrnk",
+  "title": "MENU",
+  "blocks": []
+ },
+ "about": {
+  "uri": "about",
+  "title": "ABOUT",
+  "blocks": [
+   {
+    "type": "text",
+    "html": "<h5 class=\"font_5\" style=\"font-size:21px; line-height:1.4em\"><span style=\"letter-spacing:0.03em\"><span class=\"color_36\"><span style=\"font-size:21px\">I&#39;m a paragraph. Click here to add your own text and edit me. It&rsquo;s easy. Just click &ldquo;Edit Text&rdquo; or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I&rsquo;m a great place for you to tell a story and let your users know a little more about you.</span></span></span></h5>\n\n<h5 class=\"font_5\" style=\"font-size:21px; line-height:1.4em\"><span style=\"letter-spacing:0.03em\"><span class=\"color_36\"><span style=\"font-size:21px\">​</span></span></span></h5>\n\n<h5 class=\"font_5\" style=\"font-size:21px; line-height:1.4em\"><span style=\"letter-spacing:0.03em\"><span class=\"color_36\"><span style=\"font-size:21px\">This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are. </span></span></span></h5>\n",
+    "dispW": 441,
+    "dispH": 559,
+    "_y": 47,
+    "_x": -690,
+    "comp": "comp-ivtihtr3"
+   },
+   {
+    "type": "text",
+    "html": "<h5 class=\"font_5\" style=\"font-size:21px; line-height:1.4em\"><span style=\"letter-spacing:0.03em\"><span class=\"color_36\"><span style=\"font-size:21px\">At Wix we&rsquo;re passionate about making templates that allow you to build fabulous websites and it&rsquo;s all thanks to the support and feedback from users like you! Keep up to date with New Releases and what&rsquo;s Coming Soon in Wixellaneous in Support. Feel free to tell us what you think and give us feedback in the Wix Forum. If you&rsquo;d like to benefit from a professional designer&rsquo;s touch, head to the Wix Arena and connect with one of our Wix Pro designers. Or if you need more help you can simply type your questions into the Support Forum and get instant answers. To keep up to date with everything Wix, including tips and things we think are cool, just head to the Wix Blog! </span></span></span></h5>\n",
+    "dispW": 427,
+    "dispH": 500,
+    "_y": 47,
+    "_x": -160,
+    "comp": "comp-ivuro2m5"
+   },
+   {
+    "type": "image",
+    "uri": "42dbaa_c9ed30f9f2074846962a2438def44469~mv2.png",
+    "w": 252,
+    "h": 157,
+    "alt": "",
+    "dispW": 112,
+    "dispH": 66,
+    "_y": 552,
+    "_x": 162,
+    "comp": "comp-ivtnrqj4"
+   }
+  ]
+ },
+ "mara-daughters": {
+  "uri": "mara-daughters",
+  "title": "Mara Daughters",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_653ad427300f488894b95245b45c6658",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mettu7s32",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-metts00z"
+   },
+   {
+    "type": "button",
+    "label": "Up",
+    "link": {
+     "page": "life-of-the-buddha"
+    },
+    "dispW": 47,
+    "dispH": 47,
+    "_y": 16,
+    "_x": 11,
+    "comp": "comp-mewmgwhn"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"letter-spacing:0.15em\"><span style=\"color:#000000\"><span style=\"font-size:39px\">Mara Daughters</span></span></span><br />\n<span style=\"letter-spacing:0.15em\"><span style=\"color:#000000\"><span style=\"font-size:15px; font-weight:bold\">Character Contributions</span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 76,
+    "_y": 453,
+    "_x": 190,
+    "comp": "comp-mettvs9f"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"font-family:helvetica-w01-light,sans-serif; font-weight:normal\">\n\t<li>\n\t<p class=\"font_8\">Simulation in Marvelous Designer</p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\">Test moving animation in Marvelous Designer and Unreal</p>\n\t</li>\n</ul>",
+    "dispW": 420,
+    "dispH": 42,
+    "_y": 547,
+    "_x": 217,
+    "comp": "comp-mettvs9h"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9c3b1cdb70d34f1ab743c9610dc16fbf~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile.jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 628,
+    "_x": 360,
+    "comp": "comp-mfm8pvns"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_796419f9ff0f472b893183c34c4675b9~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "ue-logo-1400x788-1400x788-8f185e1e3635.jpg",
+    "dispW": 84,
+    "dispH": 48,
+    "_y": 628,
+    "_x": 396,
+    "comp": "comp-mfm8pvnq1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6db99624fb8f459492a1dd786b5c6e9b~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile (1).jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 628,
+    "_x": 466,
+    "comp": "comp-mfm8pvnt"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7d385643b08343fab93468aa0f13799d~mv2.png",
+    "w": 512,
+    "h": 512,
+    "alt": "5968543.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 628,
+    "_x": 517,
+    "comp": "comp-mfm8pvnt5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9e372e20128a45f0b11f94bb626bedd0~mv2.png",
+    "w": 256,
+    "h": 256,
+    "alt": "autodesk-maya-lt-product-icon-1282x.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 629,
+    "_x": 569,
+    "comp": "comp-mfm8pvnu4"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"font-size:23px; line-height:1.2em; text-align:center\"><span style=\"font-size:23px\"><span style=\"color:#FAFAFA\"><span style=\"letter-spacing:0.15em\">Concept Art</span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 28,
+    "_y": 715,
+    "_x": 190,
+    "comp": "comp-mewmfj3y"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_5f2d4d50e47748cabcd5d20c3e35e169~mv2.jpg",
+    "w": 547,
+    "h": 600,
+    "alt": "MaraDaughters_ReworkSheet.jpg",
+    "dispW": 503,
+    "dispH": 516,
+    "_y": 777,
+    "_x": 237,
+    "comp": "comp-metu43ve"
+   },
+   {
+    "type": "gallery",
+    "kind": "SlideShowGallery",
+    "items": [
+     {
+      "uri": "1c9294_8b8e6dff8cc04ea287cdb2cfcecd449f~mv2.png",
+      "w": 2226,
+      "h": 1166,
+      "title": "image22"
+     },
+     {
+      "uri": "1c9294_cd424b9991604ca2b9c526d07e244186~mv2.png",
+      "w": 2145,
+      "h": 1155,
+      "title": "image24"
+     },
+     {
+      "uri": "1c9294_dda99360d99547c8bdeda46c4d75e8b0~mv2.png",
+      "w": 1748,
+      "h": 1129,
+      "title": "image4"
+     },
+     {
+      "uri": "1c9294_170094a23d0841128dce83c65541e209~mv2.png",
+      "w": 1866,
+      "h": 1193,
+      "title": "image27"
+     },
+     {
+      "uri": "1c9294_07e1c526c26440879c91230cbb395dd4~mv2.png",
+      "w": 1455,
+      "h": 1178,
+      "title": "image26"
+     },
+     {
+      "uri": "1c9294_551c4bd002a04d0eb9a294fbf374d2b2~mv2.png",
+      "w": 1185,
+      "h": 1141,
+      "title": "image5"
+     },
+     {
+      "uri": "1c9294_03dfe6f52deb4546991fa52a8f44938d~mv2.png",
+      "w": 1081,
+      "h": 1126,
+      "title": "image6"
+     }
+    ],
+    "dispW": 740,
+    "dispH": 471,
+    "_y": 1326,
+    "_x": 118,
+    "comp": "comp-mewin7zx"
+   },
+   {
+    "type": "gallery",
+    "kind": "SlideShowGallery",
+    "items": [
+     {
+      "uri": "1c9294_b4c1369b012745b2a46329b0012635ab~mv2.png",
+      "w": 5478,
+      "h": 2410,
+      "title": "HighresScreenshot00059"
+     },
+     {
+      "uri": "1c9294_005399aa5ed64ebdac9ae96ea956b86d~mv2.png",
+      "w": 5478,
+      "h": 2410,
+      "title": "HighresScreenshot00060"
+     },
+     {
+      "uri": "1c9294_954187763558466bbb288ef754b0eaec~mv2.png",
+      "w": 1915,
+      "h": 1101,
+      "title": "image"
+     },
+     {
+      "uri": "1c9294_144d6ad5cedc41a8886545165a177b1d~mv2.png",
+      "w": 2739,
+      "h": 1205,
+      "title": "HighresScreenshot00136"
+     },
+     {
+      "uri": "1c9294_a0cb4444a68c4fe291d23d697f25b33d~mv2.png",
+      "w": 2171,
+      "h": 982,
+      "title": "image2"
+     },
+     {
+      "uri": "1c9294_5579b0404572490cb4d8e9abe8f5721f~mv2.png",
+      "w": 2739,
+      "h": 1205,
+      "title": "HighresScreenshot00134"
+     }
+    ],
+    "dispW": 740,
+    "dispH": 471,
+    "_y": 1838,
+    "_x": 118,
+    "comp": "comp-mewkio93"
+   },
+   {
+    "type": "gallery",
+    "kind": "SlideShowGallery",
+    "items": [
+     {
+      "uri": "1c9294_8899cf47992b4c2f9333208015d95696~mv2.png",
+      "w": 3840,
+      "h": 2080,
+      "title": "HighresScreenshot00153"
+     },
+     {
+      "uri": "1c9294_acf5fbcf07d54146a7c930b3e98f83ad~mv2.png",
+      "w": 3840,
+      "h": 2080,
+      "title": "HighresScreenshot00155"
+     },
+     {
+      "uri": "1c9294_b8f3a8db604446a3bc5f4a8413538fc3~mv2.png",
+      "w": 898,
+      "h": 1087,
+      "title": "image9"
+     },
+     {
+      "uri": "1c9294_1c2a0ccbeec34dd380f82e5ce1f57a10~mv2.png",
+      "w": 2110,
+      "h": 978,
+      "title": "image7"
+     },
+     {
+      "uri": "1c9294_a60c084e212c4617a2cd99aa0d16555f~mv2.png",
+      "w": 1693,
+      "h": 1022,
+      "title": "image8"
+     },
+     {
+      "uri": "1c9294_e0f945b2d322474e8d1bde7a2419f855~mv2.png",
+      "w": 1210,
+      "h": 954,
+      "title": "image12"
+     }
+    ],
+    "dispW": 740,
+    "dispH": 471,
+    "_y": 2356,
+    "_x": 118,
+    "comp": "comp-mewim3sf"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_444317fd2c4f43fda2b608d7523fecf0",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewmd4op1",
+    "dispW": 983,
+    "dispH": 546,
+    "_y": 2853,
+    "_x": 0,
+    "comp": "comp-mewm7b2b"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_54b8683d883f44e680093e1a9ec415f6~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "image33.png",
+    "dispW": 230,
+    "dispH": 409,
+    "_y": 3419,
+    "_x": -3,
+    "comp": "comp-mewjk8nb"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6c822e060c7043f580a699c47dd01cfb~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "image32.png",
+    "dispW": 230,
+    "dispH": 409,
+    "_y": 3419,
+    "_x": 225,
+    "comp": "comp-mewjk8n7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_1d0b2183d14a4b99a0e32190dbaa8d1e~mv2.png",
+    "w": 600,
+    "h": 466,
+    "alt": "image30.png",
+    "dispW": 525,
+    "dispH": 409,
+    "_y": 3419,
+    "_x": 455,
+    "comp": "comp-mewjk8lw"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ff0ce985a76f4fee99886e07c6155082~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "3.png",
+    "dispW": 246,
+    "dispH": 442,
+    "_y": 3964,
+    "_x": 0,
+    "comp": "comp-mewjo8ah"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_858a2d761adb4c92baec50f0611dda97~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "4.png",
+    "dispW": 246,
+    "dispH": 442,
+    "_y": 3964,
+    "_x": 238,
+    "comp": "comp-mewjo8ac"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_761269cf113846f1ac9dba37ffbfacc9~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "2.png",
+    "dispW": 246,
+    "dispH": 442,
+    "_y": 3964,
+    "_x": 484,
+    "comp": "comp-mewjo8af"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_afe98b530c4648bc9531b8ac76d1f49b~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "1.png",
+    "dispW": 246,
+    "dispH": 442,
+    "_y": 3964,
+    "_x": 730,
+    "comp": "comp-mewjo8ad"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a3739a90e17d4ced9e35ebf4132a9366~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "image67.png",
+    "dispW": 337,
+    "dispH": 600,
+    "_y": 4077,
+    "_x": 1671,
+    "comp": "comp-mewlrt50"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6765abf051834598a3c198e1aae57c95~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "image69.png",
+    "dispW": 246,
+    "dispH": 448,
+    "_y": 4523,
+    "_x": 0,
+    "comp": "comp-mewlrt4v"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a6489d79c31a4a54b01efa34d452589e~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "image68.png",
+    "dispW": 246,
+    "dispH": 448,
+    "_y": 4523,
+    "_x": 239,
+    "comp": "comp-mewlrt51"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_bf408fa70d01440db4f57de91e74ea1c~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "image66.png",
+    "dispW": 246,
+    "dispH": 448,
+    "_y": 4523,
+    "_x": 485,
+    "comp": "comp-mewlrt4y"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0978a8d1d1e94c64a1c8875749d43e85~mv2.png",
+    "w": 337,
+    "h": 600,
+    "alt": "image65.png",
+    "dispW": 246,
+    "dispH": 448,
+    "_y": 4523,
+    "_x": 730,
+    "comp": "comp-mewlrt4x"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_254ded0bb6f643e5ab6bad11fa1ff141~mv2.png",
+    "w": 451,
+    "h": 600,
+    "alt": "image70.png",
+    "dispW": 213,
+    "dispH": 281,
+    "_y": 5007,
+    "_x": 0,
+    "comp": "comp-mewm3tlt"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0422dba31e804ff5b601f21f0685733d~mv2.png",
+    "w": 540,
+    "h": 199,
+    "alt": "image71.png",
+    "dispW": 765,
+    "dispH": 281,
+    "_y": 5007,
+    "_x": 210,
+    "comp": "comp-mewm3tlw"
+   }
+  ]
+ },
+ "copy-of-supernova": {
+  "uri": "copy-of-supernova",
+  "title": "ESPN StanleyCup",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_6e5dbd6364024e59a326f802c332d321",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-mqzgap5f1",
+    "dispW": 979,
+    "dispH": 549,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mqzg69az6"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_6e5dbd6364024e59a326f802c332d321",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-mqzgbrub1",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 548,
+    "_y": 549,
+    "_x": 0,
+    "comp": "comp-mqzg69b74"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_4702e4a4584d475a9ba3d1b8c5a41145~mv2.png",
+    "w": 600,
+    "h": 151,
+    "alt": "Girraphic-Logo-2020.png",
+    "dispW": 330,
+    "dispH": 83,
+    "_y": 1105,
+    "_x": 20,
+    "comp": "comp-mqzg69b6"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:25px; line-height:normal\"><span class=\"color_43\"><span style=\"font-size:25px\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\"><span style=\"text-decoration:underline\"><a dataquery=\"#textLink_mqzgerel\">Stanley Cup Final &ndash; ESPN AR Graphics</a></span></span></span></span></span></p>",
+    "dispW": 589,
+    "dispH": 31,
+    "_y": 1131,
+    "_x": 401,
+    "comp": "comp-mqzg69b65"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">Designed and operated augmented reality graphics for the six-game Stanley Cup Final (Carolina Hurricanes vs. Vegas Golden Knights) in collaboration with ESPN. Delivered bespoke AR visuals including a Vegas-themed virtual camera flight that transitioned seamlessly from a fully CG environment into a live tracked shot in real time.</span></span></span></p>",
+    "dispW": 561,
+    "dispH": 89,
+    "_y": 1189,
+    "_x": 231,
+    "comp": "comp-mqzg69bk8"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f66aca1e548a49f3be7808d2d4762809~mv2.png",
+    "w": 2215,
+    "h": 1246,
+    "alt": "HighresScreenshot00020 (1).png",
+    "dispW": 600,
+    "dispH": 338,
+    "_y": 1304,
+    "_x": 11,
+    "comp": "comp-mqzghy84"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c05308a70a774b72a231380b06c0d349~mv2.png",
+    "w": 1084,
+    "h": 869,
+    "alt": "image (38).png",
+    "dispW": 439,
+    "dispH": 338,
+    "_y": 1304,
+    "_x": 550,
+    "comp": "comp-mqzghy7z"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2903e5ad6783466f87851691255e97da~mv2.png",
+    "w": 1920,
+    "h": 1000,
+    "alt": "HighresScreenshot00005.png",
+    "dispW": 566,
+    "dispH": 296,
+    "_y": 1652,
+    "_x": -38,
+    "comp": "comp-mqzghy87"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_bdccc89a9f224019a57bb5da47e0ea0c~mv2.png",
+    "w": 1920,
+    "h": 1000,
+    "alt": "HighresScreenshot00004.png",
+    "dispW": 469,
+    "dispH": 287,
+    "_y": 1661,
+    "_x": 521,
+    "comp": "comp-mqzghy871"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ec7673872add41a68bb38dce7c707a32~mv2.png",
+    "w": 1920,
+    "h": 968,
+    "alt": "HighresScreenshot00017.png",
+    "dispW": 516,
+    "dispH": 258,
+    "_y": 1948,
+    "_x": 11,
+    "comp": "comp-mqzghy861"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_950a415ac45b4393a7c9c26ddc667042~mv2.png",
+    "w": 1920,
+    "h": 1080,
+    "alt": "Bellagio_02.png",
+    "dispW": 462,
+    "dispH": 258,
+    "_y": 1948,
+    "_x": 528,
+    "comp": "comp-mqzghy85"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a662cdcd4a154b319caba033cab63f2f~mv2.png",
+    "w": 1494,
+    "h": 875,
+    "alt": "image (34).png",
+    "dispW": 475,
+    "dispH": 293,
+    "_y": 2207,
+    "_x": 11,
+    "comp": "comp-mqzghy811"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_11c0c590ec1642c588dfc11513b6c68d~mv2.png",
+    "w": 1447,
+    "h": 832,
+    "alt": "image (39).png",
+    "dispW": 503,
+    "dispH": 293,
+    "_y": 2207,
+    "_x": 487,
+    "comp": "comp-mqzghy7y1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_679f7e7a1197441dafe33638cbb20581~mv2.png",
+    "w": 1352,
+    "h": 891,
+    "alt": "image (31).png",
+    "dispW": 421,
+    "dispH": 276,
+    "_y": 2500,
+    "_x": 11,
+    "comp": "comp-mqzghy821"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6c1f65ab632d4e1ab10c39bbb0b669ee~mv2.png",
+    "w": 1854,
+    "h": 914,
+    "alt": "image (30).png",
+    "dispW": 558,
+    "dispH": 276,
+    "_y": 2500,
+    "_x": 431,
+    "comp": "comp-mqzghy83"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7a2e3e06738f4a478179c4cabab35fe2~mv2.png",
+    "w": 1909,
+    "h": 1028,
+    "alt": "image (41).png",
+    "dispW": 600,
+    "dispH": 323,
+    "_y": 2748,
+    "_x": 11,
+    "comp": "comp-mqzghy7y"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_1e2defd6d7aa40e498bf0054db2cb0b2~mv2.png",
+    "w": 1085,
+    "h": 809,
+    "alt": "image (43).png",
+    "dispW": 399,
+    "dispH": 293,
+    "_y": 2769,
+    "_x": 595,
+    "comp": "comp-mqzghy7w"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2c1c4eb2789347b49bede66916cfc517~mv2.png",
+    "w": 1184,
+    "h": 919,
+    "alt": "image (35).png",
+    "dispW": 478,
+    "dispH": 365,
+    "_y": 3063,
+    "_x": 11,
+    "comp": "comp-mqzghy801"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_29597278a0e84509b5c9333fc6d94b59~mv2.png",
+    "w": 1236,
+    "h": 923,
+    "alt": "image (36).png",
+    "dispW": 527,
+    "dispH": 395,
+    "_y": 3063,
+    "_x": 463,
+    "comp": "comp-mqzghy80"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_19c2fce48433421cbb0ba6e8b12e3c33~mv2.png",
+    "w": 1920,
+    "h": 907,
+    "alt": "HighresScreenshot00020.png",
+    "dispW": 522,
+    "dispH": 237,
+    "_y": 3434,
+    "_x": 16,
+    "comp": "comp-mqzghy841"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_811c1c3b7c894a5f84981e4431e15385~mv2.png",
+    "w": 1920,
+    "h": 907,
+    "alt": "HighresScreenshot00021.png",
+    "dispW": 506,
+    "dispH": 237,
+    "_y": 3434,
+    "_x": 489,
+    "comp": "comp-mqzghy831"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_3585a1f2d1a6449eb3cb0ce636898663~mv2.png",
+    "w": 1184,
+    "h": 898,
+    "alt": "image (33).png",
+    "dispW": 494,
+    "dispH": 375,
+    "_y": 3664,
+    "_x": 11,
+    "comp": "comp-mqzghy81"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_454dc47813044464b3e571146013ce87~mv2.png",
+    "w": 1151,
+    "h": 888,
+    "alt": "image (32).png",
+    "dispW": 484,
+    "dispH": 375,
+    "_y": 3664,
+    "_x": 506,
+    "comp": "comp-mqzghy82"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_89c1a745b96f44979aa72e6b7aa571d9~mv2.png",
+    "w": 1060,
+    "h": 926,
+    "alt": "image (42).png",
+    "dispW": 529,
+    "dispH": 463,
+    "_y": 4040,
+    "_x": 11,
+    "comp": "comp-mqzghy7x"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_64a53f60460549679b825d5fd2f67939~mv2.png",
+    "w": 809,
+    "h": 786,
+    "alt": "image (44).png",
+    "dispW": 475,
+    "dispH": 463,
+    "_y": 4040,
+    "_x": 514,
+    "comp": "comp-mqzghy86"
+   }
+  ]
+ },
+ "fullscreen-page": {
+  "uri": "fullscreen-page",
+  "title": "Fullscreen Page",
+  "blocks": []
+ },
+ "viking": {
+  "uri": "viking",
+  "title": "Viking",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_78d98911985749fa9f4e91fc7258a30a",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-memphk8o1",
+    "dispW": 979,
+    "dispH": 549,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mempf8j0"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_55af26657e2f4fb9b28d30cba63f1748~mv2.png",
+    "w": 600,
+    "h": 216,
+    "alt": "Screenshot_1.png",
+    "dispW": 980,
+    "dispH": 350,
+    "_y": 549,
+    "_x": 0,
+    "comp": "comp-mfcfn42j"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_42c74f9eb50f4a7094be9607449545ea~mv2.png",
+    "w": 600,
+    "h": 423,
+    "alt": "image.png",
+    "dispW": 404,
+    "dispH": 285,
+    "_y": 899,
+    "_x": 0,
+    "comp": "comp-mfcfkrbm"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">Link : https://www.therookies.co/entries/27474</span></span></span></p>",
+    "dispW": 325,
+    "dispH": 19,
+    "_y": 1006,
+    "_x": 500,
+    "comp": "comp-mfcfpken"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">&nbsp; My project earned Rank A at the Rookie Awards 2024, an international competition celebrating emerging creative talent.</span></span></span></p>",
+    "dispW": 561,
+    "dispH": 38,
+    "_y": 1059,
+    "_x": 411,
+    "comp": "comp-mfcfoq8x"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:25px; line-height:normal\"><span style=\"font-size:25px\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">Lookdev Character - &nbsp;Female Viking</span></span></span></span></p>",
+    "dispW": 510,
+    "dispH": 30,
+    "_y": 1239,
+    "_x": 264,
+    "comp": "comp-mfcjzqfj"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">I made this female Viking character based on 2D concept art. Reference: HE XIAOSONG</span></span></p>",
+    "dispW": 612,
+    "dispH": 19,
+    "_y": 1318,
+    "_x": 176,
+    "comp": "comp-mfcjzqfm"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_3e4d97b54f94472c84d060cbc852b412~mv2.jpg",
+    "w": 5000,
+    "h": 3500,
+    "alt": "closeupfixedit.jpg",
+    "dispW": 979,
+    "dispH": 682,
+    "_y": 1393,
+    "_x": 0,
+    "comp": "comp-memq2pxy"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_1df9a80403fa435f9f82f613584862cc~mv2.jpg",
+    "w": 5000,
+    "h": 3500,
+    "alt": "lowweredit.jpg",
+    "dispW": 979,
+    "dispH": 682,
+    "_y": 2075,
+    "_x": 0,
+    "comp": "comp-memq2py1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_36b4205163904ba385af2e3368171c12~mv2.jpg",
+    "w": 5000,
+    "h": 3500,
+    "alt": "003.jpg",
+    "dispW": 979,
+    "dispH": 682,
+    "_y": 2757,
+    "_x": 0,
+    "comp": "comp-memq2py5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7001914d036e40cb86a73ce5f7b072e6~mv2.jpg",
+    "w": 5000,
+    "h": 3500,
+    "alt": "closeup3bg.jpg",
+    "dispW": 979,
+    "dispH": 682,
+    "_y": 3439,
+    "_x": 0,
+    "comp": "comp-memq2py7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_fee2254824524c76a571e0f7557c907c~mv2.jpg",
+    "w": 3960,
+    "h": 2160,
+    "alt": "close_up (1).jpg",
+    "dispW": 979,
+    "dispH": 531,
+    "_y": 4121,
+    "_x": 0,
+    "comp": "comp-memq2py8"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f8fed9406ad44ae68ebe7d14e5ade1ac~mv2.jpg",
+    "w": 5000,
+    "h": 3500,
+    "alt": "below.jpg",
+    "dispW": 979,
+    "dispH": 682,
+    "_y": 4652,
+    "_x": 0,
+    "comp": "comp-memq2py6"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_3909744c43c54794ab70a22349274d60~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_83e0e9898bc34d8ca38b3ad2ed1a487e~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_630a00ca6e4e4162840a175daa0b4689~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 979,
+    "dispH": 520,
+    "_y": 5334,
+    "_x": 1,
+    "comp": "comp-memqc4ss"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_cf64c82f26dd47799e68859cd4bcc600~mv2.jpg",
+    "w": 1920,
+    "h": 1080,
+    "alt": "PROPS2.jpg",
+    "dispW": 979,
+    "dispH": 549,
+    "_y": 5855,
+    "_x": 0,
+    "comp": "comp-memq2py4"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size: 25px; line-height: normal;\"><span style=\"font-size:25px;\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">My Reference Board</span></span></span></span></p>",
+    "dispW": 385,
+    "dispH": 30,
+    "_y": 6404,
+    "_x": 81,
+    "comp": "comp-mfcfu4yw"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_e7dbbae82e8c43ebbe5ef9347d8a989a~mv2.png",
+    "w": 1237,
+    "h": 689,
+    "alt": "download.png",
+    "dispW": 600,
+    "dispH": 334,
+    "_y": 6476,
+    "_x": 190,
+    "comp": "comp-mfcftrim"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size: 25px; line-height: normal;\"><span style=\"font-size:25px;\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">Sculpting Process</span></span></span></span></p>",
+    "dispW": 385,
+    "dispH": 30,
+    "_y": 6837,
+    "_x": 95,
+    "comp": "comp-mfcfuzsl"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height: normal;\"><span style=\"color:#FFFFFF;\"><span style=\"letter-spacing:normal;\">&nbsp; &nbsp;I started from creating characters face by Zbrush. For her face, I used the face of an actor as reference to make her look gorgeous and fierce. I also used Zwarp techniques for adding skin details from 3d scan.</span></span></p>",
+    "dispW": 703,
+    "dispH": 57,
+    "_y": 6888,
+    "_x": 95,
+    "comp": "comp-mfcfw2ls"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_41ecec5e334843c78d0feffa431b9cf8~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "image.png",
+    "dispW": 600,
+    "dispH": 337,
+    "_y": 6993,
+    "_x": 190,
+    "comp": "comp-mfcg1yrc"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_ed604d0890394487bd5ce615c6a5268f~mv2.jpg",
+      "w": 1920,
+      "h": 3641,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_3fb9d66b8f87492ca9bcca22b7c01fdd~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_8ce9abc8cf654fdc871ac1f3a82e1bdd~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_3334c42e06c349b3b9edcc693831e6db~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_b30794ec29ba407785710b5b860e7f97~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_d79891291ea74902bff168231d3f6960~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_1b4b23fb4f2e4deb8eecff469be2ef01~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_f59d6d62c989415c8be7729fa4af3ec2~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_954aa1f6d58745998f1f61ccdd483012~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_d75a1f93bd00434d94849acb5eb854f2~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_cf321022d89b496eab2ae5f119d4be8d~mv2.jpg",
+      "w": 1920,
+      "h": 1920,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 385,
+    "_y": 7336,
+    "_x": 0,
+    "comp": "comp-mfcg5jqb"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">I made body and props in Zbrush and Maya. Clothing was done in Marvelous Designer.</span></span></p>",
+    "dispW": 703,
+    "dispH": 19,
+    "_y": 7745,
+    "_x": 175,
+    "comp": "comp-mfcgeeql"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_0619ee7dc09941f8af5957b40a4aa6d0~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_0f87c0fdfabb4390ac2abf8727fc6552~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_6178b781bad142a3af9c5e7df716b15f~mv2.jpg",
+      "w": 1920,
+      "h": 1080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_f9e052cbc5b44b6caf8ecf40aa11030b~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 340,
+    "_y": 7783,
+    "_x": 0,
+    "comp": "comp-mfcgb5k8"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:25px; line-height:normal\"><span style=\"font-size:25px\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">Hair and Fur</span></span></span></span></p>",
+    "dispW": 385,
+    "dispH": 30,
+    "_y": 8155,
+    "_x": 18,
+    "comp": "comp-mfcggf2q"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">&nbsp; &nbsp;Xgen is one of the time consuming process. I created 4 separated descriptions which are side hair, main hair, braid and fur for easy control. I also made a few tests with modifiers to create the best result.</span></span></p>",
+    "dispW": 952,
+    "dispH": 38,
+    "_y": 8199,
+    "_x": 18,
+    "comp": "comp-mfcgfuwl"
+   },
+   {
+    "type": "gallery",
+    "kind": "TPA3DCarousel",
+    "items": [
+     {
+      "uri": "1c9294_e5df465b19a749c99731290173dded6e~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "Screenshot (527)-Napat"
+     },
+     {
+      "uri": "1c9294_6fce1f0ca63c4753ba693c76d9f4edf5~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "Screenshot (528)-Napat"
+     },
+     {
+      "uri": "1c9294_ee2600f715374929be1645c1ace618cb~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "Screenshot (521)-Napat"
+     },
+     {
+      "uri": "1c9294_a848537419404700846f0212c1c797ee~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "Screenshot (522)-Napat"
+     },
+     {
+      "uri": "1c9294_aa801cbffb584ed384689f43ccd68c68~mv2.webp",
+      "w": 1920,
+      "h": 1080,
+      "title": "Screenshot (523)-Napat"
+     },
+     {
+      "uri": "1c9294_a44d67f6f91e45b3adfce487e212b002~mv2.webp",
+      "w": 496,
+      "h": 389,
+      "title": "eds-Napat"
+     }
+    ],
+    "dispW": 980,
+    "dispH": 401,
+    "_y": 8248,
+    "_x": 0,
+    "comp": "comp-mfcgknzl"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c7983d630fc5438f8d35d319164a01d5~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "memmo3d-screenshot-542.jpg",
+    "dispW": 490,
+    "dispH": 279,
+    "_y": 8584,
+    "_x": 0,
+    "comp": "comp-mfcgn5sr"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6af7ff8c95ee4a80b1f68bfa4442ec77~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "Screenshot_2.png",
+    "dispW": 490,
+    "dispH": 279,
+    "_y": 8584,
+    "_x": 490,
+    "comp": "comp-mfcgox9j"
+   },
+   {
+    "type": "gallery",
+    "kind": "TPA3DCarousel",
+    "items": [
+     {
+      "uri": "1c9294_ee1074b5ee6f425fbf5233ca27eac802~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "albedo"
+     },
+     {
+      "uri": "1c9294_3093c17023cb4b52ba905b1693df64df~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "sss"
+     },
+     {
+      "uri": "1c9294_19db995a15c049f09c5cb97099491d27~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "specular"
+     },
+     {
+      "uri": "1c9294_3c6d4bdc59a74b4e8bb9b202d3801f01~mv2.jpg",
+      "w": 5000,
+      "h": 3500,
+      "title": "specular_indirect"
+     },
+     {
+      "uri": "1c9294_cff15aa5a16740d0b12e7cb38bc0fe77~mv2.jpg",
+      "w": 1920,
+      "h": 1080,
+      "title": "wirdfame"
+     }
+    ],
+    "dispW": 980,
+    "dispH": 401,
+    "_y": 8868,
+    "_x": 0,
+    "comp": "comp-mfcgrfq9"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:25px; line-height:normal\"><span style=\"font-size:25px\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">AOV Part</span></span></span></span></p>",
+    "dispW": 112,
+    "dispH": 30,
+    "_y": 9238,
+    "_x": 434,
+    "comp": "comp-mfcgtwbw"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_ea259a42baad42568f11c4adb758a208~mv2.png",
+      "w": 1629,
+      "h": 881,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_4a16a5c93514440fbb1522abe41521de~mv2.png",
+      "w": 1631,
+      "h": 888,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_e5e5c2cccab147ad914182a3b8b684cd~mv2.png",
+      "w": 1632,
+      "h": 889,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_278c174433ec42ff85c8db7fcb1b371e~mv2.png",
+      "w": 1633,
+      "h": 882,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 375,
+    "_y": 9289,
+    "_x": 0,
+    "comp": "comp-mfcgywev"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:25px; line-height:normal\"><span style=\"font-size:25px\"><span style=\"font-weight:bold\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">lighting and Rendering</span></span></span></span></p>",
+    "dispW": 385,
+    "dispH": 30,
+    "_y": 9684,
+    "_x": 14,
+    "comp": "comp-mfch206y"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">Lighting and rendering were done in Maya.</span></span></p>",
+    "dispW": 952,
+    "dispH": 19,
+    "_y": 9717,
+    "_x": 14,
+    "comp": "comp-mfch1f6h"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_30e6bf7b0bc44c6b9b4356ce04bd80da~mv2.png",
+    "w": 600,
+    "h": 290,
+    "alt": "image.png",
+    "dispW": 980,
+    "dispH": 474,
+    "_y": 9756,
+    "_x": 0,
+    "comp": "comp-mfch2omz"
+   }
+  ]
+ },
+ "life-of-the-buddha": {
+  "uri": "life-of-the-buddha",
+  "title": "Life of the Buddha",
+  "blocks": [
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_0\" style=\"font-size:40px; text-align:center\"><span style=\"font-size:40px\">Life of the Buddha</span></h2>",
+    "dispW": 980,
+    "dispH": 67,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mesd733v3"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_7\" style=\"font-size:13px; line-height:1.8em; text-align:center\"><span style=\"font-size:13px\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">An 3D film introducing the life of the Buddha, showing his journey to enlightenment. This was one of the projects I contributed to during my time at Undeclared Variable.</span></span></span></p>",
+    "dispW": 975,
+    "dispH": 23,
+    "_y": 62,
+    "_x": 2,
+    "comp": "comp-mesd733w5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c955ed9c5986474198db4db089f4b748~mv2.png",
+    "w": 600,
+    "h": 600,
+    "alt": "image.png",
+    "dispW": 152,
+    "dispH": 151,
+    "_y": 106,
+    "_x": 19,
+    "comp": "comp-mesd733o3"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:13px; text-align:center\"><span style=\"font-size:13px\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\">Life of the Buddha</span><br />\nThis project involved creating an animation of the Buddha&rsquo;s life, depicting how an ordinary human overcame afflictions and attained enlightenment. Developed using </span><span class=\"color_41\">Unreal Engine 5</span><span style=\"color:#FFFFFF\">, I contributed to:</span></span></p>\n\n<ul class=\"font_8\" style=\"color:rgb(255, 255, 255); font-size:13px; text-align:left\">\n\t<li>\n\t<p class=\"font_8\" style=\"font-size:13px\"><span style=\"font-size:13px\"><span style=\"color:#FFFFFF\">Character creation</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\" style=\"font-size:13px\"><span style=\"font-size:13px\"><span style=\"color:#FFFFFF\">Fabric simulation</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\" style=\"font-size:13px\"><span style=\"font-size:13px\"><span style=\"color:#FFFFFF\">Texturing</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\" style=\"font-size:13px\"><span style=\"font-size:13px\"><span style=\"color:#FFFFFF\">Prop development</span></span><br />\n\t&nbsp;</p>\n\t</li>\n</ul>",
+    "dispW": 761,
+    "dispH": 151,
+    "_y": 106,
+    "_x": 185,
+    "comp": "comp-mesd733p5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b1cb0e23692e4e8e9d1dcc3354be9268~mv2.jpg",
+    "w": 720,
+    "h": 888,
+    "alt": "45e7a279b94e79d6c9acb55aa292d20f.jpg",
+    "dispW": 152,
+    "dispH": 189,
+    "_y": 257,
+    "_x": 19,
+    "comp": "comp-mesen3su"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:13px; line-height:1.5em; text-align:center\"><span style=\"color:#FFFFFF\"><span style=\"font-size:13px\"><span style=\"font-weight:bold\">About : Fo Guang Shan Buddha Museum</span><br />\nFo Guang Shan Buddha Museum is one of the largest Buddhist cultural complexes in the world, home to the 108-meter Fo Guang Big Buddha. Located in Kaohsiung, Taiwan, the museum blends tradition and modernity, serving as a center for culture, education, and spiritual cultivation, while enshrining the Buddha&rsquo;s tooth relic as a symbol of compassion and wisdom.</span></span></p>\n\n<p class=\"font_8\" style=\"font-size:13px; text-align:center\"><span style=\"color:#FFFFFF\"><span style=\"font-size:13px\"><span>​</span></span></span></p>",
+    "dispW": 761,
+    "dispH": 151,
+    "_y": 289,
+    "_x": 185,
+    "comp": "comp-mesd733r2"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_7\" style=\"font-size:14px; line-height:1.8em; text-align:center\"><span style=\"font-size:14px\"><span style=\"color:#DC0202\"><span style=\"letter-spacing:normal\">*For job application use only. Public distribution is strictly prohibited.</span></span></span></p>",
+    "dispW": 817,
+    "dispH": 25,
+    "_y": 415,
+    "_x": 142,
+    "comp": "comp-mesd9r7f"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_8729c6f354fa48e5bbda1f6aa0f2a441",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-memgfmn92",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 460,
+    "_x": 0,
+    "comp": "comp-memgf9c7"
+   },
+   {
+    "type": "button",
+    "label": "View More",
+    "link": {
+     "page": "youngprince"
+    },
+    "dispW": 142,
+    "dispH": 42,
+    "_y": 812,
+    "_x": 419,
+    "comp": "comp-memgf9cn3"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_653ad427300f488894b95245b45c6658",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-memcum521",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 873,
+    "_x": 0,
+    "comp": "comp-memcjtvn"
+   },
+   {
+    "type": "button",
+    "label": "View More",
+    "link": {
+     "page": "mara-daughters"
+    },
+    "dispW": 142,
+    "dispH": 42,
+    "_y": 1206,
+    "_x": 419,
+    "comp": "comp-memgkl4a"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_4824a9dd6bf946a58864f748d7839ed2",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-memgguxd2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 1286,
+    "_x": 0,
+    "comp": "comp-memgg9lm"
+   },
+   {
+    "type": "button",
+    "label": "View More",
+    "link": {
+     "page": "baby-buddha-queen-servants"
+    },
+    "dispW": 142,
+    "dispH": 42,
+    "_y": 1619,
+    "_x": 419,
+    "comp": "comp-memglzjy"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_3550bbdc8dfb43c8b253b2e46f126e4e",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-memdcjcq2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 1699,
+    "_x": 0,
+    "comp": "comp-memdbfos"
+   },
+   {
+    "type": "button",
+    "label": "View More",
+    "link": {
+     "page": "shepherdress"
+    },
+    "dispW": 142,
+    "dispH": 42,
+    "_y": 2032,
+    "_x": 419,
+    "comp": "comp-memgll7f"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_15d187097e2f4f139de7ec102c1bfbaa",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-memfc5u82",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 2112,
+    "_x": 0,
+    "comp": "comp-memfad4i"
+   },
+   {
+    "type": "button",
+    "label": "View More",
+    "link": {
+     "page": "king-bimbisara-healthy-buddha"
+    },
+    "dispW": 142,
+    "dispH": 42,
+    "_y": 2439,
+    "_x": 419,
+    "comp": "comp-memgph9r"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2d6c117399f841cb94cb5086f822b497~mv2.jpg",
+    "w": 4820,
+    "h": 1080,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 2525,
+    "_x": 0,
+    "comp": "comp-memforgr"
+   },
+   {
+    "type": "button",
+    "label": "View More",
+    "link": {
+     "page": "commoner"
+    },
+    "dispW": 142,
+    "dispH": 42,
+    "_y": 2867,
+    "_x": 419,
+    "comp": "comp-memgr2y2"
+   }
+  ]
+ },
+ "commoner": {
+  "uri": "commoner",
+  "title": "Commoner",
+  "blocks": [
+   {
+    "type": "image",
+    "uri": "1c9294_2d6c117399f841cb94cb5086f822b497~mv2.jpg",
+    "w": 4820,
+    "h": 1080,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 525,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mfcbj3l5"
+   },
+   {
+    "type": "button",
+    "label": "Up",
+    "link": {
+     "page": "life-of-the-buddha"
+    },
+    "dispW": 47,
+    "dispH": 47,
+    "_y": 10,
+    "_x": 21,
+    "comp": "comp-mfceks62"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"color:#000000\"><span style=\"font-size:39px\">Commoner</span></span></span><br />\n<span style=\"color:#000000\"><span style=\"font-weight:bold\"><span style=\"font-size:15px\">Character Contributions</span></span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 76,
+    "_y": 563,
+    "_x": 190,
+    "comp": "comp-mfcd2082"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">● Cloth sim in Marvelous Designer<br />\n● Basic rig setup&nbsp;<br />\n● Texturing</span></span></span></h2>",
+    "dispW": 397,
+    "dispH": 86,
+    "_y": 658,
+    "_x": 323,
+    "comp": "comp-mfcczrxf"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9c3b1cdb70d34f1ab743c9610dc16fbf~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile.jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 749,
+    "_x": 360,
+    "comp": "comp-mfm9226z2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_796419f9ff0f472b893183c34c4675b9~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "ue-logo-1400x788-1400x788-8f185e1e3635.jpg",
+    "dispW": 84,
+    "dispH": 48,
+    "_y": 749,
+    "_x": 396,
+    "comp": "comp-mfm9226y1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6db99624fb8f459492a1dd786b5c6e9b~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile (1).jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 749,
+    "_x": 466,
+    "comp": "comp-mfm92270"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7d385643b08343fab93468aa0f13799d~mv2.png",
+    "w": 512,
+    "h": 512,
+    "alt": "5968543.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 749,
+    "_x": 517,
+    "comp": "comp-mfm922705"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9e372e20128a45f0b11f94bb626bedd0~mv2.png",
+    "w": 256,
+    "h": 256,
+    "alt": "autodesk-maya-lt-product-icon-1282x.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 750,
+    "_x": 569,
+    "comp": "comp-mfm92271"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_746036adbba048819c34aa28b3748634~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_61ed9c43ca5241d3a8aef2fd379470e1~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_264717315bfd4fd887f7f3f3a5b01e48~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_2033d54b8e01479396c14de302b88391~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_7223f35936d5415da702e9590076b525~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_ff33e227d59648b3891e8bc08df894ac~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_57987e953f1241eea648af6b2e34a84c~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_5ce1c03056ee4ad3be6aed2d8f372729~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 362,
+    "_y": 829,
+    "_x": 0,
+    "comp": "comp-mfcc1yyk"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_57b2bf9912bd4b2f943db32148157bbe~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_fc936d2f07bc4ee89184e7f6aa1a108d~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_0c1ab50a84fb46db8e553954b51a27b4~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_4bd83bf6645946758b825a8f5fc94fbc~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_1cd297df47d640e7aa30b4c203b26cec~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_0a87a3db540c448f847ad33c33d9e7c2~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 382,
+    "_y": 1232,
+    "_x": 0,
+    "comp": "comp-mfcc6v17"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_6d3f256f4e8940b5a10a347e7eafc83c~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_94a5025a11d94266a10dd83a699ad74c~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_b468f1cd917549b08f6193e76087736e~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_ef83410156354b4b887c0bbf0b32e43d~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_8793c74a5de5458b81c212b67f0907b8~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_42ec0ecadba44065908196fbc9b25c87~mv2.png",
+      "w": 1849,
+      "h": 1040,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 382,
+    "_y": 1646,
+    "_x": 0,
+    "comp": "comp-mfcccjxs"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a43708114383455ca8bb52b98defa45a~mv2.png",
+    "w": 1127,
+    "h": 841,
+    "alt": "",
+    "dispW": 301,
+    "dispH": 226,
+    "_y": 2078,
+    "_x": 0,
+    "comp": "comp-mfcbyrwl"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f22985517f594d8591bc80e16801a02e~mv2.jpg",
+    "w": 3000,
+    "h": 2000,
+    "alt": "",
+    "dispW": 340,
+    "dispH": 226,
+    "_y": 2078,
+    "_x": 301,
+    "comp": "comp-mfcbyrx2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_3ef2502ec1f143feae83073441dce025~mv2.jpg",
+    "w": 3000,
+    "h": 2000,
+    "alt": "",
+    "dispW": 340,
+    "dispH": 226,
+    "_y": 2078,
+    "_x": 640,
+    "comp": "comp-mfcbyrwz"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7f0f9b44762b467daa33ae654deec194~mv2.jpg",
+    "w": 1920,
+    "h": 1080,
+    "alt": "",
+    "dispW": 478,
+    "dispH": 273,
+    "_y": 2304,
+    "_x": 0,
+    "comp": "comp-mfcbyrx0"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_cb1a7c493aa540a19388d440971429ea~mv2.jpg",
+    "w": 5000,
+    "h": 2813,
+    "alt": "",
+    "dispW": 501,
+    "dispH": 273,
+    "_y": 2304,
+    "_x": 478,
+    "comp": "comp-mfcbyrwy"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f3e25d08a2314212b158d7657a2d55b9~mv2.jpg",
+    "w": 1920,
+    "h": 1080,
+    "alt": "1.jpg",
+    "dispW": 416,
+    "dispH": 231,
+    "_y": 2577,
+    "_x": 0,
+    "comp": "comp-mfccn6cf"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6c05a388a8be43e98d9c246a69dc61ef~mv2.jpg",
+    "w": 2960,
+    "h": 1360,
+    "alt": "3.jpg",
+    "dispW": 563,
+    "dispH": 231,
+    "_y": 2577,
+    "_x": 416,
+    "comp": "comp-mfcco1r3"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_93581548788542eeb17c7b4f28999377~mv2.png",
+    "w": 1234,
+    "h": 890,
+    "alt": "",
+    "dispW": 530,
+    "dispH": 377,
+    "_y": 2808,
+    "_x": 0,
+    "comp": "comp-mfcbyrwh"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_dd791205f841430886a4b835b0b1b944~mv2.png",
+    "w": 753,
+    "h": 636,
+    "alt": "",
+    "dispW": 450,
+    "dispH": 377,
+    "_y": 2808,
+    "_x": 530,
+    "comp": "comp-mfcbyrwj"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"color:#000000\"><span style=\"font-size:39px\">Nidhi</span></span></span><br />\n<span style=\"color:#000000\"><span style=\"font-weight:bold\"><span style=\"font-size:15px\">Character Contributions</span></span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 76,
+    "_y": 3260,
+    "_x": 190,
+    "comp": "comp-mfcej2r2"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"font-family:helvetica-w01-light,sans-serif; font-weight:normal\">\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Sculpted the face in ZBrush</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Created textures with Texture XYZ &amp; Substance 3D Painter</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Groomed hair using XGen</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Transferred rig with MetaPipes (Maya)</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Simulated cloth in Marvelous Designer</span></span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">Developed final look in Unreal Engine</span></span></p>\n\t</li>\n</ul>",
+    "dispW": 420,
+    "dispH": 126,
+    "_y": 3354,
+    "_x": 216,
+    "comp": "comp-mfcej2r6"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_b8239a13c18d4d58a6c2b55f86ec9290",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mfce2yaq1",
+    "dispW": 980,
+    "dispH": 548,
+    "_y": 3518,
+    "_x": 0,
+    "comp": "comp-mfce2i81"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_d4fdca745013427aa3a81544355bdaf2~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_5f2477770457444e8a9fdf7487317d2a~mv2.webp",
+      "w": 1089,
+      "h": 613,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_045695c968704a51a054b08c055113d6~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_f270c9e137d641399fce2b1c6bf2062e~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_917c2f02ce6b4f50acca9f884ed41491~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_61161cebb5cb4ce78c5e6d49bd85dc57~mv2.png",
+      "w": 3698,
+      "h": 2080,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 380,
+    "_y": 4123,
+    "_x": 0,
+    "comp": "comp-mfce94lw"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_81c9df1ed7114de4ae49c432d2d3eab2~mv2.webp",
+    "w": 1089,
+    "h": 613,
+    "alt": "HighresScreenshot00086.webp",
+    "dispW": 600,
+    "dispH": 338,
+    "_y": 4531,
+    "_x": 199,
+    "comp": "comp-mfce4qna"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c389e4094ee643b89dd6bd79a8a43e1b~mv2.jpg",
+    "w": 1920,
+    "h": 1080,
+    "alt": "ZBrush_Document3.jpg",
+    "dispW": 671,
+    "dispH": 375,
+    "_y": 4893,
+    "_x": 0,
+    "comp": "comp-mfce4qn1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ce8ba240e3fb43f3813cf3e6dda8889a~mv2.png",
+    "w": 488,
+    "h": 600,
+    "alt": "image2.png",
+    "dispW": 307,
+    "dispH": 375,
+    "_y": 4893,
+    "_x": 671,
+    "comp": "comp-mfce7bx6"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6db99624fb8f459492a1dd786b5c6e9b~mv2.jpg",
+    "w": 900,
+    "h": 900,
+    "alt": "channels4_profile (1).jpg",
+    "dispW": 59,
+    "dispH": 59,
+    "_y": 4893,
+    "_x": 671,
+    "comp": "comp-mfceeonz"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_64c819794ce94eac9c7dda1ede02d673~mv2.png",
+    "w": 668,
+    "h": 728,
+    "alt": "ximage03.png",
+    "dispW": 496,
+    "dispH": 541,
+    "_y": 5276,
+    "_x": 0,
+    "comp": "comp-mfce4qn4"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_8cd3676d689d428eac07a5e6a92af936~mv2.png",
+    "w": 694,
+    "h": 774,
+    "alt": "ximage04.png",
+    "dispW": 484,
+    "dispH": 541,
+    "_y": 5276,
+    "_x": 496,
+    "comp": "comp-mfce4qn3"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b72840789a6548dab3ca30172113ee03~mv2.png",
+    "w": 412,
+    "h": 122,
+    "alt": "image.png",
+    "dispW": 113,
+    "dispH": 33,
+    "_y": 5287,
+    "_x": 10,
+    "comp": "comp-mfcebn6m"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_4199b0cebc814332b0c958b901cafe48~mv2.png",
+    "w": 1437,
+    "h": 931,
+    "alt": "image.png",
+    "dispW": 479,
+    "dispH": 311,
+    "_y": 5834,
+    "_x": 0,
+    "comp": "comp-mfce4qn8"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_431d39ee440f4b7abf4a005fac577d13~mv2.png",
+    "w": 648,
+    "h": 820,
+    "alt": "image3.png",
+    "dispW": 245,
+    "dispH": 311,
+    "_y": 5834,
+    "_x": 479,
+    "comp": "comp-mfce4qn7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7170c6fb6c7d48e380808cc0665a8d6d~mv2.png",
+    "w": 1652,
+    "h": 2000,
+    "alt": "23.png",
+    "dispW": 256,
+    "dispH": 311,
+    "_y": 5834,
+    "_x": 724,
+    "comp": "comp-mfcecbon"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7d385643b08343fab93468aa0f13799d~mv2.png",
+    "w": 512,
+    "h": 512,
+    "alt": "5968543.png",
+    "dispW": 44,
+    "dispH": 44,
+    "_y": 5856,
+    "_x": 47,
+    "comp": "comp-mfcedi2j"
+   }
+  ]
+ },
+ "thai-army": {
+  "uri": "thai-army",
+  "title": "Thai-Army",
+  "blocks": [
+   {
+    "type": "image",
+    "uri": "1c9294_0c17110d6d324b74b3872fe0981f99bc~mv2.png",
+    "w": 3122,
+    "h": 1616,
+    "alt": "image.png",
+    "dispW": 575,
+    "dispH": 297,
+    "_y": 22,
+    "_x": 202,
+    "comp": "comp-mfe3my7r"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"font-size:29px; line-height:1.2em; text-align:center\"><span style=\"font-size:29px\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:0.15em\">Thai Army Pitching Project</span></span></span></h1>",
+    "dispW": 570,
+    "dispH": 35,
+    "_y": 341,
+    "_x": 211,
+    "comp": "comp-mfe419r0"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\">I was responsible for all cloth simulations and also contributed to modeling some of the props.</span></span></p>",
+    "dispW": 552,
+    "dispH": 42,
+    "_y": 392,
+    "_x": 220,
+    "comp": "comp-mfe419r2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_346308638de049baaa6d115d8c75a632~mv2.png",
+    "w": 1920,
+    "h": 1040,
+    "alt": "HighresScreenshot00007.png",
+    "dispW": 980,
+    "dispH": 531,
+    "_y": 454,
+    "_x": 0,
+    "comp": "comp-mfe3nyvi"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7ea40b1dc3594a88a251a6de36a58083~mv2.png",
+    "w": 1920,
+    "h": 1040,
+    "alt": "HighresScreenshot00008.png",
+    "dispW": 980,
+    "dispH": 531,
+    "_y": 973,
+    "_x": 0,
+    "comp": "comp-mfe3nyvk"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_df1a210483da41b282790ea3547c0022~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_01083f28f8ec42ca88a14d0e4829cc85~mv2.jpg",
+      "w": 2560,
+      "h": 1440,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_cac1e408d207422d8610b6503882e824~mv2.jpg",
+      "w": 2560,
+      "h": 1440,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_930dbcb0bf81401cac19cd9d6afbd586~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_efe49cf683dd46d783dcc34fd651060d~mv2.png",
+      "w": 1910,
+      "h": 950,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_6b76a45932b04e719500d0765a868109~mv2.png",
+      "w": 1754,
+      "h": 980,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_b959f33bd81d4f5dad33484cebf33f58~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_0e9940f8b3c8444fbe5cf63b3eb2483f~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 417,
+    "_y": 1539,
+    "_x": 0,
+    "comp": "comp-mfe3qy0p"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_881b8d3654c644bcaa5dcbe9cf771ef4~mv2.png",
+    "w": 592,
+    "h": 600,
+    "alt": "06.png",
+    "dispW": 361,
+    "dispH": 368,
+    "_y": 1987,
+    "_x": 155,
+    "comp": "comp-mfe3ut9w"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_dc095119bde9418dbad0b0591176c68a~mv2.png",
+    "w": 592,
+    "h": 600,
+    "alt": "05.png",
+    "dispW": 361,
+    "dispH": 368,
+    "_y": 1987,
+    "_x": 516,
+    "comp": "comp-mfe3ut9u"
+   },
+   {
+    "type": "gallery",
+    "kind": "TPA3DCarousel",
+    "items": [
+     {
+      "uri": "1c9294_df890ba0dd79486aad2e465e99881b6e~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "title": "08"
+     },
+     {
+      "uri": "1c9294_8cd86a1b30554336b3b87de262f23c2f~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "title": "09"
+     },
+     {
+      "uri": "1c9294_fb8c936a4d1b4333b8eac4bd5df5a617~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "title": "10"
+     },
+     {
+      "uri": "1c9294_f836e829dca444c58a13617f6b7beabd~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "title": "12"
+     },
+     {
+      "uri": "1c9294_60ee0af53f5a4cac9bd2fa7f3d97eb48~mv2.png",
+      "w": 1920,
+      "h": 1080,
+      "title": "11"
+     }
+    ],
+    "dispW": 979,
+    "dispH": 401,
+    "_y": 2373,
+    "_x": 1,
+    "comp": "comp-mfe3x9wr"
+   }
+  ]
+ },
+ "hong-kong-pitching-project": {
+  "uri": "hong-kong-pitching-project",
+  "title": "Hong Kong Pitching Project",
+  "blocks": [
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height: 1.2em; text-align: center; font-size: 33px;\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"color:#000000\"><span style=\"font-size:33px;\">Hong Kong Pitching Project</span></span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 40,
+    "_y": 42,
+    "_x": 190,
+    "comp": "comp-mfm8l8oy"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"font-weight:normal\"><span style=\"font-family:helvetica-w01-light,sans-serif\">&nbsp;A showcase project developed to simulate an immersive light, sound, and visual experience in Hong Kong, built with Unreal Engine 5.</span></span></p>",
+    "dispW": 557,
+    "dispH": 42,
+    "_y": 111,
+    "_x": 211,
+    "comp": "comp-mfm8l8p0"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_cceb6db98d644940887b2bd4e28a7e67",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mfm7x1vc1",
+    "dispW": 974,
+    "dispH": 548,
+    "_y": 193,
+    "_x": 6,
+    "comp": "comp-mfm7wjnm"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_b6127098ea2d469185cd68fa92efd355",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mfm7xtjt1",
+    "dispW": 980,
+    "dispH": 550,
+    "_y": 1145,
+    "_x": 0,
+    "comp": "comp-mfm7xh6m"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_2a80bdf663b844fcb13b961788e59c66~mv2.png",
+    "w": 2875,
+    "h": 692,
+    "alt": "image.png",
+    "dispW": 980,
+    "dispH": 233,
+    "_y": 2118,
+    "_x": 0,
+    "comp": "comp-mfm86owi"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_994af9dc7f014236994a9cb64938ad41~mv2.png",
+    "w": 2560,
+    "h": 1400,
+    "alt": "HighresScreenshot00028.png",
+    "dispW": 358,
+    "dispH": 196,
+    "_y": 2351,
+    "_x": 0,
+    "comp": "comp-mfm86owk"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7ba4c566acad41039044649fde0410a2~mv2.png",
+    "w": 2560,
+    "h": 1400,
+    "alt": "HighresScreenshot00010.png",
+    "dispW": 358,
+    "dispH": 196,
+    "_y": 2351,
+    "_x": 306,
+    "comp": "comp-mfm86own"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_324962b5ec4c480ea564ebcddc1d8725~mv2.png",
+    "w": 2560,
+    "h": 1400,
+    "alt": "HighresScreenshot00012.png",
+    "dispW": 358,
+    "dispH": 196,
+    "_y": 2351,
+    "_x": 622,
+    "comp": "comp-mfm86owl"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_e77157ec9d8b4394af24ce1631213b08~mv2.png",
+    "w": 1920,
+    "h": 1040,
+    "alt": "HighresScreenshot00009.png",
+    "dispW": 490,
+    "dispH": 265,
+    "_y": 2547,
+    "_x": 0,
+    "comp": "comp-mfm88a1h"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b66213d21ab84f9f9ceac5c34c4ac0f9~mv2.png",
+    "w": 1920,
+    "h": 1040,
+    "alt": "HighresScreenshot00006.png",
+    "dispW": 490,
+    "dispH": 265,
+    "_y": 2547,
+    "_x": 490,
+    "comp": "comp-mfm88a1j"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_e7cde5125fb0445dbe5acdf4c4fcb06c",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mfm8bht41",
+    "dispW": 980,
+    "dispH": 550,
+    "_y": 2802,
+    "_x": 0,
+    "comp": "comp-mfm898ug"
+   }
+  ]
+ },
+ "my-cv": {
+  "uri": "my-cv",
+  "title": "MY CV",
+  "blocks": [
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_2\" style=\"font-size: 39px;\"><span style=\"font-size:39px;\"><span style=\"font-weight:normal\"><span style=\"font-family:roboto-bold,roboto,sans-serif\">Napat Tavatnantachai</span></span></span></h2>",
+    "dispW": 450,
+    "dispH": 56,
+    "_y": 54,
+    "_x": 20,
+    "comp": "comp-mi5qkxvt"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size: 18px;\"><span style=\"font-size:18px;\">138/40 Prasertmanukit Road, Jorakebua, Ladprow, Bangkok 10230, Thailand </span></p>\n\n<p class=\"font_8\" style=\"font-size: 18px;\"><span style=\"font-size:18px;\">+6688-091-6068 &bull; napat.tavatnantachai@gmail.com</span></p>\n\n<p class=\"font_8\" style=\"font-size: 18px;\"><span style=\"font-size:18px;\">&bull; http://linkedin.com/in/napat-tavatnantachai-9a7485259</span></p>",
+    "dispW": 929,
+    "dispH": 76,
+    "_y": 121,
+    "_x": 20,
+    "comp": "comp-mi5qjoyq"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_2\"><span style=\"font-weight:normal\"><span style=\"font-family:roboto-bold,roboto,sans-serif\">Career Objective</span></span></h2>",
+    "dispW": 450,
+    "dispH": 39,
+    "_y": 246,
+    "_x": 20,
+    "comp": "comp-mi5qgwtm"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:18px\"><span style=\"font-size:18px\">A highly motivated and dedicated professional with strong background in computer graphics and practical experience in CGI, looking for an opportunity to work for a well known CGI company, and to ultimately be recognized as an innovative 3D artist.</span></p>",
+    "dispW": 929,
+    "dispH": 76,
+    "_y": 302,
+    "_x": 20,
+    "comp": "comp-mi5qlcba"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_2\"><span style=\"font-weight:normal\"><span style=\"font-family:roboto-bold,roboto,sans-serif\">Skill</span></span></h2>",
+    "dispW": 450,
+    "dispH": 39,
+    "_y": 422,
+    "_x": 20,
+    "comp": "comp-mi5qm3wq"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:18px\"><span style=\"font-size:18px\"><span style=\"font-weight:bold\">Computer Graphics Skills:</span> &bull; 2D Digital Painting &bull; Character Modeling &bull; Hard Surface Modeling&nbsp;<br />\n&bull; 3D Modeling and Texturing &bull; Environment Modeling &bull; Lighting &amp; Rendering &bull; Compositing &bull; Animation<br />\n&bull; Visual Effects<br />\n<span style=\"font-weight:bold\">Computer Graphic Software Skills:</span> &bull; Autodesk Maya &bull; Blender &bull; ZBrush &bull; MARI &bull; Adobe Substance 3D Painter &bull;Unreal Engine &nbsp;&bull; Marvelous Designer &bull; Nuke &bull; Photoshop &bull; Adobe Illustrator &bull; Adobe Premiere Pro<br />\nOther Software Skills: &bull; MS Office &bull; Emails &bull; Social Networking Skills<br />\nSoft Skills: &bull; Communication Skill &bull; Observation Skill &bull; Analytical Skill &bull; Problem Solving &bull; Project Management<br />\n<span style=\"font-weight:bold\">Language Skills:</span> &bull; English &bull; Thai</span></p>",
+    "dispW": 929,
+    "dispH": 202,
+    "_y": 478,
+    "_x": 20,
+    "comp": "comp-mi5qm3ws"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_2\"><span style=\"font-weight:normal\"><span style=\"font-family:roboto-bold,roboto,sans-serif\">Work Experience</span></span></h2>",
+    "dispW": 450,
+    "dispH": 39,
+    "_y": 727,
+    "_x": 20,
+    "comp": "comp-mi5qnr9i"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\">&bull; Freelance in 3D modeling for Metaverse applications, gaming, film, and advertising Thailand</p>\n\n<p class=\"font_8\">June 2021 &ndash; Present</p>\n\n<p class=\"font_8\">&nbsp;</p>\n\n<p class=\"font_8\">&bull; Undeclared Variable &mdash; Australia</p>\n\n<p class=\"font_8\">Aug 2023 &ndash; Present</p>\n\n<p class=\"font_8\">&nbsp;</p>\n\n<p class=\"font_8\">&bull; Real Bangkok / Fkoffduty &mdash; Freelance 3D Modeler &mdash; Thailand</p>\n\n<p class=\"font_8\">Jan 2024 &ndash; Present</p>\n\n<p class=\"font_8\">&nbsp;</p>\n\n<p class=\"font_8\">&bull; Part-time Instructor,Sripatum University &mdash;Thailand&nbsp;</p>\n\n<p class=\"font_8\">Aug 2024 &ndash; Present&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n\n<p class=\"font_8\"><span>​</span></p>\n\n<p class=\"font_8\">​&bull; Girraphic &mdash; Freelance Asset Artist &mdash; Australia<br />\nJanuary 2026 &ndash; Present&nbsp; &nbsp;</p>",
+    "dispW": 929,
+    "dispH": 294,
+    "_y": 783,
+    "_x": 20,
+    "comp": "comp-mi5qnr9k"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_2\"><span style=\"font-weight:normal\"><span style=\"font-family:roboto-bold,roboto,sans-serif\">My Work</span></span></h2>",
+    "dispW": 450,
+    "dispH": 39,
+    "_y": 1132,
+    "_x": 20,
+    "comp": "comp-mi5qp77h"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_8\" style=\"font-size: 18px;\"><span style=\"font-size:18px;\"><span style=\"font-weight:bold\">ArtStation:</span> <span style=\"color:#045184\"><span style=\"text-decoration:underline\">https://napattavatnantachai.artstation.com</span></span><br />\n<span style=\"font-weight:bold\">Youtube:</span> <span style=\"color:#045184\"><span style=\"font-weight:normal\"><span style=\"text-decoration:underline\"><a dataquery=\"#textLink_mi5qpomf\">https://www.youtube.com/@napattavatnantachai1975/videos</a></span></span></span><br />\n<span style=\"font-weight:bold\">Tiktok:</span><span style=\"color:#045184\"><span style=\"text-decoration:underline\"> https://www.tiktok.com/@napat_3313?is_from_webapp=1&amp;sender_device=pc</span></span></span></h1>",
+    "dispW": 929,
+    "dispH": 76,
+    "_y": 1188,
+    "_x": 20,
+    "comp": "comp-mi5qp77j"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_2\"><span style=\"font-weight:normal\"><span style=\"font-family:roboto-bold,roboto,sans-serif\">Awards</span></span></h2>",
+    "dispW": 450,
+    "dispH": 39,
+    "_y": 1326,
+    "_x": 20,
+    "comp": "comp-mi5qwkbl"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"font-size: 18px;\">\n\t<li>\n\t<p class=\"font_8\" style=\"font-size: 18px;\"><span style=\"font-size:18px;\">Rookie Awards 2024 &ndash; Rank A (International competition showcasing emerging creative talent in 3D, VFX, and design)</span></p>\n\t</li>\n\t<li>\n\t<p class=\"font_8\" style=\"font-size: 18px;\"><span style=\"font-size:18px;\">SACICT War Craft &ndash; 5th Place, Contest in Design for Traditional Thai Handicraft Products</span></p>\n\t</li>\n</ul>",
+    "dispW": 929,
+    "dispH": 76,
+    "_y": 1382,
+    "_x": 20,
+    "comp": "comp-mi5qwkbn"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_2\"><span style=\"font-weight:normal\"><span style=\"font-family:roboto-bold,roboto,sans-serif\">Reference</span></span></h2>",
+    "dispW": 450,
+    "dispH": 39,
+    "_y": 1509,
+    "_x": 20,
+    "comp": "comp-mi5qyc0u"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"font-weight:bold\">Justin Chua</span><br />\n3dsense Media School, Singapore6 Eu Tong Sen St, Singapore 059817 JustIn@3dsense.net</span></p>",
+    "dispW": 310,
+    "dispH": 76,
+    "_y": 1563,
+    "_x": 20,
+    "comp": "comp-mi5qyoyn"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"font-weight:bold;\">Derrick Song</span><br />\n3dsense Media School, Singapore6 Eu Tong Sen St, Singapore 059817 deric_song@hotmail.com</span></p>",
+    "dispW": 310,
+    "dispH": 76,
+    "_y": 1563,
+    "_x": 329,
+    "comp": "comp-mi5qyvbe"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height: normal;\"><span style=\"letter-spacing:normal;\"><span style=\"font-weight:bold;\">Cong Yeo</span><br />\n3dsense Media School, Singapore6 Eu Tong Sen St, Singapore 059817 bud.artfiend@gmail.com</span></p>",
+    "dispW": 310,
+    "dispH": 76,
+    "_y": 1563,
+    "_x": 639,
+    "comp": "comp-mi5qz13t"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"letter-spacing:normal\"><span style=\"font-weight:bold;\">Victor Limsila</span><br />\nUndeclared Variable9/30&ndash;32 Beaconsfield St, Alexandria NSW 2015, Sydney, Australia victor@undeclared-variable.com</span></p>",
+    "dispW": 310,
+    "dispH": 76,
+    "_y": 1676,
+    "_x": 20,
+    "comp": "comp-mi5qz9s1"
+   }
+  ]
+ },
+ "saudi-arabia-pavilion": {
+  "uri": "saudi-arabia-pavilion",
+  "title": "Saudi Arabia Pavilion ",
+  "blocks": [
+   {
+    "type": "image",
+    "uri": "1c9294_a6fd0863d1eb41de9f30a99271c84c1f~mv2.png",
+    "w": 2560,
+    "h": 640,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mewzsr1v"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:0.15em\"><span style=\"font-size:39px\">Saudi Arabia Pavilion at Expo 2025 Osaka</span></span></span></h1>",
+    "dispW": 945,
+    "dispH": 37,
+    "_y": 447,
+    "_x": 17,
+    "comp": "comp-mex09prr"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF\">&nbsp; Experience the beauty and innovation of the<br />\nSaudi Arabia Pavilion at Expo 2025 in Osaka,<br />\nJapan. Discover the essence of Saudi Arabia<br />\nas it connects with the world, featuring vibrant<br />\ndisplays, interactive exhibits, and inspiring<br />\ninsights into Saudi Arabia&rsquo;s Vision 2030.</span></p>",
+    "dispW": 330,
+    "dispH": 126,
+    "_y": 525,
+    "_x": 65,
+    "comp": "comp-mex0acg3"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\"><span style=\"color:#FFFFFF\">&nbsp; My contribution included simulating<br />\ncharacter clothing and modeling buildings with<br />\ntrue-to-scale proportions.</span></p>",
+    "dispW": 420,
+    "dispH": 63,
+    "_y": 525,
+    "_x": 516,
+    "comp": "comp-mex09prt"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_d17f4eecf5e740149cfbfa7b1850f693~mv2.png",
+    "w": 600,
+    "h": 337,
+    "alt": "Gq0HlEHbAAAXDNY.png",
+    "dispW": 980,
+    "dispH": 523,
+    "_y": 680,
+    "_x": 0,
+    "comp": "comp-mewzrnkj"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_b978c08321ad439c9b6ba9d8a7f7be30",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewxggck1",
+    "dispW": 979,
+    "dispH": 540,
+    "_y": 1203,
+    "_x": 0,
+    "comp": "comp-mewxejpg"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c4f7ea99b36940459d1fe729a3f13f6c~mv2.png",
+    "w": 1779,
+    "h": 802,
+    "alt": "",
+    "dispW": 515,
+    "dispH": 230,
+    "_y": 1779,
+    "_x": 0,
+    "comp": "comp-mewzv3w2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_8691e79fb5854b73a89bbd30962679c2~mv2.png",
+    "w": 1642,
+    "h": 818,
+    "alt": "",
+    "dispW": 464,
+    "dispH": 230,
+    "_y": 1779,
+    "_x": 515,
+    "comp": "comp-mewzv3w0"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_50f4b8e4e3b948c08d6261adbfa59c61~mv2.png",
+    "w": 1112,
+    "h": 727,
+    "alt": "",
+    "dispW": 305,
+    "dispH": 204,
+    "_y": 2010,
+    "_x": 0,
+    "comp": "comp-mewzv3vy"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_5ee22199e397421a9a04be9aaef24204~mv2.png",
+    "w": 883,
+    "h": 729,
+    "alt": "",
+    "dispW": 244,
+    "dispH": 204,
+    "_y": 2010,
+    "_x": 305,
+    "comp": "comp-mewzv3vw"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a0e010edbc894aab8b0bdf0b27a8b94b~mv2.png",
+    "w": 1007,
+    "h": 863,
+    "alt": "",
+    "dispW": 237,
+    "dispH": 204,
+    "_y": 2010,
+    "_x": 547,
+    "comp": "comp-mewzv3w6"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c57b6a51b3cc48e0863ea51b93039e62~mv2.png",
+    "w": 1113,
+    "h": 884,
+    "alt": "",
+    "dispW": 271,
+    "dispH": 204,
+    "_y": 2010,
+    "_x": 709,
+    "comp": "comp-mewzv3w5"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_4df4c0877ffa414fafa3b157e9c6aa58",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mewzzqb61",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 2265,
+    "_x": 0,
+    "comp": "comp-mewzxz41"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_3258c26a2bbf40db9299aecb6bf6ee7b",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mex00syl2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 413,
+    "_y": 2678,
+    "_x": 0,
+    "comp": "comp-mex0043x"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_5a470ca2a1144f56be30f41f6f65ad5b~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_0f4a8236f9e3426096d225597f893c52~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_961aaf48b3f6444ca7b08d5a4ab36c25~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_3ea781a3496b411f9b8022b93c2f09df~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_ec6edf464fcf4837bcb5346a27ad61d0~mv2.png",
+      "w": 1849,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_f66194d1bae04ffeb9997038c2ceb56b~mv2.png",
+      "w": 1849,
+      "h": 1040,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 377,
+    "_y": 3115,
+    "_x": 0,
+    "comp": "comp-mex03l2n"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9e41bc36920a4c628579a922b6388e93~mv2.png",
+    "w": 2048,
+    "h": 2048,
+    "alt": "",
+    "dispW": 287,
+    "dispH": 287,
+    "_y": 3504,
+    "_x": 0,
+    "comp": "comp-mex076g7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_abc56a38dbe246b399c54fee938932a4~mv2.png",
+    "w": 2048,
+    "h": 2048,
+    "alt": "",
+    "dispW": 287,
+    "dispH": 287,
+    "_y": 3504,
+    "_x": 234,
+    "comp": "comp-mex076g6"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_554b4b5a1bc54f8c936bf017a94c7ef2~mv2.png",
+    "w": 2048,
+    "h": 2048,
+    "alt": "",
+    "dispW": 287,
+    "dispH": 287,
+    "_y": 3504,
+    "_x": 468,
+    "comp": "comp-mex076g3"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_99bdcdfdfc6e4ba891025c8389b69545~mv2.png",
+    "w": 2048,
+    "h": 2048,
+    "alt": "",
+    "dispW": 287,
+    "dispH": 287,
+    "_y": 3504,
+    "_x": 697,
+    "comp": "comp-mex076g5"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_8d353aa4742a42b6a7c3c2deb696ff10~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_4223e22772e140deb9e938ffd57c984a~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_842b6bb5287a4a88a725dcc5cf2affb1~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 377,
+    "_y": 3807,
+    "_x": 0,
+    "comp": "comp-mex04syo"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_30c7082f930c40aabd37a76a992e2a06~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_28a176085f6844e395045d52dbe413b4~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_0c13bb79bf1641e8924c2819deae664c~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 980,
+    "dispH": 377,
+    "_y": 4220,
+    "_x": 0,
+    "comp": "comp-mex05omz"
+   }
+  ]
+ },
+ "mayafashionwalk": {
+  "uri": "mayafashionwalk",
+  "title": "MayaFashionWalk",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_d3db7ba29031406ba88256c3d01bd2ea",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mhjnpfvi1",
+    "dispW": 480,
+    "dispH": 1088,
+    "_y": 0,
+    "_x": 250,
+    "comp": "comp-mhjnp5az"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_f0340631117e4c25901a348737c98130",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-mhjntn2p1",
+    "dispW": 480,
+    "dispH": 1088,
+    "_y": 1107,
+    "_x": 250,
+    "comp": "comp-mhjnqfej"
+   }
+  ]
+ },
+ "copy-of-viking": {
+  "uri": "copy-of-viking",
+  "title": "SuperNova",
+  "blocks": [
+   {
+    "type": "image",
+    "uri": "1c9294_23b544b6ea124a05b83cfd16fb611493~mv2.png",
+    "w": 1914,
+    "h": 1078,
+    "alt": "image.png",
+    "dispW": 980,
+    "dispH": 448,
+    "_y": 549,
+    "_x": 0,
+    "comp": "comp-momj6hhf4"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_78506b95f2574f0cb1ade43ef76034c1",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#design-momxd5g94",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 548,
+    "_y": 997,
+    "_x": 0,
+    "comp": "comp-momxd5fb"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_4702e4a4584d475a9ba3d1b8c5a41145~mv2.png",
+    "w": 600,
+    "h": 151,
+    "alt": "Girraphic-Logo-2020.png",
+    "dispW": 330,
+    "dispH": 83,
+    "_y": 1530,
+    "_x": 12,
+    "comp": "comp-momlzyls"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size:25px; line-height:normal\"><span class=\"color_43\"><span style=\"font-size:25px\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">Netflix broadcast of Supernova: Genesis, produced by Girraphic.</span></span></span></span></p>",
+    "dispW": 589,
+    "dispH": 60,
+    "_y": 1552,
+    "_x": 359,
+    "comp": "comp-momj6hhl"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">An entire AR broadcast graphics package created in Unreal 5.6 for Netflix&rsquo;s broadcast of Supernova Genesis.</span></span></span></p>",
+    "dispW": 561,
+    "dispH": 38,
+    "_y": 1650,
+    "_x": 231,
+    "comp": "comp-momj6hhk4"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size: 22px; line-height: normal;\"><span style=\"font-size:22px;\"><span class=\"color_43\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">Behind-the-scenes production photos by Girraphic.</span></span></span></span></p>",
+    "dispW": 520,
+    "dispH": 55,
+    "_y": 1750,
+    "_x": 267,
+    "comp": "comp-momn1k28"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_9af99a58d00f4ff8b4e05fe2b36ebac9",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momm3zng4",
+    "bg": true,
+    "dispW": 490,
+    "dispH": 278,
+    "_y": 1822,
+    "_x": 0,
+    "comp": "comp-momm3zm6"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_421e60f7ea8d4f70a3387c6a69436800",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momm3zn54",
+    "bg": true,
+    "dispW": 490,
+    "dispH": 278,
+    "_y": 1822,
+    "_x": 490,
+    "comp": "comp-momm3zm4"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_30a197eda97f4ea2810f56db02f79b89",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p"
+    ],
+    "poster": "#design-mommz3h64",
+    "bg": true,
+    "dispW": 978,
+    "dispH": 548,
+    "_y": 2100,
+    "_x": 2,
+    "comp": "comp-mommz3g4"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_8218cd538bf3465f825f4cdf6b91b4de~mv2.png",
+    "w": 600,
+    "h": 411,
+    "alt": "SuperNova002.png",
+    "dispW": 645,
+    "dispH": 441,
+    "_y": 2647,
+    "_x": 334,
+    "comp": "comp-momo5aky"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_93bc016b13da481fb247a3fc743cdc6b~mv2.png",
+    "w": 461,
+    "h": 600,
+    "alt": "SuperNova003.png",
+    "dispW": 339,
+    "dispH": 441,
+    "_y": 2648,
+    "_x": 2,
+    "comp": "comp-momo3muq"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_b9cf420addaf4ef088391e0d108d7b2b",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnpoue4",
+    "bg": true,
+    "dispW": 522,
+    "dispH": 294,
+    "_y": 3082,
+    "_x": 0,
+    "comp": "comp-momnpotk"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_8c4568bfcdab426b92ab8e02d3c43908~mv2.png",
+    "w": 1920,
+    "h": 1000,
+    "alt": "HighresScreenshot00014.png",
+    "dispW": 522,
+    "dispH": 273,
+    "_y": 3089,
+    "_x": 458,
+    "comp": "comp-momnocda"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_6f306fdbf49d4d0bae52591a05173a86",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnffax4",
+    "bg": true,
+    "dispW": 497,
+    "dispH": 278,
+    "_y": 3359,
+    "_x": 0,
+    "comp": "comp-momnff9e"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_dd4762dbab384211b54babe96d2d7ad3",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnffb04",
+    "bg": true,
+    "dispW": 489,
+    "dispH": 273,
+    "_y": 3365,
+    "_x": 486,
+    "comp": "comp-momnff9f"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_2aeb1fe9576444bc94c31ad1a96a1aeb",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnqx3p4",
+    "bg": true,
+    "dispW": 492,
+    "dispH": 287,
+    "_y": 3625,
+    "_x": 2,
+    "comp": "comp-momnqx2r"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_3eed0431e5e94a34b2b8a01a8a86d240",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnkmj84",
+    "bg": true,
+    "dispW": 492,
+    "dispH": 278,
+    "_y": 3625,
+    "_x": 483,
+    "comp": "comp-momnkmie"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0f7d0b830002486e95ffd2bdd32013b7~mv2.png",
+    "w": 600,
+    "h": 312,
+    "alt": "HighresScreenshot00028.png",
+    "dispW": 518,
+    "dispH": 272,
+    "_y": 3856,
+    "_x": 470,
+    "comp": "comp-momnyvw2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ac9d28e994fe4d219f681c1ed3188d0c~mv2.png",
+    "w": 600,
+    "h": 312,
+    "alt": "HighresScreenshot00008.png",
+    "dispW": 511,
+    "dispH": 266,
+    "_y": 3859,
+    "_x": -1,
+    "comp": "comp-momo25v1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b34b3fe9e4964084b21d9d4ca7d223f2~mv2.png",
+    "w": 600,
+    "h": 312,
+    "alt": "HighresScreenshot00023.png",
+    "dispW": 489,
+    "dispH": 254,
+    "_y": 4128,
+    "_x": -1,
+    "comp": "comp-momnzwbd"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_d0a5a20a1c1f4279987fe76ae7816c38",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnqx3y3",
+    "bg": true,
+    "dispW": 483,
+    "dispH": 272,
+    "_y": 4128,
+    "_x": 483,
+    "comp": "comp-momnqx2u"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_7f59d366bf014b8bbfd724a283a22103",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnqx3v4",
+    "bg": true,
+    "dispW": 492,
+    "dispH": 278,
+    "_y": 4386,
+    "_x": 3,
+    "comp": "comp-momnqx2t"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_c44b495ff95044529651729896557be3",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnqx404",
+    "bg": true,
+    "dispW": 497,
+    "dispH": 278,
+    "_y": 4386,
+    "_x": 486,
+    "comp": "comp-momnqx2v"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_a10e4617b9a547ec803231c4cfd73e2c",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momo9gfq4",
+    "bg": true,
+    "dispW": 485,
+    "dispH": 272,
+    "_y": 4651,
+    "_x": 5,
+    "comp": "comp-momo9gff"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_70673443b6174b96bcfaca432a9d7eff~mv2.png",
+    "w": 600,
+    "h": 327,
+    "alt": "image (4).png",
+    "dispW": 485,
+    "dispH": 269,
+    "_y": 4653,
+    "_x": 494,
+    "comp": "comp-momo80x7"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_05836376649848d7827657c01e0a4926",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-momnqx3s4",
+    "bg": true,
+    "dispW": 497,
+    "dispH": 280,
+    "_y": 4923,
+    "_x": -5,
+    "comp": "comp-momnqx2s"
+   }
+  ]
+ },
+ "home": {
+  "uri": "home",
+  "title": "Home",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_bea608195bae47478405adbe1caa0337",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mel1bw802",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1080,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-iuclvtjw"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "life-of-the-buddha"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 912,
+    "_x": 397,
+    "comp": "comp-iuqw0og0"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_01b1cd2a248e4f9e985a8df8d5ea8b07",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mel592ov2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 1005,
+    "_x": 0,
+    "comp": "comp-mel3kxfu5"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "backstreet-boys"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 2088,
+    "_x": 397,
+    "comp": "comp-mel3kxfz2"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_78506b95f2574f0cb1ade43ef76034c1",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-mon4962k2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 2183,
+    "_x": 0,
+    "comp": "comp-mon4876h6"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "copy-of-viking"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 3266,
+    "_x": 397,
+    "comp": "comp-mon487712"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_6e5dbd6364024e59a326f802c332d321",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-mqzg4etr1",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 678,
+    "_y": 3361,
+    "_x": 0,
+    "comp": "comp-mqzg1516"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "copy-of-supernova"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 3431,
+    "_x": 397,
+    "comp": "comp-mqzg4w1c"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_524f66338a3e4db8988286813a97f5b2",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mr0xduxp2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 660,
+    "_y": 4039,
+    "_x": 0,
+    "comp": "comp-mr0wml353"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "copy-of-espn-stanleycup"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 4615,
+    "_x": 397,
+    "comp": "comp-mr0xefbj"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9ac2a3c6b1da4f56a8b8cafe2370ee09~mv2.png",
+    "w": 4096,
+    "h": 2160,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1080,
+    "_y": 4699,
+    "_x": 0,
+    "comp": "comp-iufhj48a"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "single-project"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 5665,
+    "_x": 397,
+    "comp": "comp-iuqp5gbx"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_3fbdb64325114e96a2169dd934f6a822",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mel1rzck2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1080,
+    "_y": 5749,
+    "_x": 0,
+    "comp": "comp-iunxnds6"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "viking"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 6701,
+    "_x": 397,
+    "comp": "comp-iuqoys62"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_60f0f3a155ed40738e1cf865ae22eefc",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mel1nkjs2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 6799,
+    "_x": 0,
+    "comp": "comp-iu2ffbey"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "wasp-inspired-mecha"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 7888,
+    "_x": 397,
+    "comp": "comp-iupjhi57"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_56ba587fd28646eaabb7f4b116ed5238",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-mel5vi7d3",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 7977,
+    "_x": 0,
+    "comp": "comp-mel5vi7b5"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "saudi-arabia-pavilion"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 9047,
+    "_x": 397,
+    "comp": "comp-mel5vi7g3"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0aa9b41196124e619d73ac71d3ab1e45~mv2.png",
+    "w": 2629,
+    "h": 1230,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 9155,
+    "_x": 0,
+    "comp": "comp-mel57l7v3"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "binyan"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 10227,
+    "_x": 426,
+    "comp": "comp-mel57l80"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_d3db7ba29031406ba88256c3d01bd2ea",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mhjni8rq1",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 10333,
+    "_x": 0,
+    "comp": "comp-mhjngxe31"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "mayafashionwalk"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 11405,
+    "_x": 426,
+    "comp": "comp-mhjngxeu2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b674050233574cca88b1c1b3a6455a82~mv2.png",
+    "w": 1920,
+    "h": 1040,
+    "alt": "",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 11511,
+    "_x": 0,
+    "comp": "comp-mel5rffw1"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "page": "thai-army"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 12573,
+    "_x": 397,
+    "comp": "comp-memsm0iv"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_99a5d93d5ee949dbb13e6511262db0c9",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mel7lox12",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 1178,
+    "_y": 12721,
+    "_x": 0,
+    "comp": "comp-mel7k4xl4"
+   },
+   {
+    "type": "button",
+    "label": "VIEW PROJECT",
+    "link": {
+     "raw": "DynamicPageLink"
+    },
+    "dispW": 186,
+    "dispH": 40,
+    "_y": 13800,
+    "_x": 426,
+    "comp": "comp-mel7k4xp3"
+   }
+  ]
+ },
+ "single-project": {
+  "uri": "single-project",
+  "title": "Bearded Dragon",
+  "blocks": [
+   {
+    "type": "image",
+    "uri": "1c9294_9ac2a3c6b1da4f56a8b8cafe2370ee09~mv2.png",
+    "w": 4096,
+    "h": 2160,
+    "alt": "BeardedDragon02_Comp.png",
+    "dispW": 980,
+    "dispH": 518,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mfmw0gbo"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_dbb0a652be1b47bb8430b080e0811782",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p"
+    ],
+    "poster": "#dataItem-mfmwc8on",
+    "dispW": 980,
+    "dispH": 550,
+    "_y": 518,
+    "_x": 0,
+    "comp": "comp-mfmvxdm9"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_b3faba2de85b42139195ec947564101b~mv2.png",
+    "w": 4096,
+    "h": 2160,
+    "alt": "BeardedDragon01_Comp.png",
+    "dispW": 980,
+    "dispH": 517,
+    "_y": 1068,
+    "_x": 0,
+    "comp": "comp-mfmw4pfv"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_0789aa1e341a4483b2b9d80c4781cf4c~mv2.png",
+    "w": 4096,
+    "h": 2160,
+    "alt": "renderTest14.png",
+    "dispW": 980,
+    "dispH": 492,
+    "_y": 1573,
+    "_x": 0,
+    "comp": "comp-memkn6um"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_1e50862508e44107a04f11a976cb8c99~mv2.png",
+    "w": 3840,
+    "h": 2160,
+    "alt": "renderTest15.png",
+    "dispW": 980,
+    "dispH": 491,
+    "_y": 2065,
+    "_x": 0,
+    "comp": "comp-memklj7v2"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"color:#FFFFFF;\"><span style=\"letter-spacing:0.15em\"><span style=\"font-size:39px\">Bearded Dragon &ndash; Realistic Lookdev</span></span></span></h1>",
+    "dispW": 726,
+    "dispH": 75,
+    "_y": 2565,
+    "_x": 148,
+    "comp": "comp-mewt5yg3"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_e9ad13eb988e45e3ad1c732923173723~mv2.png",
+    "w": 1540,
+    "h": 963,
+    "alt": "WIP_2.png",
+    "dispW": 513,
+    "dispH": 302,
+    "_y": 2660,
+    "_x": 22,
+    "comp": "comp-mewsvg1e"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"color:rgb(255, 255, 255); font-family:helvetica-w01-light,sans-serif; font-weight:normal\">\n\t<li>\n\t<p class=\"font_8\"><span style=\"color:#FFFFFF\">This project was a study in creating a highly<br />\n\trealistic lookdev of a bearded dragon. I<br />\n\thandled the entire process from start to finish,<br />\n\tincluding sculpting, texturing, look<br />\n\tdevelopment, lighting, and rendering. The goal<br />\n\twas to push realism through attention to fine<br />\n\tdetails in scales, skin roughness, and subtle<br />\n\tlighting.</span></p>\n\t</li>\n</ul>",
+    "dispW": 420,
+    "dispH": 168,
+    "_y": 2727,
+    "_x": 550,
+    "comp": "comp-mewt5yg5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_8973a192ed4745ffab93335823de5409~mv2.jpg",
+    "w": 1920,
+    "h": 1080,
+    "alt": "render2.jpg",
+    "dispW": 718,
+    "dispH": 401,
+    "_y": 2962,
+    "_x": 131,
+    "comp": "comp-mewsvg1i"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_95119cd071cf4a1eb2c9e65c04b274c7~mv2.jpg",
+    "w": 1920,
+    "h": 1080,
+    "alt": "render1.jpg",
+    "dispW": 718,
+    "dispH": 401,
+    "_y": 3363,
+    "_x": 131,
+    "comp": "comp-mewsvg1j"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f0df5b8a92c14cffa21ddb269fa122c4~mv2.jpeg",
+    "w": 1459,
+    "h": 897,
+    "alt": "b520b69f-44f8-4040-94be-58ed1d56abe3.jpeg",
+    "dispW": 426,
+    "dispH": 289,
+    "_y": 3764,
+    "_x": 0,
+    "comp": "comp-mewsvg1d"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_32df79971f33401eb4bec07cfda3152b~mv2.png",
+    "w": 600,
+    "h": 313,
+    "alt": "WIP_5.png",
+    "dispW": 558,
+    "dispH": 294,
+    "_y": 3764,
+    "_x": 415,
+    "comp": "comp-mewt1oru"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_ef578a03d2504bc4951b9c949b70e4ab~mv2.png",
+    "w": 1918,
+    "h": 1039,
+    "alt": "5image.png",
+    "dispW": 498,
+    "dispH": 273,
+    "_y": 4057,
+    "_x": 0,
+    "comp": "comp-mewsvg1k"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_459f3a93b5794d97a95daa85189fd1ea~mv2.png",
+    "w": 1893,
+    "h": 1070,
+    "alt": "4image.png",
+    "dispW": 475,
+    "dispH": 273,
+    "_y": 4058,
+    "_x": 498,
+    "comp": "comp-mewsvg1h"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f37d679f41544a678bebbb753b53f2d0~mv2.png",
+    "w": 1448,
+    "h": 661,
+    "alt": "image.png",
+    "dispW": 522,
+    "dispH": 245,
+    "_y": 4331,
+    "_x": 0,
+    "comp": "comp-mewsvg1g"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_34868e044b6846fcb7eea149b2bef07c~mv2.png",
+    "w": 1919,
+    "h": 1041,
+    "alt": "WIP_1.png",
+    "dispW": 452,
+    "dispH": 245,
+    "_y": 4331,
+    "_x": 522,
+    "comp": "comp-mewsvg1f"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c53110e9ff194be1a23dc8d84915d1cc~mv2.png",
+    "w": 1906,
+    "h": 1021,
+    "alt": "WIP_3.png",
+    "dispW": 486,
+    "dispH": 257,
+    "_y": 4591,
+    "_x": 0,
+    "comp": "comp-mewsvg1c"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_5042dcb956794f94ab8cb1f407cfc335~mv2.png",
+    "w": 1919,
+    "h": 1012,
+    "alt": "WIP_4.png",
+    "dispW": 493,
+    "dispH": 257,
+    "_y": 4591,
+    "_x": 487,
+    "comp": "comp-mewsvg1b"
+   }
+  ]
+ },
+ "king-bimbisara-healthy-buddha": {
+  "uri": "king-bimbisara-healthy-buddha",
+  "title": "King Bimbisara & Healthy Buddha",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_15d187097e2f4f139de7ec102c1bfbaa",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mf57245r2",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 500,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mf5715ri"
+   },
+   {
+    "type": "button",
+    "label": "Up",
+    "link": {
+     "page": "life-of-the-buddha"
+    },
+    "dispW": 47,
+    "dispH": 47,
+    "_y": 9,
+    "_x": 0,
+    "comp": "comp-mf5bqz8n"
+   },
+   {
+    "type": "text",
+    "html": "<h1 class=\"font_0\" style=\"line-height:1.2em; text-align:center\"><span style=\"letter-spacing:0.15em\"><span style=\"font-weight:normal\"><span style=\"color:#000000\"><span style=\"font-size:39px\">King Bimbisara</span></span></span><br />\n<span style=\"color:#000000\"><span style=\"font-weight:bold\"><span style=\"font-size:15px\">Character Contributions</span></span></span></span></h1>",
+    "dispW": 600,
+    "dispH": 76,
+    "_y": 510,
+    "_x": 190,
+    "comp": "comp-mfm8yy0c"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_8\" style=\"font-size:15px; line-height:normal\"><span style=\"font-size:15px\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">● Cloth sim in Marvelous Designer<br />\n● Basic rig setup<br />\n● Retopology and UV layout for production use</span></span></span></span></h2>",
+    "dispW": 347,
+    "dispH": 69,
+    "_y": 594,
+    "_x": 316,
+    "comp": "comp-mf573q1f"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_796419f9ff0f472b893183c34c4675b9~mv2.jpg",
+    "w": 600,
+    "h": 337,
+    "alt": "ue-logo-1400x788-1400x788-8f185e1e3635.jpg",
+    "dispW": 84,
+    "dispH": 48,
+    "_y": 683,
+    "_x": 356,
+    "comp": "comp-mfm8xurd2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_6db99624fb8f459492a1dd786b5c6e9b~mv2.jpg",
+    "w": 600,
+    "h": 600,
+    "alt": "channels4_profile (1).jpg",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 683,
+    "_x": 426,
+    "comp": "comp-mfm8xurf4"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7d385643b08343fab93468aa0f13799d~mv2.png",
+    "w": 512,
+    "h": 512,
+    "alt": "5968543.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 683,
+    "_x": 477,
+    "comp": "comp-mfm8xurg1"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9e372e20128a45f0b11f94bb626bedd0~mv2.png",
+    "w": 256,
+    "h": 256,
+    "alt": "autodesk-maya-lt-product-icon-1282x.png",
+    "dispW": 51,
+    "dispH": 48,
+    "_y": 684,
+    "_x": 529,
+    "comp": "comp-mfm8xurg7"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_f376c8feba61484e879207a79d06eb16~mv2.png",
+    "w": 3840,
+    "h": 2080,
+    "alt": "HighresScreenshot00103.png",
+    "dispW": 271,
+    "dispH": 339,
+    "_y": 770,
+    "_x": 0,
+    "comp": "comp-mf5a71dz"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_50dfd2d14e2245eb96601101e5a5fef4~mv2.png",
+    "w": 3840,
+    "h": 2080,
+    "alt": "HighresScreenshot00105.png",
+    "dispW": 630,
+    "dispH": 339,
+    "_y": 770,
+    "_x": 153,
+    "comp": "comp-mf5a71dx"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_4525d52056a343de8d5be7a03f09d553~mv2.png",
+    "w": 3840,
+    "h": 2080,
+    "alt": "HighresScreenshot00104.png",
+    "dispW": 300,
+    "dispH": 339,
+    "_y": 770,
+    "_x": 679,
+    "comp": "comp-mf5a71dy"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_1ba0e17d3f034a4ba6543e505369da8e~mv2.png",
+    "w": 1202,
+    "h": 885,
+    "alt": "Substanceimage.png",
+    "dispW": 430,
+    "dispH": 315,
+    "_y": 1103,
+    "_x": 548,
+    "comp": "comp-mf5acgvl"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_354b8efe2d01475f85a489c4269ef15c",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mf5abcpn1",
+    "dispW": 553,
+    "dispH": 309,
+    "_y": 1109,
+    "_x": 0,
+    "comp": "comp-mf5ab285"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_80c2ae009782440a9cf8da8f88ca38cd~mv2.png",
+    "w": 1671,
+    "h": 598,
+    "alt": "MDimage.png",
+    "dispW": 979,
+    "dispH": 353,
+    "_y": 1419,
+    "_x": 0,
+    "comp": "comp-mf5aa2mv"
+   },
+   {
+    "type": "text",
+    "html": "<h2 class=\"font_0\" style=\"font-size:38px; line-height:1.7em; text-align:center\"><span style=\"font-size:38px\"><span style=\"letter-spacing:0.35em\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Healthy Buddha (WIP)</span></span></span></span></h2>",
+    "dispW": 752,
+    "dispH": 65,
+    "_y": 1772,
+    "_x": 114,
+    "comp": "comp-mf5b8c2m"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"color:rgb(0, 0, 0); font-size:15px; font-weight:normal; letter-spacing:normal\">\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"font-size:15px; line-height:normal\"><span style=\"font-size:15px\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Character sculpting in ZBrush</span></span></span></span></h2>\n\t</li>\n\t<li>\n\t<h2 class=\"font_8\" style=\"font-size:15px; line-height:normal\"><span style=\"font-size:15px\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Hairstyle created with XGen</span></span></span></span></h2>\n\t</li>\n</ul>",
+    "dispW": 347,
+    "dispH": 69,
+    "_y": 1855,
+    "_x": 316,
+    "comp": "comp-mf5b8c2p"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_677ffdaa0bc84f0187ab5591c522b29b~mv2.jpeg",
+    "w": 3840,
+    "h": 2160,
+    "alt": "LS_Lighting_Test02_Healthy_Buddha.0020.jpeg",
+    "dispW": 264,
+    "dispH": 260,
+    "_y": 1944,
+    "_x": 0,
+    "comp": "comp-mf5b8wof2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_e920cabb3f4c4bbaa0bf844e76423fb7~mv2.png",
+    "w": 3698,
+    "h": 2080,
+    "alt": "HighresScreenshot00238.png",
+    "dispW": 430,
+    "dispH": 260,
+    "_y": 1944,
+    "_x": 279,
+    "comp": "comp-mf5b8wog2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9bd5b7ac556a4f20b1cf0d23c7f21732~mv2.jpeg",
+    "w": 3840,
+    "h": 2160,
+    "alt": "LS_Lighting_Test02_Healthy_Buddha.0040.jpeg",
+    "dispW": 256,
+    "dispH": 260,
+    "_y": 1944,
+    "_x": 723,
+    "comp": "comp-mf5b8woh2"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_936c7bdeeeab4c47871b8d1365129d85",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#design-mf5b8wom2",
+    "bg": true,
+    "dispW": 640,
+    "dispH": 360,
+    "_y": 2217,
+    "_x": 0,
+    "comp": "comp-mf5b8wo5"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"color:rgb(0, 0, 0); font-size:15px; font-weight:normal; letter-spacing:normal\">\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"font-size:15px; line-height:normal\"><span style=\"font-size:15px\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Character sculpting in ZBrush</span></span></span></span></h2>\n\t</li>\n\t<li>\n\t<h2 class=\"font_8\" style=\"font-size:15px; line-height:normal\"><span style=\"color:#FFFFFF;\"><span style=\"font-size:15px\"><span style=\"letter-spacing:normal\"><span style=\"font-weight:normal\">Adjusted blendshapes and expressions for accuracy</span></span></span></span></h2>\n\t</li>\n</ul>",
+    "dispW": 285,
+    "dispH": 69,
+    "_y": 2326,
+    "_x": 663,
+    "comp": "comp-mf5bnxl3"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_3f719e56fa2b4b3a9b707ebaefcce480~mv2.jpg",
+    "w": 4480,
+    "h": 3360,
+    "alt": "Zbrush03.jpg",
+    "dispW": 448,
+    "dispH": 316,
+    "_y": 2592,
+    "_x": 0,
+    "comp": "comp-mf5b8wo7"
+   },
+   {
+    "type": "text",
+    "html": "<ul class=\"font_8\" style=\"color:rgb(0, 0, 0); font-size:15px; font-weight:normal; letter-spacing:normal\">\n\t<li style=\"line-height:normal\">\n\t<h2 class=\"font_8\" style=\"font-size:15px; line-height:normal\"><span style=\"font-size:15px\"><span style=\"letter-spacing:normal\"><span style=\"color:#000000\"><span style=\"font-weight:normal\">Character sculpting in ZBrush</span></span></span></span></h2>\n\t</li>\n\t<li>\n\t<h2 class=\"font_8\" style=\"font-size:15px; line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"font-size:15px\"><span style=\"letter-spacing:normal\"><span style=\"font-weight:normal\">Character sculpting in ZBrush</span></span></span></span></h2>\n\t</li>\n</ul>",
+    "dispW": 285,
+    "dispH": 69,
+    "_y": 2715,
+    "_x": 478,
+    "comp": "comp-mf5bp5o1"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_c5b5e3bc998745248c1c8449863d2784",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mf5b8wou1",
+    "dispW": 664,
+    "dispH": 376,
+    "_y": 2922,
+    "_x": 0,
+    "comp": "comp-mf5b8wo9"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_25b349e798eb4b84aca7b06d13b04d2d~mv2.png",
+    "w": 720,
+    "h": 837,
+    "alt": "image5.png",
+    "dispW": 315,
+    "dispH": 376,
+    "_y": 2922,
+    "_x": 664,
+    "comp": "comp-mf5b8wob"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_7366dcde04494b89ab46de48acba2c0f~mv2.png",
+    "w": 1087,
+    "h": 677,
+    "alt": "image4.png",
+    "dispW": 457,
+    "dispH": 287,
+    "_y": 3298,
+    "_x": 0,
+    "comp": "comp-mf5b8woz2"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_690a6d073aa8426b8a49d15b00e06f26~mv2.png",
+    "w": 599,
+    "h": 642,
+    "alt": "image3.png",
+    "dispW": 264,
+    "dispH": 287,
+    "_y": 3298,
+    "_x": 459,
+    "comp": "comp-mf5b8wp02"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_9d1bfb70811a4bb0a903488f2fbc278e~mv2.png",
+    "w": 550,
+    "h": 612,
+    "alt": "image2.png",
+    "dispW": 255,
+    "dispH": 287,
+    "_y": 3298,
+    "_x": 724,
+    "comp": "comp-mf5b8wp05"
+   }
+  ]
+ },
+ "binyan": {
+  "uri": "binyan",
+  "title": "Binyan",
+  "blocks": [
+   {
+    "type": "video",
+    "id": "1c9294_78ad869d653944c9afedf9ad299003fc",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mfe094z02",
+    "bg": true,
+    "dispW": 980,
+    "dispH": 600,
+    "_y": 0,
+    "_x": 0,
+    "comp": "comp-mfdz76po"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"font-size: 24px; line-height: normal;\"><span style=\"font-size:24px;\"><span style=\"color:#FFFFFF\"><span style=\"font-weight:bold\"><span style=\"letter-spacing:normal\">Costa Rica Binyan &ndash; Pitching Project</span></span></span></span></p>",
+    "dispW": 407,
+    "dispH": 30,
+    "_y": 619,
+    "_x": 286,
+    "comp": "comp-mfe0wd2d"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height: normal;\"><span style=\"color:#FFFFFF;\"><span style=\"letter-spacing:normal;\">For job application use only. Public distribution is strictly prohibited.</span></span></p>",
+    "dispW": 469,
+    "dispH": 18,
+    "_y": 662,
+    "_x": 255,
+    "comp": "comp-mfe13xsj"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_75b852ec66604827880ed1a8d6c10397~mv2.png",
+    "w": 2629,
+    "h": 1230,
+    "alt": "Twin Engine - Binyan Nekajui - v5-14.png",
+    "dispW": 980,
+    "dispH": 457,
+    "_y": 699,
+    "_x": 0,
+    "comp": "comp-mfe0b5cl"
+   },
+   {
+    "type": "video",
+    "id": "1c9294_4ba82cbb93704ddf9f3a7a5318e5e7fc",
+    "w": null,
+    "h": null,
+    "qualities": [
+     "1080p",
+     "720p",
+     "480p",
+     "360p",
+     "storyboard"
+    ],
+    "poster": "#dataItem-mfe19etn1",
+    "dispW": 599,
+    "dispH": 337,
+    "_y": 1156,
+    "_x": 0,
+    "comp": "comp-mfe18u9w"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">&nbsp; I&rsquo;ve developed a new RME master material with dual UV set support, enabling precise control over dirt levels, color, and intensity using dirt masks.&quot;</span></span></p>",
+    "dispW": 362,
+    "dispH": 82,
+    "_y": 1309,
+    "_x": 607,
+    "comp": "comp-mfe1gjx5"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_020dc523108c454bbe0c133540cb3b5b~mv2.png",
+    "w": 3840,
+    "h": 2080,
+    "alt": "HighresScreenshot00049.png",
+    "dispW": 453,
+    "dispH": 247,
+    "_y": 1493,
+    "_x": 0,
+    "comp": "comp-mfe1l8zk"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a29103bca89346bb9915765f43f7ea8c~mv2.png",
+    "w": 2759,
+    "h": 1313,
+    "alt": "",
+    "dispW": 524,
+    "dispH": 247,
+    "_y": 1496,
+    "_x": 453,
+    "comp": "comp-mfe1o2ho"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_a29103bca89346bb9915765f43f7ea8c~mv2.png",
+    "w": 2759,
+    "h": 1313,
+    "alt": "image2.png",
+    "dispW": 525,
+    "dispH": 250,
+    "_y": 1740,
+    "_x": 0,
+    "comp": "comp-mfe1l8zn"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_50f1688a6e7c45daaa195382c6eb2e36~mv2.png",
+    "w": 1920,
+    "h": 1040,
+    "alt": "HighresScreenshot000488.png",
+    "dispW": 455,
+    "dispH": 250,
+    "_y": 1740,
+    "_x": 525,
+    "comp": "comp-mfe1l8zl"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_325a453c8ca043e181660a866c8d1a5f~mv2.png",
+    "w": 2560,
+    "h": 1392,
+    "alt": "",
+    "dispW": 490,
+    "dispH": 273,
+    "_y": 1990,
+    "_x": 0,
+    "comp": "comp-mfe1qc4c"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_8aa3607d6c284fa3a01bde17da8c6d7f~mv2.png",
+    "w": 3840,
+    "h": 2080,
+    "alt": "HighresScreenshot000222.png",
+    "dispW": 490,
+    "dispH": 273,
+    "_y": 1990,
+    "_x": 490,
+    "comp": "comp-mfe1p0go"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_13e6d44412b34c298b5c01383c44b655~mv2.png",
+    "w": 600,
+    "h": 300,
+    "alt": "HighresScreenshot00031.png",
+    "dispW": 516,
+    "dispH": 273,
+    "_y": 2263,
+    "_x": 0,
+    "comp": "comp-mfe1vlsp"
+   },
+   {
+    "type": "image",
+    "uri": "1c9294_c0f72d3a23cd451bbcdf1c70d3c91ac1~mv2.png",
+    "w": 2530,
+    "h": 1424,
+    "alt": "HighresScreenshot00021.png",
+    "dispW": 461,
+    "dispH": 273,
+    "_y": 2263,
+    "_x": 516,
+    "comp": "comp-mfe1tejo"
+   },
+   {
+    "type": "gallery",
+    "kind": "pro",
+    "items": [
+     {
+      "uri": "1c9294_3eef7a3492ae4afab45826110b1d3385~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_2050ddbe04d3468da44d2ef9209d5f88~mv2.png",
+      "w": 2530,
+      "h": 1424,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_22b74ed13f8e400d99c74359c57453dd~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_a9d9a17243b54b2f9578fcf05772d004~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_b45a5cc2cff24f9597a6705f94b1b456~mv2.png",
+      "w": 1861,
+      "h": 1233,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_c2cbc09286c042abb9a91a370bec7ecc~mv2.png",
+      "w": 2530,
+      "h": 1424,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_6cae821092d24ebf81edb4e12a20a36f~mv2.png",
+      "w": 1414,
+      "h": 1312,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_6820f02e1dad47b7b687298a37fd211e~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_face751fb8524df88a3d96ac352565eb~mv2.png",
+      "w": 2355,
+      "h": 1162,
+      "title": "",
+      "video": false
+     },
+     {
+      "uri": "1c9294_b65620be3dff458c8095db9f1fba98e2~mv2.png",
+      "w": 1920,
+      "h": 1040,
+      "title": "",
+      "video": false
+     }
+    ],
+    "dispW": 847,
+    "dispH": 350,
+    "_y": 2572,
+    "_x": 66,
+    "comp": "comp-mfe1x6zn"
+   },
+   {
+    "type": "text",
+    "html": "<p class=\"font_8\" style=\"line-height:normal\"><span style=\"color:#FFFFFF\"><span style=\"letter-spacing:normal\">Developed and created assets for an Unreal Engine 5 architectural project, including fabrics, furniture, and wood textures.</span></span></p>",
+    "dispW": 847,
+    "dispH": 40,
+    "_y": 2954,
+    "_x": 66,
+    "comp": "comp-mfe269f1"
+   }
+  ]
+ }
+}

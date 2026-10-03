@@ -1,0 +1,5 @@
+# original full-size downloads (kept locally, too big for GitHub Pages)
+media_src/
+tools/raw/
+assets/video/*.tmp.mp4
+__pycache__/

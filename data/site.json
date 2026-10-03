@@ -1,0 +1,54 @@
+{
+  "name": "NAPAT.T",
+  "logo": "NAPAT.T",
+  "fullName": "Napat Tavatnantachai",
+  "role": "3D Artist",
+  "tagline": "Character, look development and real-time 3D for film, broadcast and live events, with Maya, ZBrush and Unreal Engine.",
+  "email": "napat.tavatnantachai@gmail.com",
+  "year": 2026,
+  "social": [
+    {"label": "ArtStation", "url": "https://napattavatnantachai.artstation.com"},
+    {"label": "LinkedIn", "url": "http://linkedin.com/in/napat-tavatnantachai-9a7485259"},
+    {"label": "YouTube", "url": "https://www.youtube.com/@napattavatnantachai1975/videos"},
+    {"label": "TikTok", "url": "https://www.tiktok.com/@napat_3313"}
+  ],
+  "hero": {"video": "1c9294_bea608195bae47478405adbe1caa0337"},
+
+  "home": [
+    {"wix": "life-of-the-buddha", "title": "Life of the Buddha", "subtitle": "3D film · Undeclared Variable", "tags": ["Characters", "Cloth sim", "Unreal Engine 5"], "video": "1c9294_bea608195bae47478405adbe1caa0337"},
+    {"wix": "backstreet-boys", "title": "Backstreet Boys at Sphere", "subtitle": "Concert visuals · Las Vegas", "tags": ["Shaders", "Unreal Engine"], "video": "1c9294_01b1cd2a248e4f9e985a8df8d5ea8b07"},
+    {"wix": "copy-of-viking", "title": "Supernova: Genesis", "subtitle": "Netflix AR broadcast · Girraphic", "tags": ["AR graphics", "Unreal 5.6"], "video": "1c9294_78506b95f2574f0cb1ade43ef76034c1"},
+    {"wix": "copy-of-supernova", "title": "Stanley Cup Final", "subtitle": "ESPN AR graphics", "tags": ["AR graphics", "Real-time"], "video": "1c9294_6e5dbd6364024e59a326f802c332d321"},
+    {"wix": "copy-of-espn-stanleycup", "title": "PJL", "subtitle": "Showjumping broadcast", "tags": ["Broadcast", "Real-time"], "video": "1c9294_524f66338a3e4db8988286813a97f5b2"},
+    {"wix": "single-project", "title": "Bearded Dragon", "subtitle": "Realistic lookdev", "tags": ["Sculpting", "Texturing", "Lookdev"], "image": "1c9294_9ac2a3c6b1da4f56a8b8cafe2370ee09~mv2.png"},
+    {"wix": "viking", "title": "Female Viking", "subtitle": "Lookdev character · Rookie Awards 2024 Rank A", "tags": ["ZBrush", "XGen", "Maya"], "video": "1c9294_3fbdb64325114e96a2169dd934f6a822"},
+    {"wix": "wasp-inspired-mecha", "title": "WASP Inspired Mecha", "subtitle": "Hard surface character · Rookie Awards 2024 Rank A", "tags": ["Hard surface", "Maya", "Substance"], "video": "1c9294_60f0f3a155ed40738e1cf865ae22eefc"},
+    {"wix": "saudi-arabia-pavilion", "title": "Saudi Arabia Pavilion", "subtitle": "Expo 2025 Osaka", "tags": ["Cloth sim", "Architecture"], "video": "1c9294_56ba587fd28646eaabb7f4b116ed5238"},
+    {"wix": "binyan", "title": "Costa Rica Binyan", "subtitle": "Architectural pitching project", "tags": ["Materials", "Unreal Engine 5"], "image": "1c9294_0aa9b41196124e619d73ac71d3ab1e45~mv2.png"},
+    {"wix": "mayafashionwalk", "title": "Maya Fashion Walk", "subtitle": "Cloth simulation", "tags": ["Marvelous Designer", "Maya"], "video": "1c9294_d3db7ba29031406ba88256c3d01bd2ea"},
+    {"wix": "thai-army", "title": "Thai Army", "subtitle": "Pitching project", "tags": ["Cloth sim", "Props"], "image": "1c9294_b674050233574cca88b1c1b3a6455a82~mv2.png"},
+    {"title": "Lipstick Cemetery Live Show", "subtitle": "Live show visuals", "tags": ["Real-time"], "video": "1c9294_99a5d93d5ee949dbb13e6511262db0c9"}
+  ],
+
+  "pages": [
+    {"wix": "life-of-the-buddha", "slug": "life-of-the-buddha", "title": "Life of the Buddha", "noindex": true},
+    {"wix": "backstreet-boys", "slug": "backstreet-boys", "title": "Backstreet Boys at Sphere"},
+    {"wix": "copy-of-viking", "slug": "supernova-genesis", "title": "Supernova: Genesis"},
+    {"wix": "copy-of-supernova", "slug": "stanley-cup-espn", "title": "Stanley Cup Final – ESPN"},
+    {"wix": "copy-of-espn-stanleycup", "slug": "pjl", "title": "PJL"},
+    {"wix": "single-project", "slug": "bearded-dragon", "title": "Bearded Dragon"},
+    {"wix": "viking", "slug": "viking", "title": "Female Viking"},
+    {"wix": "wasp-inspired-mecha", "slug": "wasp-inspired-mecha", "title": "WASP Inspired Mecha"},
+    {"wix": "saudi-arabia-pavilion", "slug": "saudi-arabia-pavilion", "title": "Saudi Arabia Pavilion"},
+    {"wix": "binyan", "slug": "binyan", "title": "Costa Rica Binyan", "noindex": true},
+    {"wix": "mayafashionwalk", "slug": "maya-fashion-walk", "title": "Maya Fashion Walk"},
+    {"wix": "thai-army", "slug": "thai-army", "title": "Thai Army"},
+
+    {"wix": "youngprince", "slug": "young-prince", "title": "Young Prince", "parent": "life-of-the-buddha"},
+    {"wix": "mara-daughters", "slug": "mara-daughters", "title": "Mara Daughters", "parent": "life-of-the-buddha"},
+    {"wix": "baby-buddha-queen-servants", "slug": "baby-buddha-queen-servants", "title": "Baby Buddha, Queen & Servants", "parent": "life-of-the-buddha"},
+    {"wix": "shepherdress", "slug": "shepherdess", "title": "Shepherdess", "parent": "life-of-the-buddha"},
+    {"wix": "king-bimbisara-healthy-buddha", "slug": "king-bimbisara", "title": "King Bimbisara & Healthy Buddha", "parent": "life-of-the-buddha"},
+    {"wix": "commoner", "slug": "commoner", "title": "Commoner & Nidhi", "parent": "life-of-the-buddha"}
+  ]
+}
