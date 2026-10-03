@@ -271,7 +271,7 @@ def layout(title, body, root, active="", description="", noindex=False):
 {meta_robots}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}css/style.css">
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">
 <script>
@@ -281,7 +281,6 @@ def layout(title, body, root, active="", description="", noindex=False):
 </head>
 <body>
 <div class="veil" aria-hidden="true"></div>
-<div class="cursor" aria-hidden="true"><span class="cursor-ring"></span><span class="cursor-label"></span></div>
 <header class="site-header">
   <a class="logo" href="{root}index.html">{esc(SITE['logo'])}</a>
   <nav>{nav}</nav>
@@ -322,9 +321,9 @@ def build_home():
         info = (f'<div class="card-info"><h2>{esc(c["title"])}</h2><p>{esc(c.get("subtitle", ""))}</p>'
                 f'<ul class="tags">{tags}</ul></div>')
         if href:
-            cards.append(f'<a class="card" href="{href}" data-cursor="View"><div class="card-media">{media}</div>{info}</a>')
+            cards.append(f'<a class="card" href="{href}"><div class="card-media">{media}</div>{info}</a>')
         else:  # no project page: play the clip in the lightbox
-            cards.append(f'<a class="card" href="{video_src(c["video"], root)}" data-lightbox-video data-cursor="Play">'
+            cards.append(f'<a class="card" href="{video_src(c["video"], root)}" data-lightbox-video>'
                          f'<div class="card-media">{media}</div>{info}</a>')
     hero = SITE["hero"]
     body = f"""
@@ -380,7 +379,10 @@ def build_about():
     html_out = f"""
 <article class="project about">
   <h1 class="project-title" data-split>About / CV</h1>
-  {body}
+  <div class="about-grid">
+    <figure class="about-photo"><img src="{root}assets/img/profile.webp" alt="{esc(SITE['fullName'])}" width="737" height="824"></figure>
+    <div class="about-body">{body}</div>
+  </div>
 </article>"""
     (ROOT / "about.html").write_text(layout("About / CV", html_out, root, "about"), encoding="utf8")
 

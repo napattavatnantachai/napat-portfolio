@@ -8,8 +8,8 @@
   --radius: 10px;
   --gutter: clamp(16px, 4vw, 48px);
   --max: 1180px;
-  --font: "Inter", system-ui, sans-serif;
-  --display: "Space Grotesk", "Inter", sans-serif;
+  --font: "Roboto", system-ui, sans-serif;
+  --display: "Roboto", system-ui, sans-serif;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -265,3 +265,18 @@ html.motion [data-reveal] { opacity: 0; transform: translateY(50px); }
 html.motion .card-media, html.motion .card-media img, html.motion .card-media video,
 html.motion a.media img, html.motion .btn, html.motion .site-header nav a { transition-property: opacity, background, color; }
 html.motion .card:active .card-media { transform: none; }
+
+/* Roboto: heavy, tight headings like the reference */
+h1, h2, h3 { font-weight: 900; letter-spacing: -.015em; }
+h4, .card-info h2 { font-weight: 700; }
+.logo { font-weight: 900; }
+
+/* About: photo beside the CV */
+.about-grid { display: grid; grid-template-columns: minmax(240px, 38%) 1fr; gap: clamp(24px, 4vw, 56px); align-items: start; }
+.about-photo { margin: 8px 0 0; position: sticky; top: 90px; border-radius: var(--radius); overflow: hidden; background: var(--surface); }
+.about-photo img { width: 100%; height: auto; }
+.about-body .text:first-child h3 { margin-top: 0; }
+@media (max-width: 760px) {
+  .about-grid { grid-template-columns: 1fr; }
+  .about-photo { position: static; max-width: 420px; }
+}

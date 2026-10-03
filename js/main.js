@@ -146,30 +146,8 @@ if (motion) {
   });
 }
 
-// ---------------------------------------------------------------- cursor + hover effects
+// ---------------------------------------------------------------- hover effects
 if (motion && finePointer) {
-  root.classList.add("has-cursor");
-  const cursor = document.querySelector(".cursor");
-  const parts = cursor.querySelectorAll(".cursor-ring, .cursor-label");
-  const label = cursor.querySelector(".cursor-label");
-  const xTo = gsap.quickTo(parts, "x", { duration: .5, ease: "power3" });
-  const yTo = gsap.quickTo(parts, "y", { duration: .5, ease: "power3" });
-  let seen = false;
-  addEventListener("pointermove", (e) => {
-    if (!seen) { seen = true; gsap.set(parts, { x: e.clientX, y: e.clientY }); gsap.to(cursor, { opacity: 1, duration: .3 }); }
-    xTo(e.clientX); yTo(e.clientY);
-  });
-  document.addEventListener("pointerover", (e) => {
-    const t = e.target.closest("[data-cursor], a, button");
-    cursor.classList.toggle("is-label", !!t?.dataset.cursor);
-    cursor.classList.toggle("is-link", !!t && !t.dataset.cursor);
-    label.textContent = t?.dataset.cursor || "";
-  });
-  addEventListener("pointerdown", () => cursor.classList.add("is-down"));
-  addEventListener("pointerup", () => cursor.classList.remove("is-down"));
-  document.documentElement.addEventListener("pointerleave", () => gsap.to(cursor, { opacity: 0, duration: .3 }));
-  document.documentElement.addEventListener("pointerenter", () => seen && gsap.to(cursor, { opacity: 1, duration: .3 }));
-
   // cards tilt toward the pointer and their picture zooms
   document.querySelectorAll(".card").forEach((card) => {
     const media = card.querySelector(".card-media");
@@ -233,6 +211,14 @@ if (motion) {
       .from(info.children, { y: 24, opacity: 0, duration: .8, ease, stagger: .07 }, "<.3");
     gsap.fromTo(inner, { yPercent: -5 }, { yPercent: 5, ease: "none",
       scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: true } });
+  });
+
+  // cards breathe with the scroll: grow in as they arrive, ease back as they leave
+  gsap.utils.toArray(".card").forEach((card) => {
+    gsap.timeline({ scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: .6 } })
+      .fromTo(card, { scale: .86 }, { scale: 1, ease: "power2.out", duration: 1 })
+      .to(card, { scale: 1, duration: .6 })
+      .to(card, { scale: .93, ease: "power2.in", duration: 1 });
   });
 
   // project pages: blocks fade up, images unmask, galleries cascade
