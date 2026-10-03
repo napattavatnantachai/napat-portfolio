@@ -160,8 +160,8 @@ if (motion && finePointer) {
       ry(((e.clientX - r.left) / r.width - .5) * 8);
       rx(-((e.clientY - r.top) / r.height - .5) * 8);
     });
-    card.addEventListener("pointerenter", () => gsap.to(inner, { scale: 1.12, duration: 1, ease }));
-    card.addEventListener("pointerleave", () => { rx(0); ry(0); gsap.to(inner, { scale: 1.04, duration: 1, ease }); });
+    card.addEventListener("pointerenter", () => gsap.to(inner, { scale: 1.16, duration: 1, ease }));
+    card.addEventListener("pointerleave", () => { rx(0); ry(0); gsap.to(inner, { scale: 1.08, duration: 1, ease }); });
   });
 
   // magnetic buttons and pager links
@@ -200,26 +200,22 @@ if (motion) {
     gsap.to(".hero-text", { yPercent: -40, opacity: 0, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom 20%", scrub: true } });
   }
 
-  // cards: curtain reveal, staggered by column, with inner parallax
-  gsap.utils.toArray(".card").forEach((card, i) => {
+  // cards: the picture frame grows from a smaller window to full size as it reaches the
+  // middle of the screen, then shrinks back in as it scrolls away (picture stays put inside)
+  const small = "inset(14% 16% 14% 16% round 14px)";
+  const full = "inset(0% 0% 0% 0% round 10px)";
+  gsap.utils.toArray(".card").forEach((card) => {
     const media = card.querySelector(".card-media");
     const inner = media.querySelector("img, video");
     const info = card.querySelector(".card-info");
-    const tl = gsap.timeline({ scrollTrigger: { trigger: card, start: "top 88%" } });
-    tl.fromTo(media, { clipPath: "inset(100% 0% 0% 0%)" }, { clipPath: "inset(0% 0% 0% 0%)", duration: 1.2, ease: "expo.out" })
-      .fromTo(inner, { scale: 1.4 }, { scale: 1.04, duration: 1.6, ease: "expo.out" }, "<")
-      .from(info.children, { y: 24, opacity: 0, duration: .8, ease, stagger: .07 }, "<.3");
-    gsap.fromTo(inner, { yPercent: -5 }, { yPercent: 5, ease: "none",
+    gsap.timeline({ scrollTrigger: { trigger: media, start: "top bottom", end: "bottom top", scrub: .5 } })
+      .fromTo(media, { clipPath: small }, { clipPath: full, ease: "power2.out", duration: 1 })
+      .to(media, { clipPath: full, duration: .35 })
+      .to(media, { clipPath: small, ease: "power2.in", duration: 1 });
+    gsap.fromTo(inner, { yPercent: -5, scale: 1.08 }, { yPercent: 5, scale: 1.08, ease: "none",
       scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: true } });
-  });
-
-  // cards: grow in as they arrive, then "fade back" (shrink + dim) as they scroll away,
-  // like the BgFadeBack scroll effect on the old Wix site
-  gsap.utils.toArray(".card").forEach((card) => {
-    gsap.fromTo(card, { scale: .9 }, { scale: 1, ease: "power2.out",
-      scrollTrigger: { trigger: card, start: "top bottom", end: "top 55%", scrub: .5 } });
-    gsap.fromTo(card, { scale: 1, opacity: 1 }, { scale: .8, opacity: .25, ease: "none", immediateRender: false,
-      scrollTrigger: { trigger: card, start: "center 45%", end: "bottom top", scrub: .5 } });
+    gsap.from(info.children, { y: 24, opacity: 0, duration: .8, ease, stagger: .07,
+      scrollTrigger: { trigger: info, start: "top 92%" } });
   });
 
   // project pages: blocks fade up, images unmask, galleries cascade
