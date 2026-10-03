@@ -255,12 +255,14 @@ def social_links():
         f'<a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["label"])}</a>' for s in SITE["social"])
 
 
-def layout(title, body, root, active="", description="", noindex=False):
+def layout(title, body, root, active="", description="", noindex=False, hero3d=False):
     meta_robots = '<meta name="robots" content="noindex">' if noindex else ""
     full_title = f"{title} | {SITE['name']}" if title else f"{SITE['name']} | {SITE['role']}"
     nav = "".join(
-        f'<a href="{root}{href}"{" aria-current=page" if key == active else ""}>{label}</a>'
-        for key, href, label in (("work", "index.html#work", "Work"), ("about", "about.html", "About / CV")))
+        f'<a class="pill" href="{root}{href}"{" aria-current=page" if key == active else ""}>{label}</a>'
+        for key, href, label in (("work", "index.html#work", "Work"), ("about", "about.html", "About")))
+    three = ('<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>\n'
+             f'<script src="{root}js/hero3d.js" defer></script>') if hero3d else ""
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -271,31 +273,48 @@ def layout(title, body, root, active="", description="", noindex=False):
 {meta_robots}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{root}css/style.css">
 <link rel="icon" href="{root}assets/favicon.svg" type="image/svg+xml">
+<script>
+  // motion is opt-in: without JS or with reduced motion, everything stays visible
+  if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("motion");
+</script>
 </head>
 <body>
+<div class="veil" aria-hidden="true"></div>
+<div class="cursor" aria-hidden="true"><span class="cursor-dot"></span><span class="cursor-label"></span></div>
 <header class="site-header">
   <a class="logo" href="{root}index.html">{esc(SITE['logo'])}</a>
-  <nav>{nav}</nav>
+  <nav>{nav}<a class="pill pill-dark" href="mailto:{esc(SITE['email'])}">Let's talk <i class="dot" aria-hidden="true"></i></a></nav>
 </header>
 <main>
 {body}
 </main>
 <footer class="site-footer">
-  <div>
-    <strong>{esc(SITE['fullName'])}</strong>
-    <a href="mailto:{esc(SITE['email'])}">{esc(SITE['email'])}</a>
+  <div class="footer-card">
+    <p class="footer-kicker">Have a project in mind?</p>
+    <a class="footer-cta" href="mailto:{esc(SITE['email'])}" data-cursor="Email">Let's talk</a>
+    <div class="footer-row">
+      <a class="footer-mail" href="mailto:{esc(SITE['email'])}">{esc(SITE['email'])}</a>
+      <div class="social">{social_links()}</div>
+    </div>
+    <small>© {SITE['year']} {esc(SITE['fullName'])}</small>
   </div>
-  <div class="social">{social_links()}</div>
-  <small>© {SITE['year']} {esc(SITE['fullName'])}. All rights reserved.</small>
 </footer>
 <div class="lightbox" hidden><button class="lb-close" aria-label="Close">×</button><button class="lb-prev" aria-label="Previous">‹</button><img alt=""><button class="lb-next" aria-label="Next">›</button></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+{three}
 <script src="{root}js/main.js" defer></script>
 </body>
 </html>
 """
+
+
+def tag_line(tags):
+    return "".join(f"<li>{esc(t)}</li>" for t in tags)
 
 
 def build_home():
@@ -303,35 +322,63 @@ def build_home():
     cards = []
     for c in SITE["home"]:
         page = PAGES.get(c.get("wix"))
-        href = f"projects/{page['slug']}.html" if page else None
         if "video" in c:
             media = (f'<video muted loop playsinline preload="none" data-autoplay poster="{poster_src(c["video"], root)}">'
                      f'<source src="{video_src(c["video"], root)}" type="video/mp4"></video>')
         else:
             media = f'<img src="{img_src(c["image"], root)}" alt="" loading="lazy" decoding="async">'
-        tags = "".join(f"<li>{esc(t)}</li>" for t in c.get("tags", []))
-        info = (f'<div class="card-info"><h2>{esc(c["title"])}</h2><p>{esc(c.get("subtitle", ""))}</p>'
-                f'<ul class="tags">{tags}</ul></div>')
-        if href:
-            cards.append(f'<a class="card" href="{href}"><div class="card-media">{media}</div>{info}</a>')
+        info = (f'<div class="card-info"><h2>{esc(c["title"])}</h2>'
+                f'<p>{esc(c.get("subtitle", ""))}</p><ul class="tags">{tag_line(c.get("tags", []))}</ul></div>')
+        if page:
+            href, extra = f"projects/{page['slug']}.html", 'data-cursor="View"'
         else:  # no project page: play the clip in the lightbox
-            cards.append(f'<a class="card" href="{video_src(c["video"], root)}" data-lightbox-video>'
-                         f'<div class="card-media">{media}</div>{info}</a>')
+            href, extra = video_src(c["video"], root), 'data-lightbox-video data-cursor="Play"'
+        cards.append(f'<a class="card" href="{href}" {extra}><div class="card-media">{media}</div>{info}</a>')
     hero = SITE["hero"]
+    statement = SITE.get("statement", SITE["tagline"])
+    words = " ".join(f"<span>{esc(w)}</span>" for w in statement.split())
     body = f"""
 <section class="hero">
-  <video muted loop playsinline autoplay preload="auto" poster="{poster_src(hero['video'], root)}"><source src="{video_src(hero['video'], root)}" type="video/mp4"></video>
+  <canvas class="hero-canvas" aria-hidden="true"></canvas>
   <div class="hero-text">
-    <p class="eyebrow">{esc(SITE['role'])}</p>
-    <h1>{esc(SITE['fullName'])}</h1>
-    <p>{esc(SITE['tagline'])}</p>
-    <a class="btn" href="#work">View work <span aria-hidden="true">↓</span></a>
+    <p class="eyebrow"><i class="dot" aria-hidden="true"></i>{esc(SITE['fullName'])} — {esc(SITE['role'])}</p>
+    <h1 data-split-words>{esc(SITE['headline'])}</h1>
+    <div class="hero-actions">
+      <a class="pill pill-dark pill-lg" href="#work">See projects <span aria-hidden="true">↓</span></a>
+      <a class="pill pill-lg" href="{video_src(hero['video'], root)}" data-lightbox-video data-cursor="Play">Play reel <span aria-hidden="true">▶</span></a>
+    </div>
   </div>
+  <p class="scroll-hint" aria-hidden="true">Continue to scroll</p>
 </section>
-<section id="work" class="cards">
-{"".join(cards)}
+<section class="reel">
+  <a class="reel-frame" href="{video_src(hero['video'], root)}" data-lightbox-video data-cursor="Play">
+    <video muted loop playsinline preload="none" data-autoplay poster="{poster_src(hero['video'], root)}"><source src="{video_src(hero['video'], root)}" type="video/mp4"></video>
+    <span class="reel-label pill">Play reel ▶</span>
+  </a>
+</section>
+<section class="statement"><p data-words>{words}</p></section>
+<section id="work" class="work">
+  <header class="section-head"><h2 data-split-words>Selected work</h2><span class="count">{len(cards):02d}</span></header>
+  <div class="cards">{"".join(cards)}</div>
 </section>"""
-    (ROOT / "index.html").write_text(layout("", body, root, "work"), encoding="utf8")
+    (ROOT / "index.html").write_text(layout("", body, root, "work", hero3d=True), encoding="utf8")
+
+
+def split_hero(blocks):
+    """Take the first full-width video/image off the top of the page to use as a full-bleed hero."""
+    for i, b in enumerate(blocks):
+        if b["type"] in ("text", "button"):
+            continue
+        if b["type"] in ("video", "image") and (b.get("dispW") or 0) >= FULL_WIDTH and not b.get("link"):
+            if b["type"] == "image" and b["uri"].startswith("http"):
+                continue
+            key = b.get("id") or b.get("uri")
+            # drop the hero and later full-width repeats of the same clip
+            rest = [o for o in blocks if o is not b and not
+                    ((o.get("id") or o.get("uri")) == key and (o.get("dispW") or 0) >= FULL_WIDTH)]
+            return b, rest
+        return None, blocks
+    return None, blocks
 
 
 def build_project(page):
@@ -341,19 +388,31 @@ def build_project(page):
     if page.get("parent"):
         parent = PAGES[page["parent"]]
         crumbs += f' <span>/</span> <a href="{root}projects/{parent["slug"]}.html">{esc(parent["title"])}</a>'
-    body = render_body(wix["blocks"], root, page)
+    hero, blocks = split_hero(wix["blocks"])
+    body = render_body(blocks, root, page)
     nav = ""
     order = [p for p in SITE["pages"] if not p.get("parent")]
     if not page.get("parent"):
         k = order.index(page)
         prev_p, next_p = order[k - 1], order[(k + 1) % len(order)]
-        nav = (f'<nav class="pager"><a href="{prev_p["slug"]}.html">← {esc(prev_p["title"])}</a>'
-               f'<a href="{next_p["slug"]}.html">{esc(next_p["title"])} →</a></nav>')
+        nav = (f'<nav class="pager"><a href="{prev_p["slug"]}.html" data-cursor="Prev"><small>Previous</small>{esc(prev_p["title"])}</a>'
+               f'<a href="{next_p["slug"]}.html" data-cursor="Next"><small>Next project</small>{esc(next_p["title"])}</a></nav>')
     subs = [p for p in SITE["pages"] if p.get("parent") == page["wix"]]
+    head = f'<div class="crumbs">{crumbs}</div><h1 class="project-title" data-split>{esc(page["title"])}</h1>'
+    if hero:
+        if hero["type"] == "video":
+            media = render_video(hero, root, ambient=True)
+            watch = (f'<a class="btn btn-ghost" href="{video_src(hero["id"], root)}" data-lightbox-video data-cursor="Play">'
+                     f'Watch with sound <span aria-hidden="true">▶</span></a>')
+        else:
+            media = render_image(hero, root, lightbox=False)
+            watch = ""
+        top = f'<section class="page-hero"><div class="page-hero-media">{media}</div><div class="page-hero-text">{head}{watch}</div></section>'
+    else:
+        top = f'<div class="project-head">{head}</div>'
     html_out = f"""
+{top}
 <article class="project">
-  <div class="crumbs">{crumbs}</div>
-  <h1 class="project-title">{esc(page['title'])}</h1>
   {body}
   {nav}
 </article>"""
@@ -369,8 +428,8 @@ def build_about():
     blocks = WIX["my-cv"]["blocks"]
     body = render_body(blocks, root, {"wix": "my-cv"})
     html_out = f"""
+<div class="project-head"><h1 class="project-title" data-split>About / CV</h1></div>
 <article class="project about">
-  <h1 class="project-title">About / CV</h1>
   {body}
 </article>"""
     (ROOT / "about.html").write_text(layout("About / CV", html_out, root, "about"), encoding="utf8")
