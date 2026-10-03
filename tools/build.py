@@ -333,7 +333,7 @@ def build_home():
         info = (f'<div class="card-info"><h2>{esc(c["title"])}</h2><p>{esc(c.get("subtitle", ""))}</p>'
                 f'<ul class="tags">{tags}</ul></div>')
         if href:
-            cards.append(f'<a class="card" href="{href}"><div class="card-media">{media}</div>{info}</a>')
+            cards.append(f'<a class="card{" portrait" if c.get("portrait") else ""}" href="{href}"><div class="card-media">{media}</div>{info}</a>')
         else:  # no project page: play the clip in the lightbox
             cards.append(f'<a class="card" href="{video_src(c["video"], root)}" data-lightbox-video>'
                          f'<div class="card-media">{media}</div>{info}</a>')

@@ -213,12 +213,13 @@ if (motion) {
       scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: true } });
   });
 
-  // cards breathe with the scroll: grow in as they arrive, ease back as they leave
+  // cards: grow in as they arrive, then "fade back" (shrink + dim) as they scroll away,
+  // like the BgFadeBack scroll effect on the old Wix site
   gsap.utils.toArray(".card").forEach((card) => {
-    gsap.timeline({ scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: .6 } })
-      .fromTo(card, { scale: .86 }, { scale: 1, ease: "power2.out", duration: 1 })
-      .to(card, { scale: 1, duration: .6 })
-      .to(card, { scale: .93, ease: "power2.in", duration: 1 });
+    gsap.fromTo(card, { scale: .9 }, { scale: 1, ease: "power2.out",
+      scrollTrigger: { trigger: card, start: "top bottom", end: "top 55%", scrub: .5 } });
+    gsap.fromTo(card, { scale: 1, opacity: 1 }, { scale: .8, opacity: .25, ease: "none", immediateRender: false,
+      scrollTrigger: { trigger: card, start: "center 45%", end: "bottom top", scrub: .5 } });
   });
 
   // project pages: blocks fade up, images unmask, galleries cascade
