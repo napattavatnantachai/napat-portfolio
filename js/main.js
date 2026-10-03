@@ -200,18 +200,22 @@ if (motion) {
     gsap.to(".hero-text", { yPercent: -40, opacity: 0, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom 20%", scrub: true } });
   }
 
-  // cards: the picture frame grows from a smaller window to full size as it reaches the
-  // middle of the screen, then shrinks back in as it scrolls away (picture stays put inside)
-  const small = "inset(14% 16% 14% 16% round 14px)";
-  const full = "inset(0% 0% 0% 0% round 10px)";
+  // cards: the frame's sides draw in toward each other as it enters and leaves the screen,
+  // full width around the middle. Transform-only (GPU) so it stays smooth over video;
+  // .card-inner is counter-scaled so the picture itself never stretches.
+  const NARROW = .78;
   gsap.utils.toArray(".card").forEach((card) => {
     const media = card.querySelector(".card-media");
-    const inner = media.querySelector("img, video");
+    const wrap = card.querySelector(".card-inner");
+    const inner = wrap.querySelector("img, video");
     const info = card.querySelector(".card-info");
-    gsap.timeline({ scrollTrigger: { trigger: media, start: "top bottom", end: "bottom top", scrub: .5 } })
-      .fromTo(media, { clipPath: small }, { clipPath: full, ease: "power2.out", duration: 1 })
-      .to(media, { clipPath: full, duration: .35 })
-      .to(media, { clipPath: small, ease: "power2.in", duration: 1 });
+    const counter = () => gsap.set(wrap, { scaleX: 1 / gsap.getProperty(media, "scaleX") });
+    gsap.timeline({ defaults: { onUpdate: counter },
+      scrollTrigger: { trigger: media, start: "top bottom", end: "bottom top", scrub: .8 } })
+      .fromTo(media, { scaleX: NARROW }, { scaleX: 1, ease: "power2.out", duration: 1 })
+      .to(media, { scaleX: 1, duration: .4 })
+      .to(media, { scaleX: NARROW, ease: "power2.in", duration: 1 });
+    counter();
     gsap.fromTo(inner, { yPercent: -5, scale: 1.08 }, { yPercent: 5, scale: 1.08, ease: "none",
       scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: true } });
     gsap.from(info.children, { y: 24, opacity: 0, duration: .8, ease, stagger: .07,
@@ -224,12 +228,9 @@ if (motion) {
     el.setAttribute("data-reveal", "");
     gsap.to(el, { opacity: 1, y: 0, duration: 1.1, ease, scrollTrigger: { trigger: el, start: "top 90%" } });
   });
-  gsap.utils.toArray(".project .row .media:not(.icon)").forEach((m) => {
-    const inner = m.querySelector("img") || m;
-    gsap.fromTo(m, { clipPath: "inset(12% 8% 12% 8%)" }, { clipPath: "inset(0% 0% 0% 0%)", ease: "none",
-      scrollTrigger: { trigger: m, start: "top 95%", end: "top 55%", scrub: true } });
-    if (inner !== m) gsap.fromTo(inner, { scale: 1.15 }, { scale: 1, ease: "none",
-      scrollTrigger: { trigger: m, start: "top 95%", end: "bottom 30%", scrub: true } });
+  gsap.utils.toArray(".project .row .media:not(.icon) img").forEach((img) => {
+    gsap.fromTo(img, { scale: 1.15 }, { scale: 1, ease: "none",
+      scrollTrigger: { trigger: img, start: "top bottom", end: "bottom 30%", scrub: .6 } });
   });
   gsap.utils.toArray(".gallery, .carousel").forEach((g) => {
     gsap.from(g.children, { y: 60, opacity: 0, scale: .94, duration: 1, ease, stagger: { each: .06, from: "start" },

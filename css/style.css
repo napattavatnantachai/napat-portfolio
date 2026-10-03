@@ -303,3 +303,8 @@ h4, .card-info h2 { font-weight: 700; }
   .card.portrait { grid-template-columns: 1fr; }
   .card.portrait .card-media { width: 72%; }
 }
+
+/* frame narrows from the sides; .card-inner is counter-scaled so the picture never stretches */
+.card-media { will-change: transform; }
+.card-inner { position: absolute; inset: 0; will-change: transform; }
+.card-inner img, .card-inner video { width: 100%; height: 100%; object-fit: cover; }
