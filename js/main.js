@@ -121,8 +121,16 @@ document.querySelectorAll("a[data-back]").forEach((a) => a.addEventListener("cli
   if (!cameFromSite()) return;  // let the normal link (and page transition) handle it
   e.preventDefault();
   e.stopImmediatePropagation();
-  if (motion) gsap.to(document.querySelector(".veil"), { opacity: 1, duration: .35, onComplete: () => history.back() });
-  else history.back();
+  const href = a.href;
+  const goBack = () => {
+    let left = false;
+    addEventListener("pagehide", () => { left = true; }, { once: true });
+    history.back();
+    // if the browser had nothing to go back to, don't leave the page covered
+    setTimeout(() => { if (!left) location.href = href; }, 1200);
+  };
+  if (motion) gsap.to(document.querySelector(".veil"), { opacity: 1, duration: .3, onComplete: goBack });
+  else goBack();
 }, true));
 const floatBack = document.querySelector(".float-back");
 function toggleFloatBack(y) { floatBack?.classList.toggle("is-visible", y > 400); }
@@ -137,7 +145,17 @@ function isPageLink(a, e) {
 }
 if (motion) {
   gsap.to(veil, { opacity: 0, duration: .7, ease: "power2.out", delay: .05 });
-  addEventListener("pageshow", (e) => { if (e.persisted) { gsap.set(veil, { opacity: 0 }); document.querySelector(".zoom-clone")?.remove(); } });
+  // coming back via Back/Forward restores this page from the browser cache exactly as we
+  // left it (veil up, cards faded, scrolling paused) -- undo all of that
+  addEventListener("pageshow", (e) => {
+    if (!e.persisted) return;
+    gsap.killTweensOf([veil, ".card"]);
+    gsap.set(veil, { opacity: 0 });
+    gsap.set(".card", { opacity: 1 });
+    document.querySelector(".zoom-clone")?.remove();
+    lenis?.start();
+    ScrollTrigger.refresh();
+  });
   document.addEventListener("click", (e) => {
     const a = e.target.closest("a[href]");
     if (!isPageLink(a, e)) return;
