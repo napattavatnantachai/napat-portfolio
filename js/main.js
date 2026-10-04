@@ -37,16 +37,19 @@ const io = new IntersectionObserver((entries) => {
 ambient.forEach((v) => io.observe(v));
 
 // ---------------------------------------------------------------- hero reel
-// Cross-fade through the project clips; only the current and next clip load.
+// Plays up to 30 s of each project clip (or the whole clip if shorter), then
+// cross-fades to the next one. Only the current and next clip are loaded.
 const reel = [...document.querySelectorAll(".hero-reel video")];
 if (reel.length) {
   const now = document.querySelector(".hero-now");
   const nowTitle = now.querySelector(".hero-now-title");
-  const SHOW = 7000;  // ms per clip
-  let cur = 0, timer = null, inView = true;
+  const MAX_SECONDS = 30;
+  let cur = 0, inView = true, switching = false;
   const label = (v) => { nowTitle.textContent = v.dataset.title; now.href = v.dataset.href; };
   const prep = (v) => { if (v.preload !== "auto") { v.preload = "auto"; v.load(); } };
   function next() {
+    if (switching || reel.length < 2) return;
+    switching = true;
     const prev = reel[cur];
     cur = (cur + 1) % reel.length;
     const v = reel[cur];
@@ -54,19 +57,26 @@ if (reel.length) {
     v.play().catch(() => {});
     v.classList.add("is-active");
     prev.classList.remove("is-active");
-    setTimeout(() => prev.pause(), 1500);
+    setTimeout(() => { prev.pause(); switching = false; }, 1500);
     nowTitle.style.opacity = 0;
     setTimeout(() => { label(v); nowTitle.style.opacity = 1; }, 400);
     prep(reel[(cur + 1) % reel.length]);
   }
-  const start = () => { if (!timer) timer = setInterval(next, SHOW); reel[cur].play().catch(() => {}); };
-  const stop = () => { clearInterval(timer); timer = null; reel[cur].pause(); };
-  reel.forEach((v) => { v.loop = true; });
+  reel.forEach((v) => {
+    v.loop = false;
+    v.addEventListener("timeupdate", () => {
+      if (v !== reel[cur]) return;
+      const limit = Math.min(MAX_SECONDS, (v.duration || MAX_SECONDS) - 1.2);  // leave time for the fade
+      if (v.currentTime >= limit) next();
+    });
+    v.addEventListener("ended", () => { if (v === reel[cur]) next(); });
+  });
+  const play = () => reel[cur].play().catch(() => {});
   label(reel[0]);
   prep(reel[1 % reel.length]);
-  new IntersectionObserver(([e]) => { inView = e.isIntersecting; inView && !document.hidden ? start() : stop(); })
+  new IntersectionObserver(([e]) => { inView = e.isIntersecting; inView && !document.hidden ? play() : reel[cur].pause(); })
     .observe(document.querySelector(".hero"));
-  document.addEventListener("visibilitychange", () => { document.hidden ? stop() : inView && start(); });
+  document.addEventListener("visibilitychange", () => { document.hidden ? reel[cur].pause() : inView && play(); });
 }
 
 // ---------------------------------------------------------------- lightbox
