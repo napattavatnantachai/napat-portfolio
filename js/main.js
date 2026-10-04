@@ -1,7 +1,6 @@
 const root = document.documentElement;
 const motion = root.classList.contains("motion") && window.gsap && window.ScrollTrigger;
 if (!motion) root.classList.remove("motion");
-const finePointer = matchMedia("(pointer: fine)").matches;
 const ease = "power3.out";
 
 // ---------------------------------------------------------------- smooth scroll
@@ -9,7 +8,7 @@ let lenis = null;
 if (motion) {
   gsap.registerPlugin(ScrollTrigger);
   if (window.Lenis) {
-    lenis = new Lenis({ lerp: 0.085, smoothWheel: true });
+    lenis = new Lenis({ lerp: 0.1, smoothWheel: true });
     lenis.on("scroll", ScrollTrigger.update);
     gsap.ticker.add((t) => lenis.raf(t * 1000));
     gsap.ticker.lagSmoothing(0);
@@ -50,7 +49,7 @@ function openBox(el) {
   lenis?.stop();
   if (motion) {
     gsap.fromTo(box, { opacity: 0 }, { opacity: 1, duration: .35 });
-    gsap.fromTo(el, { scale: .92, opacity: 0, y: 20 }, { scale: 1, opacity: 1, y: 0, duration: .7, ease: "expo.out" });
+    gsap.fromTo(el, { scale: .94, opacity: 0 }, { scale: 1, opacity: 1, duration: .6, ease: "expo.out" });
   }
 }
 function show(i, dir = 0) {
@@ -59,7 +58,7 @@ function show(i, dir = 0) {
   boxImg.src = links[index].href;
   boxImg.alt = links[index].querySelector("img")?.alt || "";
   if (box.hidden) openBox(boxImg);
-  else if (motion) gsap.fromTo(boxImg, { x: dir * 60, opacity: 0 }, { x: 0, opacity: 1, duration: .5, ease });
+  else if (motion) gsap.fromTo(boxImg, { x: dir * 40, opacity: 0 }, { x: 0, opacity: 1, duration: .45, ease });
 }
 function close() {
   const done = () => {
@@ -146,107 +145,24 @@ if (motion) {
   });
 }
 
-// ---------------------------------------------------------------- hover effects
-if (motion && finePointer) {
-  // cards tilt toward the pointer and their picture zooms
-  document.querySelectorAll(".card").forEach((card) => {
-    const media = card.querySelector(".card-media");
-    const inner = media.querySelector("img, video");
-    gsap.set(media, { transformPerspective: 900 });
-    const rx = gsap.quickTo(media, "rotationX", { duration: .6, ease: "power3" });
-    const ry = gsap.quickTo(media, "rotationY", { duration: .6, ease: "power3" });
-    card.addEventListener("pointermove", (e) => {
-      const r = media.getBoundingClientRect();
-      ry(((e.clientX - r.left) / r.width - .5) * 8);
-      rx(-((e.clientY - r.top) / r.height - .5) * 8);
-    });
-    card.addEventListener("pointerenter", () => gsap.to(inner, { scale: 1.16, duration: 1, ease }));
-    card.addEventListener("pointerleave", () => { rx(0); ry(0); gsap.to(inner, { scale: 1.08, duration: 1, ease }); });
-  });
-
-  // magnetic buttons and pager links
-  document.querySelectorAll(".btn, .site-header nav a, .pager a, .social a").forEach((el) => {
-    const mx = gsap.quickTo(el, "x", { duration: .7, ease: "elastic.out(1, .4)" });
-    const my = gsap.quickTo(el, "y", { duration: .7, ease: "elastic.out(1, .4)" });
-    el.addEventListener("pointermove", (e) => {
-      const r = el.getBoundingClientRect();
-      mx((e.clientX - r.left - r.width / 2) * .3);
-      my((e.clientY - r.top - r.height / 2) * .4);
-    });
-    el.addEventListener("pointerleave", () => { mx(0); my(0); });
-  });
-}
-
-// ---------------------------------------------------------------- scroll choreography
-function split(el) {
-  const text = el.textContent.trim();
-  el.setAttribute("aria-label", text);
-  el.innerHTML = text.split(/(\s+)/).map((w) => /^\s+$/.test(w) ? " "
-    : `<span class="split-unit" aria-hidden="true">${[...w].map((c) => `<span>${c}</span>`).join("")}</span>`).join("");
-  return el.querySelectorAll(".split-unit > span");
-}
-
+// ---------------------------------------------------------------- calm reveals
+// Everything fades in and rises once as it arrives; nothing moves after that.
 if (motion) {
-  // headings: letters rise in
-  document.querySelectorAll("[data-split]").forEach((el) => {
-    gsap.to(split(el), { y: 0, duration: 1.1, ease: "power4.out", stagger: .03, delay: .25 });
-  });
+  gsap.from(".hero-text > *", { y: 30, opacity: 0, duration: 1.2, ease, stagger: .12, delay: .3 });
+  gsap.from(".project-title", { y: 30, opacity: 0, duration: 1.2, ease, delay: .2 });
 
-  // hero: video slowly zooms and text drifts away as you scroll
-  const hero = document.querySelector(".hero");
-  if (hero) {
-    gsap.from(".hero-text .eyebrow, .hero-text > p:not(.eyebrow), .hero-text .btn", { y: 30, opacity: 0, duration: 1, ease, stagger: .12, delay: .7 });
-    gsap.to(".hero video", { scale: 1.18, yPercent: 12, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom top", scrub: true } });
-    gsap.to(".hero-text", { yPercent: -40, opacity: 0, ease: "none", scrollTrigger: { trigger: hero, start: "top top", end: "bottom 20%", scrub: true } });
-  }
+  gsap.utils.toArray(".card, .crumbs, .project .row, .project .banner, .project .icons, .gallery, .carousel, .pager, .site-footer > *")
+    .forEach((el) => {
+      if (el.closest(".banner-over")) return;
+      el.setAttribute("data-reveal", "");
+      gsap.to(el, { opacity: 1, y: 0, duration: 1.2, ease, scrollTrigger: { trigger: el, start: "top 90%", once: true } });
+    });
 
-  // cards: the frame's sides draw in toward each other as it enters and leaves the screen,
-  // full width around the middle. Transform-only (GPU) so it stays smooth over video;
-  // .card-inner is counter-scaled so the picture itself never stretches.
-  const NARROW = .78;
-  gsap.utils.toArray(".card").forEach((card) => {
-    const media = card.querySelector(".card-media");
-    const wrap = card.querySelector(".card-inner");
-    const inner = wrap.querySelector("img, video");
-    const info = card.querySelector(".card-info");
-    const counter = () => gsap.set(wrap, { scaleX: 1 / gsap.getProperty(media, "scaleX") });
-    gsap.timeline({ defaults: { onUpdate: counter },
-      scrollTrigger: { trigger: media, start: "top bottom", end: "bottom top", scrub: .8 } })
-      .fromTo(media, { scaleX: NARROW }, { scaleX: 1, ease: "power2.out", duration: 1 })
-      .to(media, { scaleX: 1, duration: .4 })
-      .to(media, { scaleX: NARROW, ease: "power2.in", duration: 1 });
-    counter();
-    gsap.fromTo(inner, { yPercent: -5, scale: 1.08 }, { yPercent: 5, scale: 1.08, ease: "none",
-      scrollTrigger: { trigger: card, start: "top bottom", end: "bottom top", scrub: true } });
-    gsap.from(info.children, { y: 24, opacity: 0, duration: .8, ease, stagger: .07,
-      scrollTrigger: { trigger: info, start: "top 92%" } });
-  });
-
-  // project pages: blocks fade up, images unmask, galleries cascade
-  gsap.utils.toArray(".crumbs, .project .row, .project .banner, .project .icons, .pager, .site-footer > *").forEach((el) => {
-    if (el.closest(".banner-over")) return;
-    el.setAttribute("data-reveal", "");
-    gsap.to(el, { opacity: 1, y: 0, duration: 1.1, ease, scrollTrigger: { trigger: el, start: "top 90%" } });
-  });
-  gsap.utils.toArray(".project .row .media:not(.icon) img").forEach((img) => {
-    gsap.fromTo(img, { scale: 1.15 }, { scale: 1, ease: "none",
-      scrollTrigger: { trigger: img, start: "top bottom", end: "bottom 30%", scrub: .6 } });
-  });
-  gsap.utils.toArray(".gallery, .carousel").forEach((g) => {
-    gsap.from(g.children, { y: 60, opacity: 0, scale: .94, duration: 1, ease, stagger: { each: .06, from: "start" },
-      scrollTrigger: { trigger: g, start: "top 88%" } });
-  });
-  gsap.utils.toArray(".banner").forEach((b) => {
-    const m = b.querySelector(":scope > video, :scope > .media img");
-    if (m) gsap.fromTo(m, { scale: 1.2, yPercent: -6 }, { scale: 1.05, yPercent: 6, ease: "none",
-      scrollTrigger: { trigger: b, start: "top bottom", end: "bottom top", scrub: true } });
-    const over = b.querySelector(".banner-over");
-    if (over) gsap.from(over.children, { y: 40, opacity: 0, duration: 1, ease, stagger: .1, scrollTrigger: { trigger: b, start: "top 70%" } });
-  });
-
-  // carousels also drift sideways with scroll
-  gsap.utils.toArray(".carousel").forEach((c) => {
-    gsap.fromTo(c, { x: 60 }, { x: -60, ease: "none", scrollTrigger: { trigger: c, start: "top bottom", end: "bottom top", scrub: true } });
+  // card pictures settle into their frame as the card appears
+  gsap.utils.toArray(".card-media").forEach((m) => {
+    const inner = m.querySelector("img, video");
+    gsap.fromTo(inner, { scale: 1.06, transition: "none" }, { scale: 1, duration: 1.4, ease, clearProps: "transform,transition",
+      scrollTrigger: { trigger: m, start: "top 90%", once: true } });
   });
 
   addEventListener("load", () => ScrollTrigger.refresh());

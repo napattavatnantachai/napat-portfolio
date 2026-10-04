@@ -198,7 +198,7 @@ a.media:hover img { opacity: .88; }
 }
 
 /* =================================================================
-   Motion layer (v1 design + richer hover/scroll); active only with html.motion
+   Motion layer: calm reveals only; active with html.motion
    ================================================================= */
 html.lenis, html.lenis body { height: auto; }
 .lenis.lenis-smooth { scroll-behavior: auto !important; }
@@ -215,35 +215,14 @@ html.motion .veil { opacity: 1; }
 .zoom-clone { position: fixed; z-index: 160; overflow: hidden; border-radius: var(--radius); pointer-events: none; background: var(--surface); }
 .zoom-clone img, .zoom-clone video { width: 100%; height: 100%; object-fit: cover; }
 
-/* cursor */
-.cursor { display: none; }
-html.has-cursor .cursor { display: block; position: fixed; inset: 0; pointer-events: none; z-index: 200; opacity: 0; }
-.cursor-ring {
-  position: absolute; top: 0; left: 0; width: 36px; height: 36px; margin: -18px 0 0 -18px; border-radius: 50%;
-  border: 1px solid rgba(233,231,227,.7);
-  transition: width .45s cubic-bezier(.22,1,.36,1), height .45s cubic-bezier(.22,1,.36,1), margin .45s cubic-bezier(.22,1,.36,1), background .3s, border-color .3s;
-}
-.cursor-label {
-  position: absolute; top: 0; left: 0; transform: translate(-50%, -50%) scale(.5); opacity: 0;
-  color: var(--bg); font: 600 12px var(--font); letter-spacing: .12em; text-transform: uppercase; white-space: nowrap;
-  transition: opacity .3s, transform .45s cubic-bezier(.22,1,.36,1);
-}
-.cursor.is-link .cursor-ring { width: 56px; height: 56px; margin: -28px 0 0 -28px; border-color: var(--accent); }
-.cursor.is-label .cursor-ring { width: 92px; height: 92px; margin: -46px 0 0 -46px; background: var(--accent); border-color: var(--accent); }
-.cursor.is-label .cursor-label { opacity: 1; transform: translate(-50%, -50%) scale(1); }
-.cursor.is-down .cursor-ring { transform: scale(.85); }
-
-/* split headings */
-html.motion .split-unit { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .1em; margin-bottom: -.1em; }
-html.motion .split-unit > span { display: inline-block; transform: translateY(110%); }
-
 /* reveal initial state */
-html.motion [data-reveal] { opacity: 0; transform: translateY(50px); }
+html.motion [data-reveal] { opacity: 0; transform: translateY(40px); }
 
-/* richer card hover: focus the hovered card, dim the rest, slide in a CTA */
+/* card hover: soft zoom + a "View project" chip */
 .card { position: relative; }
-.card > * { transition: opacity .5s cubic-bezier(.22,1,.36,1); }
 .card-media { position: relative; }
+.card-media img, .card-media video { transition: transform .8s cubic-bezier(.22,1,.36,1); }
+.card:hover .card-media img, .card:hover .card-media video { transform: scale(1.04); }
 .card-media::after {
   content: "View project →"; position: absolute; left: 16px; bottom: 16px;
   padding: 8px 14px; border-radius: 999px; background: var(--text); color: var(--bg);
@@ -252,20 +231,6 @@ html.motion [data-reveal] { opacity: 0; transform: translateY(50px); }
 }
 .card[data-lightbox-video] .card-media::after { content: "Play video ▶"; }
 .card:hover .card-media::after { opacity: 1; transform: none; }
-.card-info h2 { transition: translate .5s cubic-bezier(.22,1,.36,1), color .3s; }
-.card:hover .card-info h2 { translate: 8px 0; }
-@media (hover: hover) {
-  .cards:hover .card:not(:hover) > * { opacity: .4; }
-}
-.card:active .card-media { transform: scale(.98); }
-.card-media { transition: transform .4s cubic-bezier(.22,1,.36,1); will-change: transform; }
-
-/* lightbox entrance */
-.lightbox img, .lightbox video { transition: none; }
-/* GSAP drives these transforms frame by frame; CSS transitions would fight it */
-html.motion .card-media, html.motion .card-media img, html.motion .card-media video,
-html.motion a.media img, html.motion .btn, html.motion .site-header nav a { transition-property: opacity, background, color; }
-html.motion .card:active .card-media { transform: none; }
 
 /* Roboto: heavy, tight headings like the reference */
 h1, h2, h3 { font-weight: 900; letter-spacing: -.015em; }
@@ -303,8 +268,3 @@ h4, .card-info h2 { font-weight: 700; }
   .card.portrait { grid-template-columns: 1fr; }
   .card.portrait .card-media { width: 72%; }
 }
-
-/* frame narrows from the sides; .card-inner is counter-scaled so the picture never stretches */
-.card-media { will-change: transform; }
-.card-inner { position: absolute; inset: 0; will-change: transform; }
-.card-inner img, .card-inner video { width: 100%; height: 100%; object-fit: cover; }

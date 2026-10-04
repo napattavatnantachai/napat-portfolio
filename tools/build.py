@@ -333,17 +333,17 @@ def build_home():
         info = (f'<div class="card-info"><h2>{esc(c["title"])}</h2><p>{esc(c.get("subtitle", ""))}</p>'
                 f'<ul class="tags">{tags}</ul></div>')
         if href:
-            cards.append(f'<a class="card{" portrait" if c.get("portrait") else ""}" href="{href}"><div class="card-media"><div class="card-inner">{media}</div></div>{info}</a>')
+            cards.append(f'<a class="card{" portrait" if c.get("portrait") else ""}" href="{href}"><div class="card-media">{media}</div>{info}</a>')
         else:  # no project page: play the clip in the lightbox
             cards.append(f'<a class="card" href="{video_src(c["video"], root)}" data-lightbox-video>'
-                         f'<div class="card-media"><div class="card-inner">{media}</div></div>{info}</a>')
+                         f'<div class="card-media">{media}</div>{info}</a>')
     hero = SITE["hero"]
     body = f"""
 <section class="hero">
   <video muted loop playsinline autoplay preload="auto" poster="{poster_src(hero['video'], root)}"><source src="{video_src(hero['video'], root)}" type="video/mp4"></video>
   <div class="hero-text">
     <p class="eyebrow">{esc(SITE['role'])}</p>
-    <h1 data-split>{esc(SITE['fullName'])}</h1>
+    <h1>{esc(SITE['fullName'])}</h1>
     <p>{esc(SITE['tagline'])}</p>
     <a class="btn" href="#work">View work <span aria-hidden="true">↓</span></a>
   </div>
@@ -373,7 +373,7 @@ def build_project(page):
     html_out = f"""
 <article class="project">
   <div class="crumbs">{crumbs}</div>
-  <h1 class="project-title" data-split>{esc(page['title'])}</h1>
+  <h1 class="project-title">{esc(page['title'])}</h1>
   {body}
   {nav}
 </article>"""
@@ -390,7 +390,7 @@ def build_about():
     body = render_body(blocks, root, {"wix": "my-cv"})
     html_out = f"""
 <article class="project about">
-  <h1 class="project-title" data-split>About / CV</h1>
+  <h1 class="project-title">About / CV</h1>
   <div class="about-grid">
     <figure class="about-photo"><img src="{root}assets/img/profile.webp" alt="{esc(SITE['fullName'])}" width="737" height="824"></figure>
     <div class="about-body">{body}</div>
