@@ -318,6 +318,14 @@ def layout(title, body, root, active="", description="", noindex=False):
 """
 
 
+def back_bar(up_href, up_label):
+    """Back (previous page) + up (parent page) buttons, plus a floating back button."""
+    return (f'<nav class="backbar" aria-label="Back navigation">'
+            f'<a class="pill-btn" href="{up_href}" data-back>← Back</a>'
+            f'<a class="pill-btn ghost" href="{up_href}">↑ {esc(up_label)}</a></nav>'
+            f'<a class="float-back" href="{up_href}" data-back aria-label="Back to previous page">← Back</a>')
+
+
 def build_home():
     root = ""
     cards = []
@@ -358,9 +366,11 @@ def build_project(page):
     root = "../"
     wix = WIX[page["wix"]]
     crumbs = f'<a href="{root}index.html#work">Work</a>'
+    up_href, up_label = f"{root}index.html#work", "All projects"
     if page.get("parent"):
         parent = PAGES[page["parent"]]
         crumbs += f' <span>/</span> <a href="{root}projects/{parent["slug"]}.html">{esc(parent["title"])}</a>'
+        up_href, up_label = f"{root}projects/{parent['slug']}.html", parent["title"]
     body = render_body(wix["blocks"], root, page)
     nav = ""
     order = [p for p in SITE["pages"] if not p.get("parent")]
@@ -372,6 +382,7 @@ def build_project(page):
     subs = [p for p in SITE["pages"] if p.get("parent") == page["wix"]]
     html_out = f"""
 <article class="project">
+  {back_bar(up_href, up_label)}
   <div class="crumbs">{crumbs}</div>
   <h1 class="project-title">{esc(page['title'])}</h1>
   {body}
@@ -390,6 +401,7 @@ def build_about():
     body = render_body(blocks, root, {"wix": "my-cv"})
     html_out = f"""
 <article class="project about">
+  {back_bar(f"{root}index.html", "Home")}
   <h1 class="project-title">About / CV</h1>
   <div class="about-grid">
     <figure class="about-photo"><img src="{root}assets/img/profile.webp" alt="{esc(SITE['fullName'])}" width="737" height="824"></figure>

@@ -105,9 +105,27 @@ function onScroll(y) {
   lastY = y;
   const max = document.documentElement.scrollHeight - innerHeight;
   progress.style.transform = `scaleX(${max > 0 ? y / max : 0})`;
+  toggleFloatBack(y);
 }
 if (lenis) lenis.on("scroll", ({ scroll }) => onScroll(scroll));
 else addEventListener("scroll", () => onScroll(scrollY), { passive: true });
+
+// ---------------------------------------------------------------- back buttons
+// "Back" returns to the previous page when we came from this site; otherwise it
+// follows its link to the parent page.
+function cameFromSite() {
+  try { return document.referrer && new URL(document.referrer).origin === location.origin && history.length > 1; }
+  catch { return false; }
+}
+document.querySelectorAll("a[data-back]").forEach((a) => a.addEventListener("click", (e) => {
+  if (!cameFromSite()) return;  // let the normal link (and page transition) handle it
+  e.preventDefault();
+  e.stopImmediatePropagation();
+  if (motion) gsap.to(document.querySelector(".veil"), { opacity: 1, duration: .35, onComplete: () => history.back() });
+  else history.back();
+}, true));
+const floatBack = document.querySelector(".float-back");
+function toggleFloatBack(y) { floatBack?.classList.toggle("is-visible", y > 400); }
 
 // ---------------------------------------------------------------- page transitions
 const veil = document.querySelector(".veil");
