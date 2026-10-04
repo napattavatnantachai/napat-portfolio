@@ -346,9 +346,18 @@ def build_home():
             cards.append(f'<a class="card" href="{video_src(c["video"], root)}" data-lightbox-video>'
                          f'<div class="card-media">{media}</div>{info}</a>')
     hero = SITE["hero"]
+    # hero cycles through every landscape project video on the home page
+    reel = [c for c in SITE["home"] if "video" in c and not c.get("portrait") and PAGES.get(c.get("wix"))]
+    hero_reel = "".join(
+        f'<video muted playsinline preload="{"auto" if i == 0 else "none"}"{" autoplay" if i == 0 else ""}'
+        f'{" class=is-active" if i == 0 else ""} poster="{poster_src(c["video"], root)}"'
+        f' data-title="{esc(c["title"])}" data-href="projects/{PAGES[c["wix"]]["slug"]}.html">'
+        f'<source src="{video_src(c["video"], root)}" type="video/mp4"></video>'
+        for i, c in enumerate(reel))
     body = f"""
 <section class="hero">
-  <video muted loop playsinline autoplay preload="auto" poster="{poster_src(hero['video'], root)}"><source src="{video_src(hero['video'], root)}" type="video/mp4"></video>
+  <div class="hero-reel">{hero_reel}</div>
+  <a class="hero-now" href="#" aria-live="polite"><span class="hero-now-label">Now showing</span><span class="hero-now-title"></span><i aria-hidden="true">→</i></a>
   <div class="hero-text">
     <p class="eyebrow">{esc(SITE['role'])}</p>
     <h1>{esc(SITE['fullName'])}</h1>

@@ -291,3 +291,20 @@ h4, .card-info h2 { font-weight: 700; }
 }
 .float-back.is-visible { opacity: 1; transform: none; pointer-events: auto; }
 .float-back:hover { background: var(--accent); }
+
+/* hero reel: project clips cross-fade one after another */
+.hero-reel { position: absolute; inset: 0; }
+.hero-reel video { opacity: 0; transition: opacity 1.4s ease; }
+.hero-reel video.is-active { opacity: 1; }
+.hero-now {
+  position: absolute; z-index: 2; right: var(--gutter); bottom: clamp(24px, 5vh, 48px);
+  display: inline-flex; align-items: center; gap: 10px; padding: 10px 16px; border-radius: 999px;
+  background: rgba(12,13,15,.55); backdrop-filter: blur(8px); border: 1px solid rgba(233,231,227,.15);
+  color: var(--text); text-decoration: none; font-size: 13px; font-weight: 500;
+  transition: background .25s, border-color .25s;
+}
+.hero-now:hover { background: rgba(12,13,15,.8); border-color: var(--accent); color: var(--text); }
+.hero-now-label { color: var(--accent); text-transform: uppercase; letter-spacing: .14em; font-size: 11px; font-weight: 700; }
+.hero-now-title { transition: opacity .4s; }
+.hero-now i { font-style: normal; }
+@media (max-width: 760px) { .hero-now { left: var(--gutter); right: auto; bottom: 16px; } }

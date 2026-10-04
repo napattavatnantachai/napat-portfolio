@@ -36,6 +36,39 @@ const io = new IntersectionObserver((entries) => {
 }, { rootMargin: "200px 0px" });
 ambient.forEach((v) => io.observe(v));
 
+// ---------------------------------------------------------------- hero reel
+// Cross-fade through the project clips; only the current and next clip load.
+const reel = [...document.querySelectorAll(".hero-reel video")];
+if (reel.length) {
+  const now = document.querySelector(".hero-now");
+  const nowTitle = now.querySelector(".hero-now-title");
+  const SHOW = 7000;  // ms per clip
+  let cur = 0, timer = null, inView = true;
+  const label = (v) => { nowTitle.textContent = v.dataset.title; now.href = v.dataset.href; };
+  const prep = (v) => { if (v.preload !== "auto") { v.preload = "auto"; v.load(); } };
+  function next() {
+    const prev = reel[cur];
+    cur = (cur + 1) % reel.length;
+    const v = reel[cur];
+    v.currentTime = 0;
+    v.play().catch(() => {});
+    v.classList.add("is-active");
+    prev.classList.remove("is-active");
+    setTimeout(() => prev.pause(), 1500);
+    nowTitle.style.opacity = 0;
+    setTimeout(() => { label(v); nowTitle.style.opacity = 1; }, 400);
+    prep(reel[(cur + 1) % reel.length]);
+  }
+  const start = () => { if (!timer) timer = setInterval(next, SHOW); reel[cur].play().catch(() => {}); };
+  const stop = () => { clearInterval(timer); timer = null; reel[cur].pause(); };
+  reel.forEach((v) => { v.loop = true; });
+  label(reel[0]);
+  prep(reel[1 % reel.length]);
+  new IntersectionObserver(([e]) => { inView = e.isIntersecting; inView && !document.hidden ? start() : stop(); })
+    .observe(document.querySelector(".hero"));
+  document.addEventListener("visibilitychange", () => { document.hidden ? stop() : inView && start(); });
+}
+
 // ---------------------------------------------------------------- lightbox
 const box = document.querySelector(".lightbox");
 const boxImg = box.querySelector("img");
