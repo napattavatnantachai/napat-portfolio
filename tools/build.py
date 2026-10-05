@@ -351,13 +351,12 @@ def build_home():
     hero_reel = "".join(
         f'<video muted playsinline preload="{"auto" if i == 0 else "none"}"{" autoplay" if i == 0 else ""}'
         f'{" class=is-active" if i == 0 else ""} poster="{poster_src(c["video"], root)}"'
-        f' data-title="{esc(c["title"])}" data-href="projects/{PAGES[c["wix"]]["slug"]}.html">'
+        f'>'
         f'<source src="{video_src(c["video"], root)}" type="video/mp4"></video>'
         for i, c in enumerate(reel))
     body = f"""
 <section class="hero">
   <div class="hero-reel">{hero_reel}</div>
-  <a class="hero-now" href="#" aria-live="polite"><span class="hero-now-label">Now showing</span><span class="hero-now-title"></span><i aria-hidden="true">→</i></a>
   <div class="hero-text">
     <p class="eyebrow">{esc(SITE['role'])}</p>
     <h1>{esc(SITE['fullName'])}</h1>

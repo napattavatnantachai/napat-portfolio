@@ -41,11 +41,8 @@ ambient.forEach((v) => io.observe(v));
 // cross-fades to the next one. Only the current and next clip are loaded.
 const reel = [...document.querySelectorAll(".hero-reel video")];
 if (reel.length) {
-  const now = document.querySelector(".hero-now");
-  const nowTitle = now.querySelector(".hero-now-title");
   const MAX_SECONDS = 30;
   let cur = 0, inView = true, switching = false;
-  const label = (v) => { nowTitle.textContent = v.dataset.title; now.href = v.dataset.href; };
   const prep = (v) => { if (v.preload !== "auto") { v.preload = "auto"; v.load(); } };
   function next() {
     if (switching || reel.length < 2) return;
@@ -58,8 +55,6 @@ if (reel.length) {
     v.classList.add("is-active");
     prev.classList.remove("is-active");
     setTimeout(() => { prev.pause(); switching = false; }, 1500);
-    nowTitle.style.opacity = 0;
-    setTimeout(() => { label(v); nowTitle.style.opacity = 1; }, 400);
     prep(reel[(cur + 1) % reel.length]);
   }
   reel.forEach((v) => {
@@ -72,7 +67,6 @@ if (reel.length) {
     v.addEventListener("ended", () => { if (v === reel[cur]) next(); });
   });
   const play = () => reel[cur].play().catch(() => {});
-  label(reel[0]);
   prep(reel[1 % reel.length]);
   new IntersectionObserver(([e]) => { inView = e.isIntersecting; inView && !document.hidden ? play() : reel[cur].pause(); })
     .observe(document.querySelector(".hero"));
